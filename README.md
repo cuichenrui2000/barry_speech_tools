@@ -8,12 +8,85 @@
 # TODO
 ```
 
+### 入门基础教程
+
+* [labuladong 的算法笔记](https://labuladong.github.io/algo)
+
+### 跟踪前沿动态进展
+
+* [SUPERB 官网](https://superbbenchmark.org)
+
+* [低调奋进](https://yqli.tech)
+
+* [ICASSP 2023 官网](https://ieeexplore.ieee.org/document/10096024)
+
+* [INTERSPEECH 2023 官网](https://www.isca-archive.org/interspeech_2023/index.html)
+
+### 简单上手项目汇总
+
+* [栩栩如生, 音色克隆, Bert-vits2 文字转语音打造鬼畜视频实践 (Python3.10)](https://mp.weixin.qq.com/s/iXbX5-AbzKNF2pf1sSQIEA)
+
+* [喂饭级 SO-VITS-SVC 教程，轻松生成 AI 歌曲](https://zhuanlan.zhihu.com/p/630115251)
+
+* [GPT-SoVITS 整合包部署及使用教程](https://www.bilibili.com/read/cv30898214)
+
 ## 01_环境配置相关
 ```
 # 本模块将介绍各种环境配置中容易踩的坑，本仓库实验环境为VSCode (集成开发环境) ➕ Anaconda (Python虚拟环境管理工具)
 # 本模块将介绍我作为小白从0入门语音深度学习领域踩过的一些坑。
 # TODO
 ```
+### 容易踩坑的部分教程
+
+这里是我之前踩过的一些坑，下面是相关教程链接的汇总，希望可以让你少走一些弯路。
+
+VsCode是一款由微软开发的免费开源的代码编辑器，支持多种编程语言，并提供丰富的功能和插件。VsCode的灵活性和可定制性使其成为许多开发者首选的开发工具。我个人认为VsCode十分容易上手，各种插件也很丰富，唯一的缺陷是会给集群带来很高的负担，具体表现为不断占用cpu资源扫描你打开的文件目录实时更新；在home目录安装集群版本的.vscode-server文件，各种插件也安装于此，带来一些存储负担。但是这并不妨碍VsCode作为代码初学者的一款优秀上手工具。
+
+* [vscode & windows terminal 实现远程服务器免密登录](https://www.jianshu.com/p/e3d63fa3ef63)
+
+* [为什么 Mac 更新 Ventura 13.0 后 git / ssh 无法正常使用？](https://www.cnblogs.com/xhyccc/p/16836587.html)
+
+* [Windows 使用 ssh 命令指定 .pem 文件出现: Load key "key.pem": Permission denied 和 Permissions for 'key.pem' are too open 问题](https://tool.4xseo.com/a/24567.html)
+
+* [VSCode 中使用 jupyter notebook](https://zhuanlan.zhihu.com/p/140899377)
+
+* [VSCode 中对 Python Cell 的原生支持 -- Run python Cells in VSCode](https://www.jianshu.com/p/fa90e902c6ae)
+
+* [在 vscode 中对比两个文件夹的代码](https://zhuanlan.zhihu.com/p/677637988)
+
+Zotero是一款优秀的论文管理软件，拥有非常多的可拓展插件功能。强烈建议在开始大量阅读论文之前用Zotero养成良好的文献管理习惯，早用早安心。
+
+* [Zotero：科研小白的第一款文献管理软件](https://zhuanlan.zhihu.com/p/347493385)
+
+* [我的 Zotero 实践汇总](https://zhuanlan.zhihu.com/p/108366072)
+
+* [文献管理神器 —— Zotero 配置及实用插件扩展](https://blog.csdn.net/qq_40918859/article/details/124380201)
+
+* [文献管理软件 Zotero 常用插件安装及配置使用](https://blog.csdn.net/qq_43309940/article/details/117126357?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-117126357-blog-127424593.pc_relevant_3mothn_strategy_recovery&spm=1001.2101.3001.4242.1&utm_relevant_index=3)
+
+### 其他好用的工具汇总
+
+* [ZEROTIER 多平台远程连接工具](https://www.zerotier.com)
+
+* [PDF 格式转换工具](https://www.ilovepdf.com/zh-cn)
+
+* [Convertio 格式转换](https://convertio.co/zh/webm-mp4/)
+
+* [SMS 虚拟电话号码购买](https://sms-activate.org/cn)
+
+* [Apache ECharts 开源可视化图表库](https://echarts.apache.org/zh/index.html)
+
+* [Pyecharts 教程](https://www.heywhale.com/mw/project/5eb7958f366f4d002d783d4a)
+
+* [微软 Visio 流程图工具](https://www.microsoft.com/zh-cn/microsoft-365/visio/flowchart-software)
+
+* [代码生成图片](https://www.jyshare.com/front-end/7433)
+
+* [AI 生成图片](https://www.midjourney.com/home)
+
+* [AI 生成音乐](https://mubert.com/render)
+
+
 
 ## 02_数据处理相关
 ```
