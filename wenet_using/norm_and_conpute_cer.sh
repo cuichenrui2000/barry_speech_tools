@@ -1,6 +1,9 @@
 #!/bin/bash
-
 # 使用本脚本需要先安装 wenet 框架和文本正则化的库
+
+# 激活虚拟环境
+source your_anaconda_path
+conda activate your_wenet_env_name
 
 hyp_path="your_hyp_path"
 lab_path="your_lab_path"
