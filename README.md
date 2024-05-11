@@ -4,6 +4,8 @@
 
 ## 🔄 最新更新
 
+* [2024_05_1] 整理完成：“faster_whisper_using” 文件夹，介绍了 faster_whisper 的使用细节。
+
 * [2024_04_28] 整理完成部分：“faster_whisper_using” 文件夹，整理了部分 faster_whisper 的 debug 进展。
 
 * [2024_04_17] 整理完成：“wenet_using” 文件夹，介绍了语音识别框架 wenet 的一些知识和用法。
