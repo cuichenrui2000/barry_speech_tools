@@ -4,6 +4,8 @@
 
 ## 🔄 最新更新
 
+* [2024_07_19] 整理完成：“wenet_using” 文件夹，添加了 wenet 框架多机多卡训练脚本和 debug 配置。
+
 * [2024_05_11] 整理完成：“faster_whisper_using” 文件夹，介绍了 faster_whisper 的使用细节。
 
 * [2024_04_28] 整理完成部分：“faster_whisper_using” 文件夹，整理了部分 faster_whisper 的 debug 进展。
