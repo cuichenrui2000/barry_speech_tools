@@ -1,0 +1,5 @@
+/nfs/project/225/test_set/16k_mona_poi_2000/wav/008534_00093.wav decoding, feature length: 59, forward_time: 11.7701, rtf: 3.3249
+/nfs/project/225/test_set/16k_mona_poi_2000/wav/006843_00101.wav decoding, feature length: 81, forward_time: 0.0740, rtf: 0.0152
+/nfs/project/225/test_set/16k_mona_poi_2000/wav/004159_00158.wav decoding, feature length: 71, forward_time: 0.0695, rtf: 0.0163
+
+rtf_avf decoding, feature length total: 479889.0, forward_time total: 806.2844, rtf avg: 0.0280
