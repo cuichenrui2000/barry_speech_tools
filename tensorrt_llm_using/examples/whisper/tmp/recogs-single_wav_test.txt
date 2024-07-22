@@ -1,0 +1,2 @@
+0:	ref=['']
+0:	hyp=['I', 'would', 'never', 'enter', 'a', 'restaurant', 'again.', 'I', 'would', 'carry', 'bread', 'and', 'cheese', 'in', 'my', 'pocket', 'or', 'eat', 'chocolate', 'out', 'of', 'automatic', 'machines.']
