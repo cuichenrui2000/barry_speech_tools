@@ -1,0 +1,34 @@
+// 在低版本python中："type": "python",
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Whisper Evaluation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/nfs/volume-225-14/laizhihao_i/Whisper/Whisper-Finetune/evaluation_nolora.py",
+            "args": [
+                "--hyp_path=/nfs/volume-225-14/cuichenrui/whisper/experiment_decode/decode_logs/debug_hyp.txt",
+                "--lab_path=/nfs/volume-225-14/cuichenrui/whisper/experiment_decode/decode_logs/debug_lab.txt",
+                "--test_data=/nfs/volume-225-14/cuichenrui/dataset/debug.jsonl",
+                "--model_path=/nfs/volume-225-14/cuichenrui/whisper/whisper_models/whisper_medium/checkpoint-85000",
+                "--batch_size=1",
+                "--num_workers=1",
+                "--language=None",
+                "--remove_pun=True",
+                "--to_simple=True",
+                "--timestamps=False",
+                "--min_audio_len=0.5",
+                "--max_audio_len=30",
+                "--local_files_only=True",
+                "--task=transcribe",
+                "--metric=cer"
+            ],
+            "cwd": "/nfs/volume-225-14/laizhihao_i/Whisper/Whisper-Finetune",
+            "python": "/nfs/volume-225-14/laizhihao_i/env/anaconda3/envs/whisper/bin/python",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        }
+    ]
+}

@@ -6,9 +6,9 @@
 
 faster-whisper 是基于 OpenAI 的 Whisper 模型的高效实现，它利用 CTranslate2，一个专为 Transformer 模型设计的快速推理引擎。这种实现不仅提高了语音识别的速度，还优化了内存使用效率。faster-whisper 的核心优势在于其能够在保持原有模型准确度的同时，大幅提升处理速度，这使得它在处理大规模语音数据时更加高效。
 
-就我个人而言，是在学习使用 Whisper 框架中了解到 faster-whisper 的，其性能确实非常高效，相比于 openai-whisper 还实现了一些额外的功能。Faster-whisper 的相关功能和解码超参数可以参照本仓库的 ```debug_faster_whisper_hyper_parameters.md``` 文件，里面是我 debug 这个框架的一些分析思考，过程中 vscode 使用的 ```launch.json``` 文件也附在了旁边。
+就我个人而言，是在学习使用 Whisper 框架中了解到 faster-whisper 的，其性能确实非常高效，相比于 openai-whisper 还实现了一些额外的功能。faster-whisper 的相关功能和解码超参数可以参照本仓库的 ```faster_whisper_using/faster_whisper_hyper_parameters.md``` 文件，里面是我 debug 这个框架的一些分析思考，过程中 vscode 使用的 ```launch.json``` 文件也附在了 ```faster_whisper_using/vscode/launch.json``` 。
 
-目录 ```faster-whisper``` 是我于 2024_05_11 在上述开源仓库克隆的版本 0.10.1，该仓库还在不断更新，不过基本框架没有太大变动。文件夹中的 ```convert.sh``` , ```faster-whisper/evaluate.sh``` 和 ```faster-whisper/evaluate.py``` 文件是我自己写的解码相关代码。```faster-whisper/wenet_utils``` 是解码后处理的一些文件，拷贝自 wenet 框架，详细介绍可以参见本仓库 ```wenet_using``` 文件夹。
+目录 ```faster-whisper``` 是我于 2024_05_11 在上述开源仓库克隆的版本 0.10.1。该仓库还在不断更新，不过基本框架没有太大变动。文件夹中的 ```faster-whisper/convert.sh``` , ```faster-whisper/evaluate.sh``` 和 ```faster-whisper/evaluate.py``` 文件是我自己写的解码相关代码。```faster-whisper/wenet_utils``` 是解码后处理的一些文件，拷贝自 wenet 框架，详细介绍可以参见本仓库 ```wenet_using``` 文件夹。
 
 解码使用的数据集格式如下：
 

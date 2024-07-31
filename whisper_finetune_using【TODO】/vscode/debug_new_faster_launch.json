@@ -1,0 +1,27 @@
+// # 在低版本python中："type": "python",
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Whisper Evaluation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/nfs/volume-225-14/laizhihao_i/Whisper/faster-whisper/evaluate_cuichenrui.py",
+            "args": [
+                "--hyp_path=/nfs/volume-225-14/cuichenrui/whisper/experiment_decode/decode_logs/debug_hyp.txt",
+                "--lab_path=/nfs/volume-225-14/cuichenrui/whisper/experiment_decode/decode_logs/debug_lab.txt",
+                "--test_data=/nfs/volume-225-14/cuichenrui/dataset/debug_8k.jsonl",
+                "--model_path=/nfs/volume-225-14/cuichenrui/whisper/faster_whisper_models/whisper_medium/checkpoint-85000",
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7,8",
+                "LD_LIBRARY_PATH": "$LD_LIBRARY_PATH:/nfs/volume-225-14/laizhihao_i/env/anaconda3/envs/blsp/lib/python3.8/site-packages/nvidia/cudnn/lib", 
+            },
+            "cwd": "/nfs/volume-225-14/laizhihao_i/Whisper/faster-whisper",
+            "python": "/nfs/volume-225-14/laizhihao_i/env/anaconda3/envs/blsp/bin/python",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        }
+    ]
+}
