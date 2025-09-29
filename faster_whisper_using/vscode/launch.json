@@ -1,0 +1,24 @@
+// 在低版本 python 中："type": "python",
+// evaluate.py 是我自己写的推理代码，已附在 Github 仓库中，请手动复制到 faster-whisper 项目内
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Faster-Whisper Evaluation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "your_faster_whisper_path/evaluate.py",
+            "args": [
+                "--hyp_path=your_hyp_path",
+                "--lab_path=your_lab_path",
+                "--test_data=your_test_data_path",
+                "--model_path=your_faster_whisper_model_path",
+            ],
+            "cwd": "your_faster_whisper_path",
+            "python": "your_python_path",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        }
+    ]
+}

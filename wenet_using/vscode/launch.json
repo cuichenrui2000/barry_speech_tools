@@ -1,0 +1,36 @@
+// 在低版本 python 中："type": "python"
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "wenet debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/your_conda_env_path/lib/python3.8/site-packages/torch/distributed/run.py",
+            "args": [
+                "--nnodes=1", 
+                "--nproc_per_node=8", 
+                "--rdzv_id=debug_wenet", 
+                "--rdzv_backend=c10d", 
+                "--rdzv_endpoint=localhost:0", 
+                "your_python_program_path", 
+                "--config", "your_wenet_config_path", 
+                "--data_type", "raw", 
+                "--train_data", "your_wenet_train_data_list_path", 
+                "--cv_data", "your_wenet_dev_data_list_path", 
+                "--model_dir", "your_wenet_output_path", 
+                "--num_workers", "8",
+                "--pin_memory", 
+                "--use_amp", 
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7",
+            },
+            "cwd": "your_wenet_path",
+            "python": "your_python_path",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        }
+    ]
+}

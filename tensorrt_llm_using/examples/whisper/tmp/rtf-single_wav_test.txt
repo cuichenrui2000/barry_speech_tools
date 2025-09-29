@@ -1,0 +1,6 @@
+RTF: 0.2196
+total_duration: 7.750 seconds
+(0.00 hours)
+processing time: 1.702 seconds (0.00 hours)
+batch size: 4
+num_beams: 1

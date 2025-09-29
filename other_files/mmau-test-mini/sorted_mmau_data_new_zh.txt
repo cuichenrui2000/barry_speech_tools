@@ -1,0 +1,6259 @@
+============================================================
+OVERALL STATISTICS BY DIFFICULTY
+============================================================
+
+
+SOUND TASK:
+----------------------------------------
+Temporal Event Reasoning:
+  Total: 48 | Easy: 21 | Medium: 0 | Hard: 27
+Acoustic Source Inference:
+  Total: 48 | Easy: 0 | Medium: 48 | Hard: 0
+Eco-Acoustic Knowledge:
+  Total: 47 | Easy: 0 | Medium: 47 | Hard: 0
+Ambient Sound Interpretation:
+  Total: 48 | Easy: 0 | Medium: 0 | Hard: 48
+Acoustic Scene Reasoning:
+  Total: 48 | Easy: 0 | Medium: 48 | Hard: 0
+Event-Based Sound Reasoning:
+  Total: 48 | Easy: 0 | Medium: 48 | Hard: 0
+Sound-Based Event Recognition:
+  Total: 46 | Easy: 0 | Medium: 46 | Hard: 0
+
+SOUND TOTAL: Easy: 21 | Medium: 237 | Hard: 75
+
+SPEECH TASK:
+----------------------------------------
+Dissonant Emotion Interpretation:
+  Total: 35 | Easy: 0 | Medium: 35 | Hard: 0
+Event-Based Knowledge Retrieval:
+  Total: 33 | Easy: 0 | Medium: 0 | Hard: 33
+Counting:
+  Total: 29 | Easy: 0 | Medium: 29 | Hard: 0
+Phonemic Stress Pattern Analysis:
+  Total: 53 | Easy: 32 | Medium: 1 | Hard: 20
+Emotion State summarisation:
+  Total: 44 | Easy: 0 | Medium: 0 | Hard: 44
+Conversational Fact Retrieval:
+  Total: 22 | Easy: 0 | Medium: 22 | Hard: 0
+Multi Speaker Role Mapping:
+  Total: 27 | Easy: 0 | Medium: 27 | Hard: 0
+Phonological Sequence Decoding:
+  Total: 49 | Easy: 49 | Medium: 0 | Hard: 0
+Emotion Flip Detection:
+  Total: 20 | Easy: 0 | Medium: 0 | Hard: 20
+Key highlight Extraction:
+  Total: 21 | Easy: 0 | Medium: 21 | Hard: 0
+
+SPEECH TOTAL: Easy: 81 | Medium: 135 | Hard: 117
+
+MUSIC TASK:
+----------------------------------------
+Temporal Reasoning:
+  Total: 56 | Easy: 8 | Medium: 36 | Hard: 12
+Musical Genre Reasoning:
+  Total: 34 | Easy: 9 | Medium: 18 | Hard: 7
+Lyrical Reasoning:
+  Total: 10 | Easy: 2 | Medium: 5 | Hard: 3
+Socio-cultural Interpretation:
+  Total: 20 | Easy: 8 | Medium: 7 | Hard: 5
+Melodic Structure Interpretation:
+  Total: 33 | Easy: 28 | Medium: 5 | Hard: 0
+Harmony and Chord Progressions:
+  Total: 33 | Easy: 6 | Medium: 27 | Hard: 0
+Rhythm and Tempo Understanding:
+  Total: 46 | Easy: 5 | Medium: 37 | Hard: 4
+Musical Texture Interpretation:
+  Total: 34 | Easy: 16 | Medium: 15 | Hard: 3
+Instrumentation:
+  Total: 35 | Easy: 27 | Medium: 8 | Hard: 0
+Emotional Tone Interpretation:
+  Total: 33 | Easy: 13 | Medium: 10 | Hard: 10
+
+MUSIC TOTAL: Easy: 122 | Medium: 168 | Hard: 44
+
+============================================================
+GRAND TOTAL: Easy: 224 | Medium: 540 | Hard: 236
+============================================================
+
+
+============================================================
+DETAILED DATA BY CATEGORY
+============================================================
+
+==================================================
+TASK: SOUND
+==================================================
+
+
+----------------------------------------
+Category: Temporal Event Reasoning
+Statistics: Total=48, Easy=21, Medium=0, Hard=27
+----------------------------------------
+
+ID: 7ee54d52-f3de-4913-b9c9-286701e18fc4
+Question: 根据给定的音频，确定以下哪种声音可以听到的持续时间最长。
+Choices: 机械声，滴答声，通用撞击声，雨声
+Answer: 机械声
+Difficulty: hard
+
+ID: a03e1526-2d15-444e-8577-d58d348a6527
+Question: 根据给定的音频，识别最长的声音。
+Choices: 赛车，加速（0.095-0.867），加速（1.565-10.000），风
+Answer: 赛车
+Difficulty: hard
+
+ID: 43df3159-5981-4a39-9de2-437fc9f16f70
+Question: 你能识别序列中狗的叫声吗？
+Choices: 是的，它是第二个声音。, 是的，它是第三个声音。, 不，它不存在。, 是的，它是最后一个声音。
+Answer: 不，它不存在。
+Difficulty: easy
+
+ID: 0d31dcbc-319e-409a-81f6-a56347c1dd45
+Question: 对于给定的音频，请识别以下哪种声音可以听到的持续时间最长。
+Choices: 汽车、人声、风、猫叫
+Answer: 汽车
+Difficulty: hard
+
+ID: dd334994-276b-486c-8807-91e49a54ede6
+Question: 对于给定的音频，请识别哪种声音可以听到最长。
+Choices: 发动机敲击声，男性说话声，风声，猫叫
+Answer: 发动机敲击声
+Difficulty: hard
+
+ID: a24ba06b-aa17-41c8-a22d-7264898660c9
+Question: 对于给定的音频，请识别哪种声音可以听到最长。
+Choices: 风，水，机械装置，通用撞击声
+Answer: 风
+Difficulty: hard
+
+ID: bbabe360-0573-43d4-b2e6-6892150cbdcd
+Question: 序列中的声音顺序是什么？
+Choices: ["电灯开关的咔哒声", "水沸腾的声音", "门铃响声", "时钟滴答声"], ["水沸腾的声音", "电灯开关的咔哒声", "时钟滴答声", "门铃响声"], ["时钟滴答声", "门铃响声", "水沸腾的声音", "电灯开关的咔哒声"], ["门铃响声", "时钟滴答声", "电灯开关的咔哒声", "水沸腾的声音"]
+Answer: ["电灯开关的咔哒声", "水沸腾的声音", "门铃响声", "时钟滴答声"]
+Difficulty: easy
+
+ID: a1517078-ff3b-4090-983e-0b0ce4ccadd5
+Question: 根据给定的音频，识别以下哪一项是主要的声音。
+Choices: 响亮的嘶鸣，交通噪音，鸟鸣，狗吠
+Answer: 响亮的嘶鸣
+Difficulty: hard
+
+ID: 8c734343-a690-4a47-8512-ba439659844e
+Question: 以下音频包含有人吹口哨的旋律。正在吹口哨的是哪首童谣？
+Choices: 咩咩黑羊，玛丽有只小羊羔，一闪一闪小星星，伦敦桥要塌了
+Answer: 玛丽有只小羊羔
+Difficulty: hard
+
+ID: b132f501-53cd-4e78-84e3-ac65c5588260
+Question: 音频中电话响了多少次？
+Choices: 2，4，5，3
+Answer: 3
+Difficulty: easy
+
+ID: fc80a364-0bc5-4410-9989-029714216326
+Question: 对于给定的音频，请识别以下哪种声音无法听到。
+Choices: 男人说话、击打声、玻璃碎裂声、狗吠声
+Answer: 狗吠声
+Difficulty: hard
+
+ID: b7701ab1-c37e-49f2-8ad9-7177fe0465e9
+Question: 序列中的最后一个声音是什么？
+Choices: 脚步声，狗叫声，相机快门声，敲击玻璃声
+Answer: 敲击玻璃声
+Difficulty: easy
+
+ID: e40e7037-ed54-436d-967f-26382bf2617c
+Question: 给定音频样本，哪种声音的持续时间最长？
+Choices: 鞭子声，音乐，欢呼声，猫叫
+Answer: 音乐
+Difficulty: hard
+
+ID: fd9e4dd4-dddd-4bfc-90f9-cb6c0740f9e2
+Question: 你能在音频中听到玻璃被敲击多少次？
+Choices: 2，3，4，5
+Answer: 4
+Difficulty: easy
+
+ID: 7bdc9998-3ded-4bd4-bbb9-f90258921e47
+Question: 给定音频中声音的最可能来源是什么？
+Choices: 飞机，火车，汽车引擎，直升机
+Answer: 火车
+Difficulty: hard
+
+ID: 3993536d-cabe-4b48-9063-3e21ae9fb19e
+Question: 根据给定的音频，识别持续时间最长的声音。
+Choices: 警报声，咔嗒声，机械声，鸟鸣声
+Answer: 警报声
+Difficulty: hard
+
+ID: ebb0a52f-ee20-45f7-acba-1ba42d7f2d3c
+Question: 对于给定的音频，识别哪种声音不存在。
+Choices: 音乐，男声，通用撞击声，皱褶声
+Answer: 音乐
+Difficulty: hard
+
+ID: 8abcf9b4-089d-48dc-892c-951f3b852eb6
+Question: 你能识别序列中狗的声音吗？
+Choices: 是的，它是第二个声音。是的，它是第一个声音。不，它不存在。是的，它是第三个声音。
+Answer: 不，它不存在。
+Difficulty: easy
+
+ID: 12b245bb-65b5-4ffc-8743-3e8c4481bfb5
+Question: 猫叫的声音出现了多少次？
+Choices: 1，2，3，4
+Answer: 1
+Difficulty: easy
+
+ID: cc262d53-304d-48f9-aecb-406e7ae5070a
+Question: 根据给定的音频，识别哪种声音无法听到。
+Choices: 鸟鸣、音乐、男性说话、儿童说话
+Answer: 鸟鸣
+Difficulty: hard
+
+ID: f792a396-f8ef-42f9-b787-f6c937b100d1
+Question: 对于给定的音频，识别持续时间最长的声音。
+Choices: 男声说话，男人说话，短促的鸟鸣声，短促的鸟叫，沙沙声，嘶嘶声
+Answer: 嘶嘶声
+Difficulty: hard
+
+ID: 3ad5159e-a728-4089-a4d0-3ff8681c158f
+Question: 给定音频样本，哪个声音能持续最长时间？
+Choices: 风，海洋，说话的人，刮擦声
+Answer: 刮擦声
+Difficulty: hard
+
+ID: 5e398782-d659-4b0c-bc19-ac3cfbd9a113
+Question: 电锯嗡嗡声出现了多少次？
+Choices: 一次、两次、三次、四次
+Answer: 一次
+Difficulty: easy
+
+ID: 27e29e2e-28d8-45e2-be0c-697af91caa48
+Question: 根据所给音频，确定哪种声音持续时间最长。
+Choices: 男声，鸟鸣，风声，鸟鸣和男声
+Answer: 鸟鸣和男声
+Difficulty: hard
+
+ID: 478408b2-0f4a-45a8-86d5-8fce50796b7c
+Question: 根据给定的音频，哪种声音持续时间最长？
+Choices: 女性说话，男性说话，滴水声，机械声
+Answer: 女性说话
+Difficulty: hard
+
+ID: 976c55ee-dbbb-49c5-80cb-8cda14f5afdb
+Question: 请统计音频中玻璃杯碰撞声出现的次数。
+Choices: 1，2，3，4
+Answer: 3
+Difficulty: easy
+
+ID: 44c0e56a-efcb-42f5-8a1e-6adc19c3bcaf
+Question: 对于给定的音频，识别持续时间最长的声音。
+Choices: 咔哒声，机械声，鸟类鸣叫，通用撞击声
+Answer: 机械声
+Difficulty: hard
+
+ID: 21a2d606-90c3-46e5-bc53-7a9d9f458c04
+Question: 对于给定的音频，识别哪种声音持续时间最长。
+Choices: 机械声，男性说话，男人说话，盘子、锅和铲子，风声
+Answer: 机械声
+Difficulty: hard
+
+ID: 9e1c3db1-745c-47fc-8b8a-f32497ace7de
+Question: 对于给定的音频，请识别哪种声音持续时间最短。
+Choices: 紧急车辆，汽车驶过，风，鸟鸣
+Answer: 汽车驶过
+Difficulty: hard
+
+ID: afdfe514-8cb1-4dac-8736-79421f2af4c6
+Question: 根据音频样本，确定哪种声音最长。
+Choices: 机械声，风声，猫叫，人声
+Answer: 机械声
+Difficulty: hard
+
+ID: 1dd4a308-69a2-469d-b00e-8e9caf4a4887
+Question: 对于给定的音频，请识别持续时间最长的声音。
+Choices: 电动车窗、电动窗、车辆、机械装置、表面接触
+Answer: 机械装置
+Difficulty: hard
+
+ID: 885b5471-610b-4475-a533-f3575e4c0b7b
+Question: 根据给定的音频，确定哪种声音的持续时间最长。
+Choices: 昆虫鸣叫、雨点落在表面、鸟鸣、狗吠
+Answer: 昆虫鸣叫
+Difficulty: hard
+
+ID: b3e6d153-caa4-44d3-9ef5-f062d327b8b7
+Question: 音频中能听到多少次牛的叫声？
+Choices: 3，4，6，5
+Answer: 5
+Difficulty: easy
+
+ID: d79e0e28-db85-4aae-864a-a1d5a9ca34e0
+Question: 给定音频样本，请识别以下哪种声音可以听到的持续时间最长。
+Choices: 风声，飞机声，人声，猫叫
+Answer: 飞机声
+Difficulty: hard
+
+ID: cff26024-d6b3-438c-901f-7339ea7b39be
+Question: 根据给定的音频，识别持续时间最长的声音。
+Choices: 男声，男人说话，电动工具，人类声音，通用撞击声
+Answer: 电动工具
+Difficulty: hard
+
+ID: 71a1d3e1-8178-4058-950d-4e473cb30f29
+Question: 吉他扫弦声出现了多少次？
+Choices: 1，2，3，4
+Answer: 1
+Difficulty: easy
+
+ID: 427c439a-1d2c-4d89-8a74-a6fd7478e1dc
+Question: 在音频中你能听到多少个吉他扫弦的声音？
+Choices: 3，4，5，6
+Answer: 4
+Difficulty: easy
+
+ID: 09247cc2-fb6a-43e0-ab58-e0c3f80a789b
+Question: 狗叫声出现了多少次？
+Choices: 1，2，3，4
+Answer: 1
+Difficulty: easy
+
+ID: 8f8ce566-7bad-458b-92b6-845654636a6d
+Question: 序列中哪个声音可以与机器相关联？
+Choices: 下雨声、婴儿笑声、汽车引擎启动声、飞机起飞声
+Answer: 汽车引擎启动声
+Difficulty: easy
+
+ID: a9906024-7cb6-4e81-a4e8-fd212b3b8b6c
+Question: 你能识别序列中的汽车喇叭声吗？
+Choices: 是的，它是第三个声音。，不，它不在序列中。，是的，它是第二个声音。，是的，它是第一个声音。
+Answer: 不，它不在序列中。
+Difficulty: easy
+
+ID: 54f6aefa-70c7-49ab-a381-a465fd0d8acf
+Question: 哪个声音事件不可能被误认为是下雨？
+Choices: 瀑布，静电噪音，汽车引擎启动，淋浴运行
+Answer: 汽车引擎启动
+Difficulty: easy
+
+ID: 6c12307f-99d3-498f-8af4-e0a1f8b17be6
+Question: 你能识别序列中狗叫声吗？
+Choices: 是，否，可能，不确定
+Answer: 是
+Difficulty: easy
+
+ID: 6178fc72-13b5-4966-9433-d0dc522c8094
+Question: 音频中存在多少个玻璃破碎的声音？
+Choices: 3，5，7，4
+Answer: 5
+Difficulty: easy
+
+ID: bccf9565-3b4a-4214-847a-dd0f07579106
+Question: 下雨的声音在序列中出现了多少次？
+Choices: 1，2，3，4
+Answer: 1
+Difficulty: easy
+
+ID: a31e08e3-7c8f-468c-a78c-64e6b5f2bdec
+Question: 音频中门铃蜂鸣声出现多少次？
+Choices: 3，4，5，6
+Answer: 5
+Difficulty: easy
+
+ID: 557e4e5d-e876-47e5-8a2e-b120c17cd498
+Question: 对于给定的音频，请识别哪种声音持续时间最短。
+Choices: 电动剃须刀，电动剃刀，男性语音，男人说话，机动车辆噪音，鸟鸣
+Answer: 男性语音，男人说话
+Difficulty: hard
+
+ID: 2d83d225-f921-4f77-860a-6872b8ca16c2
+Question: 音频中你能听到多少次火车鸣笛声？
+Choices: 3，4，5，6
+Answer: 5
+Difficulty: easy
+
+ID: b56ff02c-9719-4ce4-bd45-ea5e18a0fde1
+Question: 根据给定的音频，哪个前景声音的持续时间最长？
+Choices: 机械声，水声，女性说话声，冲水声
+Answer: 女性说话声
+Difficulty: hard
+
+
+----------------------------------------
+Category: Acoustic Source Inference
+Statistics: Total=48, Easy=0, Medium=48, Hard=0
+----------------------------------------
+
+ID: 3fe64f3d-282c-4bc8-a753-68f8f6c35652
+Question: 根据给定的音频，确定说话声音的来源。
+Choices: 男人，女人，孩子，机器人
+Answer: 男人
+Difficulty: medium
+
+ID: 72fb5481-73ae-409d-8e16-c94ac48d2ee4
+Question: 根据给定的音频，确定语音的来源。
+Choices: 一个孩子，一个女人，一个成年男人，一个青少年
+Answer: 一个女人
+Difficulty: medium
+
+ID: 6aee68bf-6629-442b-981d-ae8195597c8e
+Question: 根据给定的音频，识别音乐的来源。
+Choices: 收音机，消防车，建筑工地，飞机
+Answer: 收音机
+Difficulty: medium
+
+ID: 9593f394-dcac-4d88-a37d-0468f8b0152c
+Question: 根据给定的音频，确定鞭子抽打声的来源。
+Choices: 音效，动物，人类，乐器
+Answer: 音效
+Difficulty: medium
+
+ID: aeafb34d-6c51-4351-8b6e-16266b698fc0
+Question: 根据给定的音频，识别咔嗒咔嗒声的来源。
+Choices: 火车，马，自行车，直升机
+Answer: 火车
+Difficulty: medium
+
+ID: 51ff0fea-3c42-4ffc-a3f1-7c0c295228c5
+Question: 根据给定的音频，确定鸣笛的来源。
+Choices: 汽车，自行车，火车，船
+Answer: 汽车
+Difficulty: medium
+
+ID: 5ea5886d-e8d9-44bb-8707-8b0715964be3
+Question: 对于给定的音频，请识别语音的来源。
+Choices: 女人，小孩，男人，机器人
+Answer: 女人
+Difficulty: medium
+
+ID: a68348a7-68ea-4c79-800c-7c870eb15f0a
+Question: 根据音频样本，识别正在被骑乘的来源。
+Choices: 滑板，自行车，滑板车，轮滑鞋
+Answer: 滑板
+Difficulty: medium
+
+ID: da2d42eb-b544-44dc-a507-0acf0bbb8d95
+Question: 根据给定的音频，确定教堂钟声的来源。
+Choices: 教堂，学校，钟楼，消防站
+Answer: 教堂
+Difficulty: medium
+
+ID: 676a6e29-5d80-4fef-b260-6a9cdfd51dd5
+Question: 对于给定的音频，请识别音乐的来源。
+Choices: 收音机，现场乐队，电视，智能手机
+Answer: 现场乐队
+Difficulty: medium
+
+ID: a1a3d478-9a73-4f10-87b5-0e8199c1ac47
+Question: 给定音频中可能存在的自然声音类型是什么？
+Choices: 降雨，火堆噼啪声，风声，动物声音。
+Answer: 降雨
+Difficulty: medium
+
+ID: 0ea9b39c-178b-4704-886f-f745b6fa2f8c
+Question: 根据给定的音频，识别吼声的来源。
+Choices: 狮子、狗、狼、熊
+Answer: 狮子
+Difficulty: medium
+
+ID: 3d9d2c50-6cb1-4a73-8b4f-2d205ef23d83
+Question: 根据给定的音频，确定短暂音调的来源。
+Choices: 警报器，电子设备，乐器，鸟
+Answer: 电子设备
+Difficulty: medium
+
+ID: f8015f87-7178-4cd6-b43e-9b02b7654ec1
+Question: 根据给定的音频，确定啼叫的来源。
+Choices: 公鸡，狗，猫，牛
+Answer: 公鸡
+Difficulty: medium
+
+ID: 2ed50dd0-e496-4df4-b5e1-a380f08320d3
+Question: 对于给定的音频样本，请识别歌唱的来源。
+Choices: 人类，鸟类，乐器，收音机
+Answer: 人类
+Difficulty: medium
+
+ID: d7a38f80-0e1b-437f-bd7f-0eddb15758b4
+Question: 根据音频，识别机械声音的来源。
+Choices: 机器，动物，人类，自然
+Answer: 机器
+Difficulty: medium
+
+ID: 044ce0dd-4c86-4560-8801-55ceb8cebd8a
+Question: 对于给定的音频，请识别电动车窗的来源。
+Choices: 电动车窗、天窗、滑动门、后视镜
+Answer: 电动车窗
+Difficulty: medium
+
+ID: c5a92855-f0aa-4314-a326-c7373b429666
+Question: 请识别给定音频中叙述的来源。
+Choices: 男性，女性，儿童，机器人
+Answer: 男性
+Difficulty: medium
+
+ID: efdba5dd-13ef-4556-a3d4-866a068124f3
+Question: 哪个场景最能解释说话、人类声音、滴答声、呼吸声和打嗝声的顺序？
+Choices: 讲座期间的教室，运动后的男子更衣室，正式的办公室会议，广播新闻播报
+Answer: 运动后的男子更衣室
+Difficulty: medium
+
+ID: 29e34d22-f6c7-431a-9b32-a9d4a8c33d4d
+Question: 根据给定的音频，确定瀑布声的来源。
+Choices: 瀑布，雨，海洋波浪，河流
+Answer: 瀑布
+Difficulty: medium
+
+ID: 902264b3-9a10-4976-a512-8bcf35e6d253
+Question: 根据给定的音频，确定语音的来源。
+Choices: 男人，女人，孩子，机器人
+Answer: 男人
+Difficulty: medium
+
+ID: ff7bff97-342e-4285-bbb9-15841364b072
+Question: 根据给定的音频，确定流水的来源。
+Choices: 浴缸，河流，喷泉，雨
+Answer: 浴缸
+Difficulty: medium
+
+ID: a2c53160-fc50-4897-b614-0b2b7eed0e0b
+Question: 根据给定的音频，识别声音效果的来源。
+Choices: 声音效果，背景噪音，静电噪音，人声
+Answer: 声音效果
+Difficulty: medium
+
+ID: fec8ab27-1ce8-4a4f-90b1-634ec6c30d88
+Question: 根据音频样本，识别对话的来源。
+Choices: 妇女和儿童，两个男人，两个妇女，一个男人和一个孩子
+Answer: 妇女和儿童
+Difficulty: medium
+
+ID: 9a393357-7e04-437b-b313-134e8218c726
+Question: 给定音频样本，请识别结尾处的主要声音。
+Choices: 交通噪音，鸟鸣声，施工噪音，音乐
+Answer: 交通噪音
+Difficulty: medium
+
+ID: 5aa2de62-b811-4337-ae42-45ea9325a445
+Question: 根据给定的音频，识别机制声音的来源。
+Choices: 机械，人类活动，动物移动，风
+Answer: 人类活动
+Difficulty: medium
+
+ID: 0866c7a0-3361-4538-98d0-fec5c8aedd01
+Question: 根据给定的音频，确定尖叫声的来源。
+Choices: 刹车、动物、风、工具
+Answer: 刹车
+Difficulty: medium
+
+ID: 129ad635-80b3-4ed4-8b37-b163fa8f3a22
+Question: 根据音频样本，确定口哨声的来源。
+Choices: 人物，鸟类，风，乐器
+Answer: 人物
+Difficulty: medium
+
+ID: e442b6e0-f628-48e0-960c-0a8239af872f
+Question: 根据给定的音频，门声的来源是什么？
+Choices: 汽车门，房屋门，橱柜门，电梯门
+Answer: 房屋门
+Difficulty: medium
+
+ID: 2557fbd7-267d-48cc-9c5f-252da2e2c466
+Question: 对于给定的音频，请识别呻吟声的来源。
+Choices: 人类，动物，机器，风
+Answer: 人类
+Difficulty: medium
+
+ID: 289380b9-3825-466d-874e-4e72b4a9cf84
+Question: 给定的音频中最可能存在的自然声音类型是什么？
+Choices: 风，火，水流动，动物声音
+Answer: 水流动
+Difficulty: medium
+
+ID: e9a4746a-638d-4b99-aff1-399522afca65
+Question: 根据音频样本，确定机械声音的来源。
+Choices: 机械，人类，动物，自然
+Answer: 机械
+Difficulty: medium
+
+ID: ab813eda-4714-4254-8eda-4bfa6b6f6df2
+Question: 根据给定的音频，确定打鼾的来源。
+Choices: 人类，动物，机器，风
+Answer: 人类
+Difficulty: medium
+
+ID: 3122396b-b6e1-4dcb-8550-fab003c08767
+Question: 根据给定的音频，识别雷声的来源。
+Choices: 雷暴，烟花，枪声，门砰地关闭
+Answer: 雷暴
+Difficulty: medium
+
+ID: a93edbe7-65fe-4bb0-b623-69aa91da5e56
+Question: 根据音频样本，识别相机声音的来源。
+Choices: 智能手机，单反相机，安防摄像头，网络摄像头
+Answer: 单反相机
+Difficulty: medium
+
+ID: 04e0a1bc-59f1-497b-86fd-7d7ba5b311fa
+Question: 根据给定的音频，确定唱歌的来源。
+Choices: 男性，女性，儿童，合唱团
+Answer: 女性
+Difficulty: medium
+
+ID: 24ce381d-626d-438a-8b86-e6f18af16480
+Question: 根据给定的音频，识别缝纫机声音的来源。
+Choices: 缝纫机，打字机，打印机，电脑风扇
+Answer: 缝纫机
+Difficulty: medium
+
+ID: 8d10f8b7-f4fd-4904-8a3e-5de851ee314e
+Question: 根据给定的音频，识别吹风机声音的来源。
+Choices: 吹风机，电动剃须刀，吸尘器，风扇
+Answer: 吹风机
+Difficulty: medium
+
+ID: 6f5838f7-32af-43a1-9bbf-1f87bc6bf9c9
+Question: 对于给定的音频，识别背景人声。
+Choices: 人群，独唱歌手，风声，动物声音
+Answer: 人群
+Difficulty: medium
+
+ID: 29b7c031-e275-4084-8edc-0b1cc177bad8
+Question: 根据给定的音频，识别机械声音的来源。
+Choices: 工厂机械，风力涡轮机，汽车发动机，飞机
+Answer: 工厂机械
+Difficulty: medium
+
+ID: 80ecfab6-2874-465c-b90f-4325e586b184
+Question: 根据给定的音频，识别出moo声音的来源。
+Choices: 牛，羊，山羊，马
+Answer: 牛
+Difficulty: medium
+
+ID: 8880757a-3d56-4e9f-80a7-64ebe387f448
+Question: 根据给定的音频，确定呐喊的来源。
+Choices: 男人，女人，儿童，动物
+Answer: 男人
+Difficulty: medium
+
+ID: a22ec489-5c8b-4f94-bf34-7bb1c29597f2
+Question: 对于给定的音频，识别踢踏舞的来源。
+Choices: 舞者，音乐家，人群，歌手
+Answer: 舞者
+Difficulty: medium
+
+ID: f90a58d3-2100-459a-a598-607c977f3f8f
+Question: 根据音频样本，识别鸟鸣的来源。
+Choices: 鸟，人类，风，机器
+Answer: 鸟
+Difficulty: medium
+
+ID: 87bd81af-da11-4471-aaf3-f592605de189
+Question: 根据给定的音频，识别滴答声的来源。
+Choices: 时钟，打字机，机械装置，键盘
+Answer: 机械装置
+Difficulty: medium
+
+ID: 44d41585-a609-400c-8e40-dafef61c91f7
+Question: 根据给定的音频，识别哔哔声和滴答声的来源。
+Choices: 电子设备，鸟，汽车喇叭，狗
+Answer: 电子设备
+Difficulty: medium
+
+ID: afbaaf05-f67d-4ff1-b168-68ca39e35d35
+Question: 根据给定的音频，确定枪声的来源。
+Choices: 电影场景，视频游戏，现实生活事件，烟花表演
+Answer: 视频游戏
+Difficulty: medium
+
+ID: a1093170-d0e9-4c2c-a9cd-2a9cff533301
+Question: 根据给定的音频，识别鞭子声的来源。
+Choices: 鞭子，拍手，手指弹响，号角
+Answer: 鞭子
+Difficulty: medium
+
+
+----------------------------------------
+Category: Eco-Acoustic Knowledge
+Statistics: Total=47, Easy=0, Medium=47, Hard=0
+----------------------------------------
+
+ID: c54fd319-0980-488d-b285-cd8db850c6ed
+Question: 根据音频，可以推断出哪种自然环境？
+Choices: 湖边，沙漠，山峰，城市公园
+Answer: 湖边
+Difficulty: medium
+
+ID: 4c4f7cc4-c7a0-4016-aa44-687132caa2eb
+Question: 根据音频中的声音，可以推断出哪种自然环境？
+Choices: 湖泊，山脉，沙漠，森林
+Answer: 湖泊
+Difficulty: medium
+
+ID: 102a8bb2-3ad8-4584-8c54-d6ea69480af9
+Question: 当男人说话时，背景中可以识别出哪种声音？
+Choices: 猫叫，鸟鸣，狗吠，风吹
+Answer: 猫叫
+Difficulty: medium
+
+ID: 7682b230-f869-4f01-a3de-3f949d869471
+Question: 根据给定的音频，最可能发生的情况是什么？
+Choices: 一名男子在体育场庆祝体育胜利，一名男子安静地在图书馆阅读，一名男子在人群中争吵时大喊，一名男子在抗议活动中带领群体呼喊
+Answer: 一名男子在体育场庆祝体育胜利
+Difficulty: medium
+
+ID: c3867133-5ca3-4372-9199-c1839336b4c9
+Question: 根据音频，可以推断出哪种天气状况？
+Choices: 雷雨、晴朗的天空、晴天、暴风雪
+Answer: 雷雨
+Difficulty: medium
+
+ID: de811e5f-e709-4285-a544-73fd863aae6f
+Question: 根据音频，可以推断出哪种严重天气警报？
+Choices: 龙卷风警告，消防演习，交通事故，体育赛事
+Answer: 龙卷风警告
+Difficulty: medium
+
+ID: 6d1ab354-944d-4155-a4ec-c851fbcb7c93
+Question: 根据音频中的信息，可以推断出哪种天气状况？
+Choices: 有风的，平静的，下雨的，下雪的
+Answer: 有风的
+Difficulty: medium
+
+ID: d394ba54-8d3e-4e3f-a124-d119c10becd5
+Question: 根据给定的音频，录音最可能发生的环境是什么？
+Choices: 厨房或浴室有水龙头流水声，海滩边，有背景音效的录音室，下雨时的繁忙街道
+Answer: 厨房或浴室有水龙头流水声
+Difficulty: medium
+
+ID: a004a2b1-3f4e-46f8-98f0-f9c2796b02bb
+Question: 根据音频，间歇性听到的声音类型是什么？
+Choices: 咆哮，鸟鸣，风声，脚步声
+Answer: 咆哮
+Difficulty: medium
+
+ID: c766385b-2394-4a16-b637-39814a9a4b9a
+Question: 根据音频，所代表的环境类型是什么？
+Choices: 繁忙的街道，安静的房间，动物园展览，森林
+Answer: 动物园展览
+Difficulty: medium
+
+ID: 221bb189-e191-4ff0-bc55-f95fd23a34ab
+Question: 自然环境中常见居民的声音是哪一个？
+Choices: 滴答声，表面接触，撞击声，鸟鸣声。
+Answer: 鸟鸣声。
+Difficulty: medium
+
+ID: bba9ee65-3b88-42aa-a397-e72f9b94ea3b
+Question: 根据音频，可以推断出哪种声音类型？
+Choices: 鲸鱼叫声，鸟鸣声，狗吠声，降雨声
+Answer: 鲸鱼叫声
+Difficulty: medium
+
+ID: 2cebba23-f719-48c0-8b66-5aceda2e5d61
+Question: 根据音频，可以推断出什么自然现象？
+Choices: 风暴，射箭练习，暴雨，鸟类迁徙
+Answer: 风暴
+Difficulty: medium
+
+ID: a057a028-f744-4991-8dc6-ae5de93be3ee
+Question: 根据音频，可以推断出什么样的天气状况？
+Choices: 有风的，晴朗的，下雪的，平静的
+Answer: 有风的
+Difficulty: medium
+
+ID: 90bbd0d8-d08b-47b8-865b-0f7662a12d61
+Question: 音频暗示了什么季节性事件，通常由蜜蜂活动的增加所表明？
+Choices: 春季花期，冬季降雪，秋季落叶，夏季降雨
+Answer: 春季花期
+Difficulty: medium
+
+ID: 7e500052-302b-479d-8e27-2721874d48f4
+Question: 根据音频，可以推断出哪种天气状况？
+Choices: 晴朗天气，暴风雨天气，下雪，热浪
+Answer: 晴朗天气
+Difficulty: medium
+
+ID: 62d48c58-b173-40ee-8872-19fed4126ea1
+Question: 根据音频，可以推断出什么类型的环境？
+Choices: 海洋，沙漠，森林，山脉
+Answer: 海洋
+Difficulty: medium
+
+ID: e6d3f6be-892f-4bff-b1ee-a41cc81573e6
+Question: 根据音频，可以推断出哪种自然现象？
+Choices: 雷雨，雨夜，洪水，暴风雪
+Answer: 雷雨
+Difficulty: medium
+
+ID: 65e456b9-03ce-4bbf-aa60-7fecb38507b4
+Question: 根据音频，可以推断出什么样的氛围？
+Choices: 宁静的，混乱的，令人兴奋的，繁忙的
+Answer: 宁静的
+Difficulty: medium
+
+ID: 87012840-8132-49d0-8c15-9dd0878d8487
+Question: 根据音频，可以推断出什么自然现象？
+Choices: 溪流，雷雨，沙漠，城市公园
+Answer: 溪流
+Difficulty: medium
+
+ID: 907c551d-6884-43ee-b242-3d3e36cad4be
+Question: 根据音频中的声音，可以推断出哪种天气状况？
+Choices: 有风的，下雨的，下雪的，晴朗的
+Answer: 有风的
+Difficulty: medium
+
+ID: 5369af10-79a9-44b8-9054-a69038bc205f
+Question: 根据音频，哪些类型的动物声音被指示？
+Choices: 猫的声音，鸟的声音，狗的声音，昆虫的声音
+Answer: 猫的声音
+Difficulty: medium
+
+ID: d95ccade-649d-4800-9e3e-01531fd36ba1
+Question: 根据音频，可以推断出哪种天气状况？
+Choices: 有风、下雨、下雪、晴天
+Answer: 有风
+Difficulty: medium
+
+ID: b0a8772a-5c27-47c5-88ac-09d83fc4587b
+Question: 哪种声音表明存在一种通常以发出低沉、发声的声音而闻名的动物？
+Choices: 哼哼声，音乐，叮当声，滴答声
+Answer: 哼哼声
+Difficulty: medium
+
+ID: d7568dd6-35d5-4121-b230-c89ab36443e6
+Question: 根据音频，可以推断出什么位置？
+Choices: 在湖上，在森林里，在音乐会上，在城市里。
+Answer: 在湖上
+Difficulty: medium
+
+ID: 667a4b96-1e3f-4382-9136-c497439984f7
+Question: 根据给定的音频，声音最可能的来源是什么？
+Choices: 警笛或紧急车辆警报，学校铃声，闹钟，汽车喇叭
+Answer: 警笛或紧急车辆警报
+Difficulty: medium
+
+ID: 7a1dcecc-d303-4759-940b-5d02d2a8c77e
+Question: 根据音频，可以推断出什么类型的地点？
+Choices: 湖泊，空中，港口，森林，沙漠；根据给定的音频，最可能的场景是什么？，一场烹饪比赛，一场赛车赛事，一场现场音乐会，一场政治集会
+Answer: 一场赛车赛事
+Difficulty: medium
+
+ID: a78af25d-4d90-40c8-a32b-247373f47d21
+Question: 根据音频，可以推断出哪种自然特征？
+Choices: 瀑布，雷雨，海浪，雨林
+Answer: 瀑布
+Difficulty: medium
+
+ID: 7d30b8b2-4717-4ed2-a35c-28e91df527d2
+Question: 根据音频中的声音，可以推断出什么类型的动物？
+Choices: 猫，狗，鸟，牛
+Answer: 猫
+Difficulty: medium
+
+ID: 649add34-eac1-48ea-996a-99741f4d1201
+Question: 根据音频中的线索，可以推断出什么环境？
+Choices: 农场，城市，海滩，沙漠
+Answer: 农场
+Difficulty: medium
+
+ID: c32d5733-93f4-4bf7-8aac-2a0d19ead44f
+Question: 音频可能暗示的生理状况是什么？
+Choices: 饥饿，运动，睡眠，呼吸
+Answer: 饥饿
+Difficulty: medium
+
+ID: eb102acc-3366-47b8-a408-5442742df6c7
+Question: 根据音频中的声音，可以推断出什么类型的环境？
+Choices: 农场，音乐厅，森林，城市街道
+Answer: 农场
+Difficulty: medium
+
+ID: 13adbaa8-9500-47cd-b397-1409d21cc8db
+Question: 根据音频，可以推断出什么天气状况？
+Choices: 多风的，下雨的，下雪的，平静的
+Answer: 多风的
+Difficulty: medium
+
+ID: fe564c9e-e077-4aaa-a6c6-c1f662fa5b3d
+Question: 根据音频，可以推断出哪种环境？
+Choices: 城市公园，办公室，森林，音乐厅
+Answer: 城市公园
+Difficulty: medium
+
+ID: 59adf5aa-0dcf-4c69-8646-874143582206
+Question: 音频中通常由小昆虫发出的声音是什么？
+Choices: 蚊子嗡嗡声，鸟鸣声，风声，雨声
+Answer: 蚊子嗡嗡声
+Difficulty: medium
+
+ID: 1331b00c-a636-4819-a315-282794d4a492
+Question: 根据给定的音频，声音最可能的来源是什么？
+Choices: 街头抗议伴有口号，行进乐队表演，建筑工地，伴有车辆鸣笛的游行
+Answer: 行进乐队表演
+Difficulty: medium
+
+ID: fd012f29-39d8-4f1f-9d7c-c2d7c81637ca
+Question: 根据音频中的声音，可以推断出什么自然现象？
+Choices: 瀑布、雷雨、交通繁忙、森林火灾
+Answer: 瀑布
+Difficulty: medium
+
+ID: a30dccf9-67f0-4338-bc07-bf14e10f7caf
+Question: 根据给定的音频，录音的最可能场景是什么？
+Choices: 高峰时段的火车站，航展或机场跑道，有重型机械的建筑工地，主题公园游乐设施广播室
+Answer: 航展或机场跑道
+Difficulty: medium
+
+ID: 4e1f3018-a9c8-4bef-bc6f-bcfff2a4a87b
+Question: 根据提供的音频，可以推断出哪些自然现象？
+Choices: 风声和溪流声，雷雨，城市噪音，动物叫声
+Answer: 风声和溪流声
+Difficulty: medium
+
+ID: 35192c7c-c4d6-48cc-8d1a-4a1a68a5110a
+Question: 根据鸭子的叫声和背景噪音，可以推断出什么类型的环境？
+Choices: 湿地，沙漠，山区，城市
+Answer: 湿地
+Difficulty: medium
+
+ID: a4acdbd3-2d5d-43aa-bdc4-38eeff01731d
+Question: 根据音频中的声音，可以推断出什么类型的动物？
+Choices: 火鸡、狗、猫、牛
+Answer: 火鸡
+Difficulty: medium
+
+ID: 7aaa4a0e-0b25-494f-8df1-20bdbc57166b
+Question: 音频中最后听到的声音是什么？
+Choices: 口哨声，鸟叫声，表面接触，机械声
+Answer: 鸟叫声
+Difficulty: medium
+
+ID: 69631267-f7ef-464e-8bc6-4f3e75e6fb6f
+Question: 根据给定的音频，以下哪项最能描述声音环境？
+Choices: 仅有自然鸟鸣声的森林环境，一个现场管弦乐队在剧院演出，户外场景伴有电吉他音乐和飞鸟的声音，拥挤的市场伴有街头小贩叫卖声
+Answer: 户外场景伴有电吉他音乐和飞鸟的声音
+Difficulty: medium
+
+ID: 60b5e67c-62a7-460c-83b6-7825d9734421
+Question: 根据音频中的声音，可以推断出哪种天气事件？
+Choices: 雷暴，晴朗天空，热浪，暴风雪
+Answer: 雷暴
+Difficulty: medium
+
+ID: 069955cf-aec4-4deb-adcd-3d13e4cb3153
+Question: 根据给定的音频，可以推断出哪种天气事件？
+Choices: 雷暴，晴朗天空，小雨，大雪
+Answer: 雷暴
+Difficulty: medium
+
+ID: 44df6584-e1b2-4edc-b810-b80e9f636f17
+Question: 根据音频，最可能代表的场景是什么？该场景通常包括开阔的土地
+Choices: 乡村、城市、海滩、沙漠
+Answer: 乡村
+Difficulty: medium
+
+ID: d4a41d01-9f6a-412c-b07a-607bea80063d
+Question: 根据给定的音频，最可能的场景是什么？
+Choices: 一个干燥的房间伴有远处的交通噪音，一次在降雨期间进行的对话，一个在重型钻探期间的建筑工地，一个地铁站的广播
+Answer: 一次在降雨期间进行的对话
+Difficulty: medium
+
+
+----------------------------------------
+Category: Ambient Sound Interpretation
+Statistics: Total=48, Easy=0, Medium=0, Hard=48
+----------------------------------------
+
+ID: d882cb66-222f-48cd-a396-2439fa301234
+Question: 已知一个婴儿正在哭泣，请说出与背景中听到的设备相关联的著名人物。
+Choices: 托马斯·爱迪生，尼古拉·特斯拉，亚历山大·格雷厄姆·贝尔，古列尔莫·马可尼
+Answer: 托马斯·爱迪生
+Difficulty: hard
+
+ID: 93b5e24f-2ae7-47b0-9027-51307fe6e1e5
+Question: 根据给定的音频，哪种声音组合最有可能存在？
+Choices: 电话铃声和婴儿笑声，电话铃声和成人哭声，电话铃声和狗吠声，电话铃声和背景音乐
+Answer: 电话铃声和狗吠声
+Difficulty: hard
+
+ID: 255742c0-cc69-4be5-891e-a3c796904934
+Question: 已知一个婴儿在哭泣，请说出一个以与背景中听到的动物有关联而闻名的名人。
+Choices: 乔治·奥威尔，欧内斯特·海明威，查尔斯·达尔文，查尔斯·狄更斯
+Answer: 欧内斯特·海明威
+Difficulty: hard
+
+ID: 1a5dd76a-7905-4a83-bd88-7ae26730656d
+Question: 音频中存在哪种声音？
+Choices: 汽车鸣笛，猫叫，鸟鸣，狗叫
+Answer: 猫叫
+Difficulty: hard
+
+ID: 18a3b8fb-0189-4ce3-ba31-ffed6150b4c5
+Question: 根据给定的音频，最可能听到的声音是什么？
+Choices: 狗叫，狗低吼，猫嘶叫，人咳嗽
+Answer: 狗低吼
+Difficulty: hard
+
+ID: d36f3c53-149e-43ff-b08e-e68dc0f4319a
+Question: 根据给定的音频，场景的最可能解释是什么？
+Choices: 一只狗在威胁性遭遇中咆哮，一只狗在人们争论时咆哮，一只狗在玩耍情境中咆哮，人们在笑，一只狗独自在空房间中咆哮
+Answer: 一只狗在玩耍情境中咆哮，人们在笑
+Difficulty: hard
+
+ID: 3ee19fef-46e2-411b-a08a-405b140457ab
+Question: 根据给定的音频，以下哪种声音序列最可能发生？
+Choices: 教堂钟声接着孩子们的笑声、风铃接着狗叫、一系列钟声接着狗的低吼、警报钟声接着远处的雷声
+Answer: 一系列钟声接着狗的低吼
+Difficulty: hard
+
+ID: 3a9da33b-58c0-4d7d-842a-91673bcfd368
+Question: 表演者在录音时最可能从事哪种活动？
+Choices: 户外慢跑时听音乐，在录音室即兴说唱，于礼堂发表演讲，伴着背景音乐练习瑜伽
+Answer: 在录音室即兴说唱
+Difficulty: hard
+
+ID: fb318755-f1cf-4846-82e4-5e4e26d81ca0
+Question: 哪种场景最符合持续的气流和不规则的机械干扰的组合？
+Choices: 户外公园伴有远处交通，车间有活跃的机械，办公室窗户敞开，维护期间的机房
+Answer: 车间有活跃的机械
+Difficulty: hard
+
+ID: 23b1b45f-5748-4e50-8411-abbbf33333d2
+Question: 哪个场景最贴合所描述的持续和突发声音序列？
+Choices: 靠近铁路的户外节日，高峰时段的地铁站台，室内音乐厅，远离文明的森林徒步小径。
+Answer: 靠近铁路的户外节日
+Difficulty: hard
+
+ID: 0db7f6b3-ef61-44ce-8990-bd6c9c31a094
+Question: 已知一个婴儿正在哭泣，请识别背景声音。
+Choices: 吸尘器在运行，高速公路的交通噪音，微风轻拂，飞机引擎运转
+Answer: 微风轻拂
+Difficulty: hard
+
+ID: 67d551b9-1b7d-4607-9fdf-3633d9551747
+Question: 假设一个婴儿在哭泣，请说出一种通常与背景中听到的声音相关联的著名紧急车辆？
+Choices: 警车，救护车，出租车，消防车
+Answer: 警车
+Difficulty: hard
+
+ID: e33c1c3d-928e-4366-8824-beeb0d67c4cc
+Question: 这段录音中最可能的环境和活动是什么？
+Choices: 有风的农场环境并处理动物，安静的公园在节日期间，有重型机械的城市街道，有远处雷声的森林
+Answer: 有风的农场环境并处理动物
+Difficulty: hard
+
+ID: ed3c0caa-27b1-4357-9fe9-58529f752fca
+Question: 这段录音中车辆可能出现了什么机械问题？
+Choices: 轮胎刺穿，发动机失火，发动机敲击声，制动失效
+Answer: 发动机敲击声
+Difficulty: hard
+
+ID: fe6e7efc-ae09-4542-a19e-026c34abf721
+Question: 这些声音最可能出现在哪种环境和一天中的哪个时段？
+Choices: 夜间的城市街道，清晨的安静室内，午休时的繁忙办公室，黄昏的森林小径
+Answer: 清晨的安静室内
+Difficulty: hard
+
+ID: e761ea1c-61f1-412e-b7c4-d189500a745c
+Question: 哪个场景最符合持续的滴答声和频繁的短促撞击？
+Choices: 学习时间的安静图书馆，准备食物时的繁忙厨房，早晨起床时的卧室，夜晚的森林
+Answer: 早晨起床时的卧室
+Difficulty: hard
+
+ID: 0f5bcfc8-06ff-4006-b281-e362a23a409e
+Question: 哪个地点最符合录音中提到的活动和环境？
+Choices: 体育课期间的室内体育馆，高峰时段的城市地铁站，带有步行道的户外公园，晚餐时段的餐厅
+Answer: 带有步行道的户外公园
+Difficulty: hard
+
+ID: 76efecea-a59e-482d-8036-6122740a7c95
+Question: 这位男士说话的最可能场景是什么？
+Choices: 在一个安静的办公室内，在一个繁忙的咖啡馆，在一辆行驶的公交车上，在图书馆里
+Answer: 在一辆行驶的公交车上
+Difficulty: hard
+
+ID: 8918debb-9641-4e87-910d-c023e92ca6a6
+Question: 这段音频中涉及这位男士的最可能的情况是什么？
+Choices: 他正在室内靠近窗户的地方放松，他正在繁忙道路附近慢跑或锻炼，他正在公园里安静地坐着，他正在安静的办公室里工作。
+Answer: 他正在繁忙道路附近慢跑或锻炼。
+Difficulty: hard
+
+ID: c88697d9-c243-4433-8def-abebc253a941
+Question: 在这个场景中，这位男士在说话时最可能进行什么活动？
+Choices: 修理物品，烹饪一顿饭，锻炼，园艺
+Answer: 修理物品
+Difficulty: hard
+
+ID: e529bc18-5d85-469e-8ad7-621cac182b9d
+Question: 当音乐跟随短暂的玻璃声和撞击声时，哪种场景最符合？
+Choices: 酒吧开始现场音乐之夜，建筑工地午休时间，教室课间休息后，医院候诊室
+Answer: 酒吧开始现场音乐之夜
+Difficulty: hard
+
+ID: 6aa80dfd-eb32-41c9-abeb-4bd66c460868
+Question: 动物在安静下来之前最有可能发生了什么？
+Choices: 动物被放入容器中。，动物逃入了野外。，动物开始进食。，动物开始睡觉。
+Answer: 动物被放入容器中。
+Difficulty: hard
+
+ID: 1af356cb-84bf-411e-bdec-a69a2f0bd080
+Question: 哪种情境最符合录音中的事件和场景？
+Choices: 晴天时孩子们在室内玩耍，雷雨天工人正在修屋顶，森林散步伴有远处的动物叫声，安静的夜晚厨房
+Answer: 雷雨天工人正在修屋顶
+Difficulty: hard
+
+ID: 56776fb6-b29a-4e9e-8d5e-b24bf9b6c481
+Question: 哪个场景最符合这些重叠的声音和活动？
+Choices: 人们在乡村车站登上火车，机械师在运行的飞机和服务车辆旁边协调工作，顾客在城市公交站附近交谈，露营者在湖边准备帐篷
+Answer: 机械师在运行的飞机和服务车辆旁边协调工作
+Difficulty: hard
+
+ID: d00ff58e-34cb-4c4b-bf65-98acbacb67c2
+Question: 什么是最有可能出现短暂笑声和身体反应，同时伴随持续背景活动的社会场景？
+Choices: 安静的居家学习时段，繁忙的工作场所聚会，森林徒步旅行，空荡的火车站
+Answer: 繁忙的工作场所聚会
+Difficulty: hard
+
+ID: dfe60f5c-2788-4fa8-aca5-5082c524edca
+Question: 这个对话涉及重复的背景活动，最可能的场景是什么？
+Choices: 一个有频繁访客的办公室，一个安静的家庭书房，一个公园长椅，车内行驶中
+Answer: 一个有频繁访客的办公室
+Difficulty: hard
+
+ID: e9b8bd2f-0fc3-4a9f-b75f-9c964628d02e
+Question: 哪个场景最能描述录音时的环境和活动？
+Choices: 一个繁忙的地下站台，有火车进站，一个安静的乡村火车站，一个空荡的地铁隧道，夜晚，一辆有轨电车穿过市场
+Answer: 一个繁忙的地下站台，有火车进站
+Difficulty: hard
+
+ID: a91de842-0588-4998-913c-a5174f33b160
+Question: 哪种场景最可能基于人群的兴奋和持续的音乐？
+Choices: 紧张时刻的体育比赛，现场音乐场所的音乐会，有背景广播的繁忙街道，大型礼堂的政治演讲
+Answer: 现场音乐场所的音乐会
+Difficulty: hard
+
+ID: a61044e3-60c9-4580-abf3-fb8901f18594
+Question: 已知一个婴儿在哭泣，请识别背景声音。
+Choices: 静音，鸟鸣，摇滚音乐，爵士音乐
+Answer: 静音
+Difficulty: hard
+
+ID: 1685ef13-11ee-4b95-9757-b66f287eb514
+Question: 根据给定的音频，声音最可能的来源是什么？
+Choices: 吸尘器，电锯，搅拌机，割草机
+Answer: 电锯
+Difficulty: hard
+
+ID: 4e394b1b-ba1e-4306-99d0-21145b5b81aa
+Question: 哪个地点最符合这种持续车辆和环境噪音的场景？
+Choices: 繁忙的城市十字路口，山区高速公路，地下停车场，郊区后院
+Answer: 山区高速公路
+Difficulty: hard
+
+ID: 353218c9-5e92-4b6f-a874-344b8ca65268
+Question: 哪个地点最符合人类说话、鸟鸣、水声和动物声音的组合？
+Choices: 城市街角、溪边森林、地铁站、餐厅露台
+Answer: 溪边森林
+Difficulty: hard
+
+ID: 33c7e8e9-5ccb-402d-9d6a-abea75cbd782
+Question: 哪个场景最符合一个人处理机械装置和折叠物品，同时间歇性说话的情况？
+Choices: 一位厨师在安静的厨房准备沙拉，一位机械师修理设备并解释步骤，一位老师在黑板上写字，一位图书管理员在沉默中整理书架
+Answer: 一位机械师修理设备并解释步骤
+Difficulty: hard
+
+ID: 02f57e88-2b85-413e-96a9-c6c233015bf6
+Question: 哪个场景最符合这种连续的声音环境？
+Choices: 一列火车穿过开阔的乡村地区，一辆汽车穿过城市隧道，一架飞机在跑道上滑行，一艘船沿着河流移动
+Answer: 一列火车穿过开阔的乡村地区
+Difficulty: hard
+
+ID: c8537a60-3135-4716-aa93-a668e912ba14
+Question: 这段录音中最可能的环境和活动是什么？
+Choices: 城市街道交叉口的紧急响应，农村地区的施工工作，宁静的公园与休闲步行者，维护期间的安静图书馆
+Answer: 城市街道交叉口的紧急响应
+Difficulty: hard
+
+ID: 7ce0ed92-d520-4712-bfd8-0481fe3c46fc
+Question: 哪种场景最符合这种多人在持续降水期间互动的情境？
+Choices: 暴风雨期间繁忙的室内市场，安静家中的一顿家庭晚餐，黎明时分的偏远山顶，下午的安静图书馆
+Answer: 暴风雨期间繁忙的室内市场
+Difficulty: hard
+
+ID: f209c3e9-c948-4cae-a3d1-2a9dbb08c609
+Question: 哪个场景最可能基于这个声音景观中的可听进展？
+Choices: 一辆公交车从车站出发并加速，一辆卡车在装货码头怠速，一辆火车在车站减速，一辆汽车引擎反复无法启动。
+Answer: 一辆公交车从车站出发并加速。
+Difficulty: hard
+
+ID: 19051f5d-54fb-4611-9564-6a3f40e10992
+Question: 哪种场景最适合数字声音、动物和结构化声音混合在一起的情况？
+Choices: 户外宠物动物园，带有动物主题的视频游戏，纪录片：活体动物，夜晚的城市公园
+Answer: 带有动物主题的视频游戏
+Difficulty: hard
+
+ID: b8bb62d9-2324-47ab-976a-9dcc29344a84
+Question: 哪个场景最符合重复机制、儿童言语和间歇性咳嗽的组合？
+Choices: 放学时的学校操场，儿科候诊室配有时钟，公园里的家庭野餐，家中的儿童生日聚会
+Answer: 儿科候诊室配有时钟
+Difficulty: hard
+
+ID: 5dbec840-93c8-4a47-b6cb-f27cc3e1425b
+Question: 录音期间，这些女性最可能在进行什么活动？
+Choices: 打包行李准备旅行，一起做饭，安装电子设备，练习舞蹈动作
+Answer: 打包行李准备旅行
+Difficulty: hard
+
+ID: ec8c78fb-1a51-4d50-acca-68bf6d282274
+Question: 哪种环境最符合这种表演场景和活动？
+Choices: 户外嘻哈街头对决、古典音乐厅、安静的图书馆、鸟类保护区
+Answer: 户外嘻哈街头对决
+Difficulty: hard
+
+ID: d0d8882a-e285-4d2f-b406-aa701d9dd851
+Question: 在这种环境中最可能发生哪种类型的社交聚会？
+Choices: 河边的家庭野餐，办公室里的团队会议，城市公园里的音乐会，安静的图书馆学习小组
+Answer: 河边的家庭野餐
+Difficulty: hard
+
+ID: 3fab8a5c-b9b7-48d1-b486-c06021ff7cf1
+Question: 哪个场景最符合一个人在操作机械并记录任务的环境中工作？
+Choices: 厨师在安静的厨房里准备食物，办公室职员在电脑上打字，技术人员维护设备并做笔记，教师在教室里授课
+Answer: 技术人员维护设备并做笔记
+Difficulty: hard
+
+ID: 55d94ea8-4867-44eb-ac0a-2f08c70b960d
+Question: 已知电锯正在运行，请说出与背景中听到的活动相关的一位名人。
+Choices: 托马斯·爱迪生，乔治·华盛顿·卡弗，保罗·班扬，沃尔特·迪士尼
+Answer: 保罗·班扬
+Difficulty: hard
+
+ID: 64c7c6f4-edd6-4466-85d4-ff41a582679b
+Question: 哪个场景最可能符合音频中存在的环境和情感氛围？
+Choices: 户外热闹的生日聚会，安静的图书馆偶尔有笑声，医院候诊区伴有焦虑，森林小径伴有远处的动物叫声
+Answer: 医院候诊区伴有焦虑
+Difficulty: hard
+
+ID: 96cb555e-3beb-4678-8731-a2d96bd06507
+Question: 假设电话正在响，请说出一个常与背景中听到的声音相关联的著名角色。
+Choices: 汤米·皮克尔斯（来自《天降奇兵》），汤米·皮克尔斯（来自《哈罗德与摩尔》），海绵宝宝（来自《海绵宝宝》），荷马·辛普森（来自《辛普森一家》）
+Answer: 荷马·辛普森（来自《辛普森一家》）
+Difficulty: hard
+
+ID: 091aefd5-f784-4472-8257-e24b6d19e32b
+Question: 根据给定的音频，以下哪项最能描述该情境？
+Choices: 安静的家中伴有背景音乐，电话响铃的同时，背景中传来狗的低吼声，电话在空荡的办公室中响铃，玩耍时狗欢快地吠叫
+Answer: 电话响铃的同时，背景中传来狗的低吼声
+Difficulty: hard
+
+ID: 20013417-55e9-40bc-8f68-6e9944af4fb5
+Question: 已知电话正在响，请说出与背景中听到的工具相关联的著名专业人士。
+Choices: 电话接线员，伐木工人，接待员，机械师
+Answer: 电话接线员
+Difficulty: hard
+
+
+----------------------------------------
+Category: Acoustic Scene Reasoning
+Statistics: Total=48, Easy=0, Medium=48, Hard=0
+----------------------------------------
+
+ID: fe746517-e292-4976-b83b-d1cae168b7da
+Question: 这种有节奏的机械过程可能发生在何处？
+Choices: 在舞蹈室，在建筑工地，在机械车间，在图书馆
+Answer: 在机械车间
+Difficulty: medium
+
+ID: 8de99a90-4aba-4963-8fb9-df62286efaa1
+Question: 对话可能发生在什么地方？
+Choices: 在警察局，在学校，在餐厅，在图书馆
+Answer: 在警察局
+Difficulty: medium
+
+ID: 67671f17-5d06-431b-8eef-0933fd6f7afc
+Question: 场景中的人可能在做什么？
+Choices: 修理汽车，为聚会做准备，在珠宝店工作，在厨房做饭
+Answer: 在珠宝店工作
+Difficulty: medium
+
+ID: 81684e06-43bd-4523-bbc3-56e4517f7ed8
+Question: 这个人正在从事什么活动？
+Choices: 整理书籍，园艺，打扫房屋，整理厨具
+Answer: 整理厨具
+Difficulty: medium
+
+ID: d028c274-adb9-44e7-a5ef-98aeaeadb2f8
+Question: 你从哪里可以推断出这些大声的对话正在发生？
+Choices: 图书馆，教室，大型社交聚会，办公室
+Answer: 大型社交聚会
+Difficulty: medium
+
+ID: e5f158b7-e5ac-4780-8d77-e171cd1a78a4
+Question: 根据他的行为，这个人可能在哪里？
+Choices: 在瑜伽课上，在繁忙的市中心，在图书馆，在拥挤的公交车上
+Answer: 在瑜伽课上
+Difficulty: medium
+
+ID: 8c017759-858f-4b9b-91b4-d551bf3388f8
+Question: 描述的场景可能在哪里发生？
+Choices: 在繁忙的城市，在安静的公园，在繁忙的餐厅，在实验室
+Answer: 在实验室
+Difficulty: medium
+
+ID: 620627a8-5011-4d90-9935-172ec9c82de1
+Question: 这项活动可能在哪里进行？
+Choices: 在图书馆里，在音乐会上，在马拉松期间，在会议上
+Answer: 在马拉松期间
+Difficulty: medium
+
+ID: d446a45b-e93b-4b36-8205-c14eb50fe8a3
+Question: 这位男士可能正在执行什么动作？
+Choices: 打开一本书， 在键盘上打字， 压扁一个苏打罐， 处理包装纸
+Answer: 处理包装纸
+Difficulty: medium
+
+ID: 76c2a626-7e3c-4f2f-ad20-b07cd0890302
+Question: 这个事件可能在哪里发生？
+Choices: 在沙漠中，在汽车修理店，在汽车展厅，在港口附近
+Answer: 在港口附近
+Difficulty: medium
+
+ID: 5a9a2b3f-9e2c-462b-91fc-608d98924923
+Question: 可能会进行什么活动？
+Choices: 一场高尔夫球比赛，一项农活，一次森林探险，一次科学实验
+Answer: 一场高尔夫球比赛
+Difficulty: medium
+
+ID: f73b2636-101d-4d9b-865c-796a3c90cd65
+Question: 根据正在进行的活动，可能的场景是什么？
+Choices: 一个养蜂场，一个建筑工地，一个繁忙的办公室，一个工厂
+Answer: 一个工厂
+Difficulty: medium
+
+ID: 0e560911-bb39-4af1-988e-b00d1ddfa90b
+Question: 男人之间的对话可能发生在什么地方？
+Choices: 在建筑工地，在图书馆，在餐厅，在健身房
+Answer: 在建筑工地
+Difficulty: medium
+
+ID: 4d1e8023-cb6d-4b6b-a8de-d1b8b690e25f
+Question: 昆虫在哪里展示它们的发声行为？
+Choices: 在游乐场，在超市，在办公室，在沼泽
+Answer: 在沼泽
+Difficulty: medium
+
+ID: 87ba6d7d-a6d9-4e56-86cd-c6e19e52d439
+Question: 根据音频，声学环境可能是什么？
+Choices: 风铃商店，繁忙的火车站，户外足球比赛，热闹的餐厅
+Answer: 风铃商店
+Difficulty: medium
+
+ID: b9690ab5-518c-4328-8eb4-783a56601ac4
+Question: 根据音乐的变化，可能发生的情景是什么？
+Choices: 乐队正在调音他们的乐器，乐队正在休息，乐队正在音乐会上演奏，乐队正在收拾他们的乐器
+Answer: 乐队正在音乐会上演奏
+Difficulty: medium
+
+ID: 144ef06f-9b63-497e-969d-7f6e10fe0c44
+Question: 这个人可能在哪里演奏打击乐器？
+Choices: 在安静的图书馆，在幽静的森林，在繁忙的街道，在寂静的教室
+Answer: 在繁忙的街道
+Difficulty: medium
+
+ID: 96e42e6d-6d50-448a-b007-c2bcefba1466
+Question: 这个人可能在哪里？
+Choices: 在图书馆，在游泳池，在音乐会上，在汽车修理店
+Answer: 在图书馆
+Difficulty: medium
+
+ID: 36409feb-6739-464e-a037-9f0c42ead6ab
+Question: 根据可听见的线索，马可能位于哪里？
+Choices: 在赛马场，,在马厩，,在鹅卵石街道上，,在田野里
+Answer: 在鹅卵石街道上
+Difficulty: medium
+
+ID: 3dbc2f3f-8cf8-4ae2-b2c6-4751aa4adab2
+Question: 警报铃可能在预示什么？
+Choices: 学校一天的开始，商务会议的结束，比赛的开始，烹饪计时器的结束
+Answer: 比赛的开始
+Difficulty: medium
+
+ID: e34c212a-65ce-49ff-9c25-53cb989e1be4
+Question: 音频中提到的交通方式是什么？
+Choices: 汽车、火车、飞机、马车
+Answer: 马车
+Difficulty: medium
+
+ID: d7a8a227-0152-404e-8d89-f3f1bdf06ece
+Question: 当这个人操作录音机时，可能在哪里？
+Choices: 在录音棚，在鸟类保护区，在图书馆，在音乐会上。
+Answer: 在鸟类保护区
+Difficulty: medium
+
+ID: 4a03c0d5-a1b5-4591-af7c-aa61aab10fb7
+Question: 根据音频，正在进行的对话可能发生在什么地方？
+Choices: 图书馆，教堂，超市，餐厅
+Answer: 餐厅
+Difficulty: medium
+
+ID: 57429478-42e6-490c-ab43-ce576aba864c
+Question: 根据音频，可能正在进行什么活动？
+Choices: 在厨房里做饭，在后院园艺，在泳池游泳，在车间里磨工具
+Answer: 在车间里磨工具
+Difficulty: medium
+
+ID: 470b1564-0152-4abe-8874-9295a4f9ee09
+Question: 这个人可能在哪里？
+Choices: 在图书馆，在学校，在音乐会，在杂货店
+Answer: 在杂货店
+Difficulty: medium
+
+ID: e096f1da-3c0f-4971-ae44-65b5e98742f0
+Question: 根据音频，以下哪项最能描述环境？
+Choices: 繁忙的城市街道，热闹的市场，宁静的海滩，风大的山顶
+Answer: 宁静的海滩
+Difficulty: medium
+
+ID: 560ff634-8f18-41c2-acc8-d4b0e16bbd66
+Question: 声音可能暗示的环境是什么？
+Choices: 建筑工地，一个繁忙的市场，计算机实验室，车内
+Answer: 计算机实验室
+Difficulty: medium
+
+ID: 31564584-4c55-4f17-b013-62afc898c135
+Question: 可能的持续隆隆声的来源是什么？
+Choices: 汽车引擎，跑步机运行中，瀑布，气泡穿过水
+Answer: 气泡穿过水
+Difficulty: medium
+
+ID: 45b81135-c9bf-497e-8c80-942904a96dd8
+Question: 音频片段可能指的是什么？
+Choices: 门铃响，电话响，教堂钟声，一场音乐会。
+Answer: 一场音乐会
+Difficulty: medium
+
+ID: 92277724-8e35-48c7-a911-0781ccfc963f
+Question: 描述的活动可能发生在什么地方？
+Choices: 一条繁忙的高速公路，一条安静的乡村道路，一个热闹的城市市场，一个拥挤的火车站
+Answer: 一条安静的乡村道路
+Difficulty: medium
+
+ID: f10968cd-75ec-4279-896d-c911d0e8e57f
+Question: 根据音频，棒球可能在哪里滚动？
+Choices: 在山坡上，在游乐场，沿着木质楼梯，在小巷里
+Answer: 沿着木质楼梯
+Difficulty: medium
+
+ID: 279017d0-3071-4765-8611-962b3c2f3543
+Question: 音频中出现金属声的可能原因是什么？
+Choices: 施工，交通事故，硬币掉落，火车在轨道上行驶
+Answer: 硬币掉落
+Difficulty: medium
+
+ID: ccb5964f-e28f-492f-b767-25ae695607bc
+Question: 这个人的职业可能是什么？
+Choices: 厨师、园丁、木匠、司机
+Answer: 木匠
+Difficulty: medium
+
+ID: e3f7c118-7eeb-43aa-9063-1d1a2b0b0a0a
+Question: 根据音频片段，最可能的场景是什么？
+Choices: 一家餐厅厨房当天关闭，学校食堂在午餐时间，图书馆在还书时间，体育赛事在中场休息时
+Answer: 一家餐厅厨房当天关闭
+Difficulty: medium
+
+ID: 6a803adb-ce03-4add-90a9-89a52ed54497
+Question: 厨师最可能在哪里准备餐食？
+Choices: 在森林里，在城市公园里，在户外营地，在有一扇开窗的厨房里
+Answer: 在有一扇开窗的厨房里
+Difficulty: medium
+
+ID: 167f341e-466e-4805-b91e-052ac8f0b8e5
+Question: 远处的场景中指示了什么动作？
+Choices: 火车减速，自行车快速踩踏，汽车加速然后减速，摩托车翘头
+Answer: 汽车加速然后减速
+Difficulty: medium
+
+ID: e0337680-f55f-4b6d-a95a-04177b4ed1e2
+Question: 这些鸟可能在哪里交流？
+Choices: 在茂密的森林里，在封闭的笼子里，在城市公园里，在购物中心里
+Answer: 在城市公园里
+Difficulty: medium
+
+ID: 305ebea1-ae1d-49a7-bad7-350f0dbd333f
+Question: 个人正在做什么活动？
+Choices: 洗碗，拖地，擦家具，擦窗户
+Answer: 擦窗户
+Difficulty: medium
+
+ID: 73487193-8f2a-40e3-9f37-3ad1dfa2714c
+Question: 在这种情况下，可能正在进行什么活动？
+Choices: 打开礼物，写信，读报纸，画画
+Answer: 打开礼物
+Difficulty: medium
+
+ID: 68d58057-b924-47f6-bdf2-475d1bcfa9e3
+Question: 带有回响的金属撞击声的事件可能发生在什么地方？
+Choices: 在汽车工厂，在洗车店，在建筑工地，在汽车修理厂
+Answer: 在汽车修理厂
+Difficulty: medium
+
+ID: 6c327eac-b976-4536-94cf-2f42ccc8b786
+Question: 根据声音，可能发生什么动作？
+Choices: 有人在做饭，有人在演奏乐器，有人在搬运家具，有人在园艺
+Answer: 有人在搬运家具
+Difficulty: medium
+
+ID: e8c3260b-2e88-49a8-bedc-c7a731be86dc
+Question: 高音调的旋律后跟着嗡嗡声的来源可能是什么？
+Choices: 一台收音机，一间教室，一个闹钟，一场音乐会
+Answer: 一个闹钟
+Difficulty: medium
+
+ID: 70a88365-937f-4a53-ba4f-6a43cdcb9993
+Question: 从外面的噪音中可以推断出什么？
+Choices: 嘉年华活动，建筑工地，宁静的夜晚，恶劣的天气
+Answer: 恶劣的天气
+Difficulty: medium
+
+ID: 22ceec8a-7842-42da-bf59-3a2e6d115c62
+Question: 对话发生在哪里？
+Choices: 在派对上、在图书馆里、在教室里、无法从音频中可靠判断
+Answer: 在派对上
+Difficulty: medium
+
+ID: 1c504c8f-a346-4612-b170-be5255c5f0eb
+Question: 可以从音频中推断出什么场景？
+Choices: 有人自信地走在地毯上，有人在户外碎石路上奔跑，有人蹑手蹑脚地走在吱呀作响的木地板上，一群人高声地在瓷砖上行进
+Answer: 有人蹑手蹑脚地走在吱呀作响的木地板上
+Difficulty: medium
+
+ID: 9ef88d46-e9cd-4b7d-a0a6-316b66ab6eeb
+Question: 远处噪音停止的原因可能是什么？
+Choices: 啄木鸟停止了啄木头，建筑工程结束了，鼓声会结束了，打字机被关掉了
+Answer: 啄木鸟停止了啄木头
+Difficulty: medium
+
+ID: 806875b5-5448-4905-9264-0a158a526b8b
+Question: 这个事件可能在哪里举行？
+Choices: 在建筑工地，在厨房，在体育赛事，在图书馆
+Answer: 在厨房
+Difficulty: medium
+
+ID: ec58c994-070e-4d0f-a2f3-ddda52497f66
+Question: 响亮而低沉的呼噜声可能来自哪里？
+Choices: 动物园，游乐场，宠物医院，森林
+Answer: 宠物医院
+Difficulty: medium
+
+
+----------------------------------------
+Category: Event-Based Sound Reasoning
+Statistics: Total=48, Easy=0, Medium=48, Hard=0
+----------------------------------------
+
+ID: 0c435677-a6a3-49df-b0d4-fda70cda8765
+Question: 根据给定的音频，主要关注点可能是什么？
+Choices: 音乐和效果单元，背景噪音，通用冲击声，人类语音
+Answer: 音乐和效果单元
+Difficulty: medium
+
+ID: 0992e07a-90d2-4869-a960-3f5541790b9c
+Question: 根据给定的音频，观察到的主要互动是什么？
+Choices: 一位女性在说话，同时有警报声和收音机播放，一个孩子哭泣后跟着一声巨响，狗吠声和猫叫声，背景有静电噪音和模糊的交谈声
+Answer: 一位女性在说话，同时有警报声和收音机播放
+Difficulty: medium
+
+ID: 6df3d2d5-4c3f-45ca-9c69-c6095d6e70a5
+Question: 根据给定的音频，什么可能正在导致这些音效？
+Choices: 背景中使用的乐器、男声演唱创造的声效、歌曲中添加的音效、人群的背景噪音
+Answer: 歌曲中添加的音效
+Difficulty: medium
+
+ID: cc55b11e-9277-4b73-a448-8c269fc56d15
+Question: 根据给定的音频，警报器的最可能用途是什么？
+Choices: 针对平民的紧急警报，公园里的音乐表演，常规的汽车警报响起，上课铃声响起
+Answer: 针对平民的紧急警报
+Difficulty: medium
+
+ID: 2b720d59-0c0d-4c44-97d3-c747f7aef744
+Question: 根据给定的音频，是什么导致了卡车停止？
+Choices: 紧急使用空气刹车、卡车燃油耗尽、平稳而逐渐的停车、附近发生巨大爆炸
+Answer: 紧急使用空气刹车
+Difficulty: medium
+
+ID: 58f8a5e6-c9ec-4239-98db-95102fd1cca3
+Question: 根据给定的音频，什么可能导致了男士讲话的中断？
+Choices: 表面接触声、音乐音量突然增大、响亮的咔哒声、音频中的短暂静默。
+Answer: 表面接触声
+Difficulty: medium
+
+ID: 386dbb06-a2f9-4390-b599-aee87167ca74
+Question: 根据给定的音频，发动机敲击声可能表明什么？
+Choices: 发动机内部存在机械问题，附近有鸟鸣，一条平静的河流流动，有人拍手
+Answer: 发动机内部存在机械问题
+Difficulty: medium
+
+ID: 62ba0723-42c4-4193-9d8a-9bd8e504bbde
+Question: 根据音频样本，导致男人说话被打断的原因可能是什么？
+Choices: 教堂钟声的响起，突然的巨响，汽车喇叭声，附近狗叫声
+Answer: 教堂钟声的响起
+Difficulty: medium
+
+ID: 5a28f00a-eeb2-4d56-b35e-1be35f4370b0
+Question: 根据给定的音频，什么表明了车辆速度的增加？
+Choices: 持续的摩托车引擎声、突然的汽车喇叭声、背景交通噪音、汽车喇叭反复鸣笛
+Answer: 持续的摩托车引擎声
+Difficulty: medium
+
+ID: 566282ce-9d5b-49f6-807d-52ea77fb1409
+Question: 根据给定的音频，可能导致音乐短暂中断的原因是什么？
+Choices: 突然的短暂音调，有人大声说话，门被打开，持续的嗡嗡声
+Answer: 突然的短暂音调
+Difficulty: medium
+
+ID: d3133488-52b0-4cfd-af02-d455efa2974a
+Question: 给定音频样本，效果器的主要目的是什么？
+Choices: 增强或修改音乐，生成背景噪音，录制音乐，调整音量水平
+Answer: 增强或修改音乐
+Difficulty: medium
+
+ID: 23803f99-3021-4d5e-893f-8782f3bdcda6
+Question: 根据给定的音频，咔哒咔哒的声音与什么事件相关？
+Choices: 火车驶过轨道，木板地板上的脚步声，工厂里机器运转，马在公路上奔跑
+Answer: 火车驶过轨道
+Difficulty: medium
+
+ID: 98864e77-e7db-4e7f-9d63-84277b2f7cc7
+Question: 根据给定的音频，什么可能造成了撞击声？
+Choices: 公交车倒车撞到障碍物，背景中有鸟鸣声，附近有孩子玩耍，风吹过树木
+Answer: 公交车倒车撞到障碍物
+Difficulty: medium
+
+ID: e9077d10-cee0-4d3c-8410-ba757fc11561
+Question: 根据给定的音频，这些男性最可能从事什么活动？
+Choices: 1. 使用电动工具进行建筑工作，2. 在厨房做饭，3. 玩棋盘游戏，4. 在图书馆读书
+Answer: 1. 使用电动工具进行建筑工作
+Difficulty: medium
+
+ID: 104b3239-85cd-4c54-9353-93e74b4ed07e
+Question: 根据给定的音频，可能导致紧急车辆接近的原因是什么？
+Choices: 紧急呼救或需要立即协助的事件，节日活动伴音乐和庆祝，计划中的游行经过该区域，当局的例行检查
+Answer: 紧急呼救或需要立即协助的事件
+Difficulty: medium
+
+ID: 2ca780f9-e8fd-4575-aede-8232d76899e1
+Question: 根据给定的音频，什么引发了这一系列事件？
+Choices: 对话的开始，开始时一位女性说话，机械声，背景中的猫叫声
+Answer: 开始时一位女性说话
+Difficulty: medium
+
+ID: ab047187-f988-48b4-97b8-2dbd044166c3
+Question: 根据给定的音频，识别声音的可能来源。
+Choices: 滑哨，玩具手风琴，口琴，吱吱作响的玩具
+Answer: 滑哨
+Difficulty: medium
+
+ID: c8ea61d7-4d96-4798-8575-e4efc4319db9
+Question: 根据给定的音频，这些音效可能代表什么？
+Choices: A. 令人恐惧的事件导致压力，B. 有人在听音乐，C. 宁静祥和的环境，D. 一个安静且没有活动的房间
+Answer: A. 令人恐惧的事件导致压力
+Difficulty: medium
+
+ID: ba6bc9de-0ace-4ea9-b102-79f024dd3e25
+Question: 根据给定的音频，喘气声可能是什么原因造成的？
+Choices: 某人因打碎某物后用力过度，某人轻声对附近的人说话，微风轻拂，一辆汽车在街道上驶过
+Answer: 某人因打碎某物后用力过度
+Difficulty: medium
+
+ID: db82984f-fcfe-4edf-987f-bf31fb8f345e
+Question: 根据给定的音频，什么表明了消防车的到来？
+Choices: 警笛声持续鸣响，鸟鸣声，安静的环境，微风轻拂
+Answer: 警笛声持续鸣响
+Difficulty: medium
+
+ID: 0b92957c-f842-4235-a0e3-3f99c6dbad47
+Question: 根据给定的音频，什么可能引起了枪声和机枪射击？
+Choices: 激烈的争吵升级为暴力，一个人玩暴力视频游戏，现场军事训练演习，附近有烟花表演
+Answer: 一个人玩暴力视频游戏
+Difficulty: medium
+
+ID: 18a80854-efc8-4a08-a5c6-4b039901bd20
+Question: 根据给定的音频，什么可能导致了撞击声？
+Choices: 车辆加速并撞击物体，微风移动窗帘，远处的雷声引起振动，小鸟落在表面上
+Answer: 车辆加速并撞击物体
+Difficulty: medium
+
+ID: a1df45b7-3fa7-490a-bc0f-dc674a53fa26
+Question: 根据给定的音频，什么可能使男人的声音被听到？
+Choices: 男人在摩托艇上说话，男人在一个安静的房间里说话，男人在体育场里宣布，男人在会议上发表演讲
+Answer: 男人在摩托艇上说话
+Difficulty: medium
+
+ID: 1b87bc3e-bbdb-4596-9f2c-784fe15fb2b6
+Question: 根据给定的音频，什么打断了孩子说话？
+Choices: 风声，女性说话，水花声，轮船汽笛
+Answer: 风声
+Difficulty: medium
+
+ID: a0d0ebbe-cf7f-4ee4-9e12-e46ffc058370
+Question: 根据给定的音频，是什么导致了牛的叫声？
+Choices: 附近突然的移动或噪音，附近有鸟鸣，有人走近牛，无法从音频中可靠地确定
+Answer: 无法从音频中可靠地确定
+Difficulty: medium
+
+ID: 6b6403c5-fb60-4f05-a600-48bfae0c603a
+Question: 给定音频样本，主要发生的事件是什么？
+Choices: 男人唱着圣诞主题音乐的歌曲，背景噪音和鸭子的叫声，一个孩子哭泣后跟着安抚音乐，突然的撞击后跟着孩子的哭声
+Answer: 男人唱着圣诞主题音乐的歌曲
+Difficulty: medium
+
+ID: 0d68dd1e-9cf7-45cc-a348-9b45c2b9370d
+Question: 根据给定的音频，狗呜咽的可能原因是什么？
+Choices: 令人不安的机械噪音，与其他狗的嬉戏互动，平静而安宁的环境，微风轻拂
+Answer: 令人不安的机械噪音
+Difficulty: medium
+
+ID: 7ee5c7b2-6f5f-4fdc-85b3-65022da25271
+Question: 根据音频样本，什么可能引起了掌声？
+Choices: 男人的演唱表演，背景音乐，男人最后的演讲，中间的喊叫
+Answer: 男人的演唱表演
+Difficulty: medium
+
+ID: 6ca1838e-6b03-4583-8b8f-f66ce27794d0
+Question: 根据给定的音频，整个音频中最可能发生什么事件？
+Choices: 时钟报时，持续的阵雨，狗周期性地吠叫，人持续说话
+Answer: 时钟报时
+Difficulty: medium
+
+ID: 8a208c7a-f7af-4880-855e-4211abfafe30
+Question: 根据给定的音频，这位男士可能在对什么做出反应？
+Choices: 机动船的声音，鸟鸣声，繁忙街道的噪音，叶子的轻柔沙沙声
+Answer: 机动船的声音
+Difficulty: medium
+
+ID: 4c33f41d-6d5f-4479-9afd-a49bd693dfea
+Question: 根据音频样本，是什么导致了溅水声？
+Choices: 一艘摩托艇在水中行驶，细雨落在表面，有人在游泳池中游泳，瀑布从岩石上倾泻而下
+Answer: 一艘摩托艇在水中行驶
+Difficulty: medium
+
+ID: 8c63d22f-b37e-4873-aef6-c6b44bbc36e6
+Question: 根据给定的音频，脚步声可能是什么引起的？
+Choices: 有人在听到音效后行走，鸟在声音后飞走，汽车在声音后启动，门在声音后打开
+Answer: 有人在听到音效后行走
+Difficulty: medium
+
+ID: 4e1d10b1-f6e9-44d5-a8b3-29cab976423a
+Question: 根据音频样本，最可能的主要活动是什么？
+Choices: 一场现场音乐会表演，一个男人在读书，一个男人在厨房做饭，一只狗在叫
+Answer: 一场现场音乐会表演
+Difficulty: medium
+
+ID: dc87734f-9ace-49bf-b11e-50ae89f76684
+Question: 根据音频样本，连续声音的最可能来源是什么？
+Choices: 一辆汽车沿着街道行驶，一个人在说话，一只鸟在鸣叫，一扇门在吱呀作响
+Answer: 一辆汽车沿着街道行驶
+Difficulty: medium
+
+ID: 756dfbcc-4e20-4d71-9fc0-aca7641d8d9f
+Question: 根据给定的音频，可能的连续音效是什么？
+Choices: 可能是一部电影的开场，鸟儿间歇性地鸣叫，一次汽车喇叭声，短暂的狗叫声。
+Answer: 可能是一部电影的开场
+Difficulty: medium
+
+ID: f2b53917-8dad-4d75-a1b1-f26887587a76
+Question: 根据给定的音频，海浪开始拍打后会发生什么事件？
+Choices: 轮船的汽笛鸣响，狗大声吠叫，有人唱歌，远处汽车鸣笛
+Answer: 轮船的汽笛鸣响
+Difficulty: medium
+
+ID: 61f96ee9-f225-483b-b51e-cd379cec0dc4
+Question: 根据给定的音频，是什么导致了背景噪音？
+Choices: 一位女性持续说话，扬声器系统故障，正在进行机械操作，一群人交谈
+Answer: 正在进行机械操作
+Difficulty: medium
+
+ID: 4145673d-dea9-4ef2-b78d-cffb0e604692
+Question: 根据给定的音频，背景噪音的主要来源可能是什么？
+Choices: 附近繁忙的街道，安静的图书馆，空房间，宁静的乡村
+Answer: 附近繁忙的街道
+Difficulty: medium
+
+ID: bd9c094b-12fb-4432-a384-a0b10f103d42
+Question: 根据给定的音频，什么事件可能引发了男性的歌唱？
+Choices: 男人开始说话、背景音乐播放、切菜声开始、音乐结束
+Answer: 切菜声开始
+Difficulty: medium
+
+ID: 00127c2e-75eb-40ce-8c0c-1b886c6d5316
+Question: 根据给定的音频，其中可靠存在的有哪些人？
+Choices: 一只狗，一个孩子，一个水体，一个成年人
+Answer: 一个孩子
+Difficulty: medium
+
+ID: 1b7fe494-20c2-4431-9386-7c9142569a3a
+Question: 根据给定的音频，最可能的场景是什么？
+Choices: 一个有演讲者的热闹公共活动，一个有背景噪音的安静图书馆，一个只有音乐的空房间，一个有动物声音的乡村
+Answer: 一个有演讲者的热闹公共活动
+Difficulty: medium
+
+ID: 8e0ce1c4-444b-4848-928f-c08708c456b5
+Question: 根据给定的音频，整个过程中主要的声音是什么？
+Choices: 音乐，瀑布，滴水声，鸟鸣声
+Answer: 音乐
+Difficulty: medium
+
+ID: b60b872b-dafe-4b8b-b90f-da505c1a1cb0
+Question: 给定音频样本，主要发生的事件是什么？
+Choices: 有人拍手，狗在叫，音乐播放，汽车引擎运转
+Answer: 音乐播放
+Difficulty: medium
+
+ID: 4d424bb0-673a-4bf6-9c35-aedb4e58b879
+Question: 根据音频样本，女性说话的同时主要进行的活动是什么？
+Choices: 洗牌， 在键盘上打字， 在碎石路上行走， 在厨房做饭
+Answer: 洗牌
+Difficulty: medium
+
+ID: ff9e44dd-2a20-4562-96c6-5d7c38c8ba7d
+Question: 根据给定的音频，婴儿的笑声可能是什么原因引起的？
+Choices: 持续的机械声，开头的音效，背景对话，环境音乐
+Answer: 持续的机械声
+Difficulty: medium
+
+ID: d2c3b4f5-32a7-4762-bcfa-7055d5f92fab
+Question: 根据给定的音频，在割草机嗡嗡声持续期间，可能正在发生什么？
+Choices: 有人正在修剪草坪。, 一个孩子正在玩玩具。, 一只猫在大声喵叫。, 鸟儿在远处鸣叫。
+Answer: 有人正在修剪草坪。
+Difficulty: medium
+
+ID: cc82c7fe-bd52-474d-8942-b65b42c848ef
+Question: 根据给定的音频，最可能发生的情况是什么？
+Choices: 在浅水区玩耍的女人，平静地游泳的女人，在水中挣扎的女人，在喷泉旁放松的女人
+Answer: 在水中挣扎的女人
+Difficulty: medium
+
+ID: adb0e4fb-5233-44d1-8a0e-6eec45e58b79
+Question: 根据给定的音频，什么可能导致了房间里的笑声？
+Choices: 一个婴儿哭泣同时有人说话，一台电锯在背景中运行，一只鸟间歇性地鸣叫，持续的背景噪音
+Answer: 一个婴儿哭泣同时有人说话
+Difficulty: medium
+
+
+----------------------------------------
+Category: Sound-Based Event Recognition
+Statistics: Total=46, Easy=0, Medium=46, Hard=0
+----------------------------------------
+
+ID: 12929ce3-57d4-4f29-a2de-aa6121927aa3
+Question: 在短暂的音调之后，哪种听觉事件是明显的？
+Choices: 电话铃声，脚步声，紧急车辆接近时的喷射声，门关闭声
+Answer: 紧急车辆接近时的喷射声
+Difficulty: medium
+
+ID: 74717155-8d0b-4154-9ba3-979ddd58ef52
+Question: 在音频中男人讲话后可以分辨出什么？
+Choices: 狗在叫，汽车经过，猫在叫，背景播放音乐
+Answer: 猫在叫
+Difficulty: medium
+
+ID: c8c3606e-1359-4b8f-9680-996269e8e7dc
+Question: 在音频中能识别出哪些独特的声音？
+Choices: 鸟的鸣叫声、水流的奔涌声、人们的交谈声和机械声、蜜蜂的嗡嗡声
+Answer: 人们的交谈声和机械声
+Difficulty: medium
+
+ID: 4762acec-402b-45b8-892b-23de141b39ec
+Question: 音频背景中可能听到什么？
+Choices: 儿童玩耍声，汽车鸣笛声，玻璃碰撞声，鸟鸣声
+Answer: 玻璃碰撞声
+Difficulty: medium
+
+ID: 8a8017db-602f-4aff-b878-58938aef181d
+Question: 根据音频，可以识别出哪一组事件组合？
+Choices: 一个男人唱歌、音乐和河流声，一个女人说话、音乐和繁忙城市的声音，一个女人说话、音乐和雨声和海浪声，一个孩子笑、音乐和雷雨声
+Answer: 一个女人说话、音乐和雨声和海浪声
+Difficulty: medium
+
+ID: 2b4b2aa5-900f-4e54-8dc9-c2cdf48147b8
+Question: 从音频片段中可以辨别出什么？
+Choices: 雷雨，一辆汽车行驶，一架飞机引擎伴风声，一家繁忙的餐厅
+Answer: 一架飞机引擎伴风声
+Difficulty: medium
+
+ID: 160d64a1-0cd3-4e3e-a027-c1bf26b9716b
+Question: 音频中的声音事件可以识别出什么？
+Choices: 两名女性争吵，婴儿哭泣，火警报警器响，狗吠叫
+Answer: 火警报警器响
+Difficulty: medium
+
+ID: 8b275dad-2d65-4857-a99e-bb319595b47c
+Question: 录音中发生的主要听觉事件是什么？
+Choices: 雷雨，机械运转，水流，汽车行驶
+Answer: 机械运转
+Difficulty: medium
+
+ID: 68217300-616e-421b-9604-d923c51b79b3
+Question: 从音频中可以感知到什么重复动作？
+Choices: 在键盘上打字，在走廊里跑步，敲门，敲击桌子
+Answer: 敲击桌子
+Difficulty: medium
+
+ID: 68a16f30-ea64-489f-938f-053f5e86a13e
+Question: 从音频中捕获的声音可以识别出什么？
+Choices: 城市中的交通，人们交谈，海浪和风，课堂讨论
+Answer: 海浪和风
+Difficulty: medium
+
+ID: a851aeb1-b98d-4786-be53-474af7891aaa
+Question: 音频中合唱团正在执行什么动作？
+Choices: 朗诵诗歌，发表演讲，随着音乐演唱，进行采访
+Answer: 随着音乐演唱
+Difficulty: medium
+
+ID: da9c4598-5061-4e0f-be20-b886d9a42489
+Question: 音频中可能的声学事件是什么？
+Choices: 嗡嗡声和雨滴声，口哨声和风声，哭泣声和雷雨声，笑声和交通噪音
+Answer: 口哨声和风声
+Difficulty: medium
+
+ID: 69062ab8-5b74-4ed3-9a87-b0fad52363d7
+Question: 音频可能暗示哪种听觉体验？
+Choices: 收听播客，参加公开演讲，听到人工歌曲，收听广播脱口秀
+Answer: 听到人工歌曲
+Difficulty: medium
+
+ID: 4c545705-9edf-4771-b772-be0249189224
+Question: 音频中可能包含哪些声音？
+Choices: 鸟鸣声和风声，键盘打字声和鼠标点击声，重物落地声和撞击声，流水声和鱼游动声
+Answer: 重物落地声和撞击声
+Difficulty: medium
+
+ID: 9c233b8e-4daf-4405-b873-67b7542d4605
+Question: 在整个音频中可以识别出什么事件？
+Choices: 汽车鸣笛，门铃响，撞击声，鸟鸣
+Answer: 门铃响
+Difficulty: medium
+
+ID: 883b8074-08ff-4268-a858-1906cceb74e9
+Question: 提供的音频中最后的声音事件是什么？
+Choices: 静音，音乐和撞击声，语音合成器，一声叮
+Answer: 一声叮
+Difficulty: medium
+
+ID: 79d7d27e-6036-40c5-aa74-d5db06d2cfe3
+Question: 根据音频，可以被识别为主要动作的是什么？
+Choices: 在平底锅里煎，使用洗衣机，操作吸尘器，在键盘上打字
+Answer: 操作吸尘器
+Difficulty: medium
+
+ID: bf50d3fb-4454-4eea-9336-6acc0e8d34fa
+Question: 根据音频可以识别出的可能事件是什么？
+Choices: 烹饪，园艺，广播，写作
+Answer: 广播
+Difficulty: medium
+
+ID: 231e3f24-976a-4c38-9559-6524fc2c02be
+Question: 从音频中的声音可以确定什么？
+Choices: 准备演讲，参加综艺节目，进行非正式聚会，进行锻炼
+Answer: 进行非正式聚会
+Difficulty: medium
+
+ID: 5c5150cb-d0ee-43ac-8887-dc067b4c3cb2
+Question: 根据给定的音频，人们会期望听到什么？
+Choices: 人们在锻炼，雨声和雷声，人们在进行活跃的活动，交通和喇叭声的噪音
+Answer: 人们在进行活跃的活动
+Difficulty: medium
+
+ID: 0ac9584e-aab2-4731-b5bd-f1d730d67ce3
+Question: 可以从音频中识别出什么事件？
+Choices: A. 嘉年华上的集会，B. 瀑布附近的野餐，C. 会议室里的会议，D. 公共泳池中的游泳
+Answer: B. 瀑布附近的野餐
+Difficulty: medium
+
+ID: eb6af7e7-5310-4391-8f02-026e55f38179
+Question: 音频中自然环境的主要特征是什么？
+Choices: 鸟鸣声，雨声，风声和溪流声，狮子的吼声
+Answer: 风声和溪流声
+Difficulty: medium
+
+ID: 52840623-bdf3-4cd9-8d1a-f34c7c414f92
+Question: 音频中可以间歇性听到哪些类型的声音？
+Choices: 乐器、动物声音、自然现象、音效
+Answer: 音效
+Difficulty: medium
+
+ID: 41fbeb77-6926-49c4-ab28-fb5848365b22
+Question: 可以从音频中识别出什么动作？
+Choices: 在厨房做饭，在跑马拉松，参加讲座，在战场上作战
+Answer: 在战场上作战
+Difficulty: medium
+
+ID: d330f41e-d2f0-400d-900e-7dc05edd5b4a
+Question: 音频中的背景噪音可能由什么引起？
+Choices: 奔腾的水流，交通，机械运转声，鸟鸣声
+Answer: 机械运转声
+Difficulty: medium
+
+ID: 1c2c6dfa-f114-4e9a-89b0-4532fd9a7c1d
+Question: 可以从音频中的声音识别出哪些动作？
+Choices: 遛狗，做晚餐，看电视和接电话，修剪草坪
+Answer: 看电视和接电话
+Difficulty: medium
+
+ID: 25cac2de-ffe8-45c8-beef-29c7a7c00bf0
+Question: 音频中捕捉到了什么重大事件？
+Choices: 汽车比赛，烹饪过程，爆炸，对话
+Answer: 爆炸
+Difficulty: medium
+
+ID: ac0467b2-34c7-4a4a-b010-dbddc21dc085
+Question: 根据给定的音频，最可能听到的自然环境是什么？
+Choices: 公园里的晴天，一场伴随降雨的雷雨正在逼近，森林火灾伴有噼啪作响的火焰，多风的沙漠中有飞沙
+Answer: 一场伴随降雨的雷雨正在逼近
+Difficulty: medium
+
+ID: bc20ab9d-7cd0-4c0e-985b-00234b32f791
+Question: 以下列出的选项中，音频中可以识别出哪种听觉事件？
+Choices: 海鸥在海滩上鸣叫，孩子们在公园里玩耍，繁忙城市中的交通，宁静河流的流动。
+Answer: 繁忙城市中的交通
+Difficulty: medium
+
+ID: b49f6233-14d5-4821-9405-ab6a255b09b5
+Question: 可以从音频中辨别出什么？
+Choices: 静默阅读，故事叙述，有男歌手的音乐表演，随意的对话
+Answer: 有男歌手的音乐表演
+Difficulty: medium
+
+ID: 5441f799-08ba-4ec6-a29b-8ddd933b37d0
+Question: 可以从音频片段中识别出什么可听见的动作？
+Choices: 烹饪一顿饭，使用电动工具，演奏乐器，洗澡
+Answer: 使用电动工具
+Difficulty: medium
+
+ID: d64976ae-1d7d-49ad-91e7-00ae8efb4475
+Question: 根据给定的音频，节奏性铃声最可能的来源是什么？
+Choices: 使用手铃的音乐表演，一条狗项圈随机发出的叮当声，微波炉的提示音，有人在键盘上快速打字
+Answer: 使用手铃的音乐表演
+Difficulty: medium
+
+ID: 7045c825-5b6a-490d-96c2-75969c184b87
+Question: 音频中可以识别出什么事件？
+Choices: 降雨，脚步声，风铃，汽车喇叭
+Answer: 风铃
+Difficulty: medium
+
+ID: 705df88f-6ed9-4e13-ad2d-5efa0a2916d1
+Question: 在提供的音频中可以识别出哪种沟通方式？
+Choices: 短信，书信写作，口头对话，手语
+Answer: 口头对话
+Difficulty: medium
+
+ID: 64f42db7-398c-4e15-b85d-ac5cfb6b3b86
+Question: 音频中主要的声音事件是什么？
+Choices: 日常交谈声，车辆鸣笛声，动物叫声，音乐播放声
+Answer: 音乐播放声
+Difficulty: medium
+
+ID: cca88ff4-0194-405f-bb88-dfbac07500fd
+Question: 根据描述，音频中可能包含哪些类型的声音？
+Choices: 人们交谈和狗吠，汽车喇叭声和建筑噪音，低沉的敲击声、风声、鸟类叫声和机械运转声，流水声和雷雨声
+Answer: 低沉的敲击声、风声、鸟类叫声和机械运转声
+Difficulty: medium
+
+ID: 30853c72-b4be-4585-85d9-5fe7d8be87f9
+Question: 音频片段的末尾可能正在发生什么？
+Choices: 婴儿正在哭泣，狗正在吠叫，火车正在进站，引擎轰鸣
+Answer: 引擎轰鸣
+Difficulty: medium
+
+ID: be172bde-29c8-4cab-9b4d-66ced7d4bad5
+Question: 音频中主要发生的事件是什么？
+Choices: 机械操作，计时，女声表演，水流声
+Answer: 女声表演
+Difficulty: medium
+
+ID: 3a04a1f0-9aa7-46f0-b3ab-5eeb9e8b9d9a
+Question: 在音频中男人说话之后可以识别出什么样的噪音？
+Choices: 水沸腾，鸟鸣，引擎运转，下雨
+Answer: 引擎运转
+Difficulty: medium
+
+ID: 4115319b-d11f-4388-aed1-6444f3b5a51a
+Question: 音频中最明显的声学事件是什么？
+Choices: 持续的风声，喷发，男人说话，滴答声
+Answer: 持续的风声
+Difficulty: medium
+
+ID: 4ad2f310-61bc-4280-b78e-4d986d5b41b8
+Question: 音频中可以识别出的可听活动是什么？
+Choices: 一个男人在唱歌，一个女人在音乐中说话，一个孩子在哭，一个男人在演讲
+Answer: 一个女人在音乐中说话
+Difficulty: medium
+
+ID: 6a0aeeb2-861d-446e-b5cc-e364dd5a19b1
+Question: 在火车鸣笛和撞击声之后，可能的声音事件是什么？
+Choices: 鸟鸣声，雨滴声，钟声，汽车引擎声。
+Answer: 钟声
+Difficulty: medium
+
+ID: 38d52315-08be-45d7-ae1e-00eaf24a2a3c
+Question: 音频中可能发生了什么？
+Choices: 一档烹饪节目，一场足球比赛，一场政治集会，一个安静的图书馆
+Answer: 一场政治集会
+Difficulty: medium
+
+ID: 43bac539-b249-4ad3-b923-b100e4134ac3
+Question: 音频中可以被识别为主要声音事件的是什么？
+Choices: 人们交谈，交通噪音，鸟鸣声，降雨声
+Answer: 鸟鸣声
+Difficulty: medium
+
+ID: 5cd015ad-5997-424c-8ea7-c52cf8c23045
+Question: 可以从音频片段中区分出哪些具体的声音？
+Choices: 汽车鸣笛和雨滴声，口哨声和交谈声，直升机声和撞击声，鸟鸣声和流水声
+Answer: 直升机声和撞击声
+Difficulty: medium
+
+ID: 0233567b-99c2-490c-b703-133592a711a4
+Question: 根据其特征，音频中可以识别出什么？
+Choices: 有人说话，鸟鸣声，音乐播放，汽车鸣笛
+Answer: 音乐播放
+Difficulty: medium
+
+
+==================================================
+TASK: SPEECH
+==================================================
+
+
+----------------------------------------
+Category: Dissonant Emotion Interpretation
+Statistics: Total=35, Easy=0, Medium=35, Hard=0
+----------------------------------------
+
+ID: 62b58932-80b8-4c3b-8229-cf356ad7d059
+Question: 在对话中，是什么让最后一句话显得讽刺？
+Choices: 称赞组织系统，赞美咖啡桌，夸张到荒谬程度的杂乱，建议真正的车库拍卖。
+Answer: 夸张到荒谬程度的杂乱。
+Difficulty: medium
+
+ID: b857dd9a-7f5e-4f26-acfd-de2bc8cf4f06
+Question: 最后一句话如何在对话中体现讽刺？
+Choices: 高度赞扬对话。称对话"相当无意义"。第一说话者同意第二说话者。第二说话者非常印象深刻。
+Answer: 称对话"相当无意义"。
+Difficulty: medium
+
+ID: f820f11a-5395-4e1b-8261-e2b7fa81c1a5
+Question: 最后一句话如何在对话中反映讽刺？
+Choices: 幽默地嘲笑夸张的自我认知，称赞说话者的事业选择，同意关于通心粉艺术的观点，忽视科学成就。
+Answer: 幽默地嘲笑夸张的自我认知。
+Difficulty: medium
+
+ID: 0db9ce05-5204-483b-9318-b0e7735ddb78
+Question: 最后的陈述在对话中如何体现讽刺？
+Choices: 与通常所说的"神奇之夜"相矛盾。他们是最好的朋友。他们选择待在家里。电影实际上很糟糕。
+Answer: 与通常所说的"神奇之夜"相矛盾。
+Difficulty: medium
+
+ID: 4452ab49-197b-4e61-8eb5-458999f0e914
+Question: 为什么在这个语境中最后的陈述被认为是讽刺的？
+Choices: 温度不是问题。生病不是自愿的努力。第二位说话者假装生病。生病是有趣的。
+Answer: 生病不是自愿的努力。
+Difficulty: medium
+
+ID: 56105b0b-057f-403a-b877-b4ac8f555037
+Question: 解释最后一条评论如何传达讽刺。
+Choices: 喜欢卷饼和炸猪皮。赞赏是夸张且不真诚的。真诚地感谢讲座。喜欢讨论怪物卡车。
+Answer: 赞赏是夸张且不真诚的。
+Difficulty: medium
+
+ID: e7413501-4cda-4e0b-a56d-6b68a31c2f2e
+Question: 最终陈述的讽刺之处体现在哪里？
+Choices: 暗示靠垫的琐碎性。批评家具的摆放。真诚地称赞斯图尔特的选择。表达真实的惊讶。
+Answer: 暗示靠垫的琐碎性。
+Difficulty: medium
+
+ID: 0bbc588e-8c88-4b0e-8b27-2dfa208acc02
+Question: 为什么在这个上下文中，最后的陈述被认为是讽刺的？
+Choices: 怀疑程序员的能力。, 他喜欢紧张和贝果面包。, 裤子很难修改。, 贝果面包让他分心。
+Answer: 怀疑程序员的能力。
+Difficulty: medium
+
+ID: aaedb051-562e-4edc-b261-dccd3f329110
+Question: 最后一句话如何在对话中体现出讽刺意味？
+Choices: 激光手术非常昂贵。保险不会覆盖疝气治疗。激光手术与疝气无关。乔伊喜欢眼部手术。
+Answer: 激光手术与疝气无关。
+Difficulty: medium
+
+ID: 520aea17-b159-4d22-ad68-978fcc152e27
+Question: 在此语境下，为何最终陈述被认为带有讽刺意味？
+Choices: 对角色的困惑、对这部剧的误解、称赞这部剧的幽默感、无法判断
+Answer: 无法判断
+Difficulty: medium
+
+ID: 99258b00-6754-41f4-94ae-6676d47b92b1
+Question: 为什么对话中的最后一句话是讽刺的例子？
+Choices: 他没听到问题，不愿定义他们的关系，他真的同意贴标签，贴标签使其正式化
+Answer: 不愿定义他们的关系
+Difficulty: medium
+
+ID: 0fbc3dde-70c0-4352-a4ff-66551d9f2a43
+Question: 解释最后一条评论是如何传达讽刺意味的。
+Choices: 表达对邮政改革的兴奋，荒谬的情景，非实际担忧，对皮革灯笼裤的真实恐惧，称赞Sonny Bono的时尚品味
+Answer: 荒谬的情景，非实际担忧
+Difficulty: medium
+
+ID: a6571f36-993f-4c5f-8bd0-31610d787bed
+Question: 为什么在这个语境中最后的陈述被认为是讽刺的？
+Choices: Phir Resuda不太可能是母亲。她担心Phir。Gina无关。妈肯定不是Gina的。
+Answer: Phir Resuda不太可能是母亲。
+Difficulty: medium
+
+ID: 3ffe9ee1-8d66-4542-aab3-b40fbde3f157
+Question: 解释最后一条评论如何传达讽刺。
+Choices: 这是一个荒谬的理由。, 这是一个恭维。, 这是关于天气的。, 这是关于饮食偏好的。
+Answer: 这是一个荒谬的理由。
+Difficulty: medium
+
+ID: 889e087d-9d50-4fc1-8769-465cae7140b6
+Question: 为什么对话中的最后一句话是讽刺的例子？
+Choices: 表达真实的怀疑，不理解讽刺术语，兴奋地见到Scott，嘲笑介绍的可预测性
+Answer: 嘲笑介绍的可预测性
+Difficulty: medium
+
+ID: 516653d5-79d7-404e-a208-62367fdc59b7
+Question: 在该语境中，为什么最终的陈述被认为是讽刺的？
+Choices: 斯科特从不讲讽刺故事。假装兴趣和热情。太忙了没听故事。对斯科特的故事有真正的兴趣。
+Answer: 假装兴趣和热情。
+Difficulty: medium
+
+ID: 1c775741-0779-4868-9a8f-f531a559f6c0
+Question: 最后一条陈述如何在对话中体现讽刺？
+Choices: 靴子非常时尚，靴子太贵了，靴子和任何东西都不搭，称赞鸡服
+Answer: 靴子和任何东西都不搭
+Difficulty: medium
+
+ID: 22d498a3-17b1-4915-a38c-fe53835ba640
+Question: 什么使得最后一条评论在对话中带有讽刺意味？
+Choices: 她不喜欢生日。,无论如何她都不会记得。,她年纪太大不适合参加聚会。,我们可以重新安排她的生日。
+Answer: 无论如何她都不会记得。
+Difficulty: medium
+
+ID: f9242c86-7183-47e9-aa95-26b453ce2bc1
+Question: 最后一句话中的什么表明了讽刺？
+Choices: 说话者喜欢被侮辱。说话者真的好奇。说话者对问候感到困惑。暗示问候通常是礼貌的。
+Answer: 暗示问候通常是礼貌的。
+Difficulty: medium
+
+ID: 6a908142-3150-4d8e-9704-8c987edfb0dc
+Question: 为什么最后一句话可以被理解为讽刺？
+Choices: 他们喜欢一起组装家具。，他们不认识乔伊和钱德勒。，他们不会过来。，对组装家具并不真正感到兴奋。
+Answer: 对组装家具并不真正感到兴奋。
+Difficulty: medium
+
+ID: 002ebba8-7aa4-445b-aab3-ed17e592cd30
+Question: 为什么最后一句话可以被解读为讽刺的？
+Choices: 称赞酷炫的老虎。对这个想法真正感兴趣。对琐碎话题过度表现兴奋。陈述一个事实。
+Answer: 对琐碎话题过度表现兴奋。
+Difficulty: medium
+
+ID: 2dffdf0a-5558-4b61-981c-9d62af91f251
+Question: 为什么对话中的最后一句话是一个讽刺的例子？
+Choices: 称赞Penny的烹饪技巧。表达对技术的热情。过于详细且不必要的建议。提供一个真诚的有帮助的解决方案。
+Answer: 过于详细且不必要的建议。
+Difficulty: medium
+
+ID: bde66a57-3413-4b5d-82e5-ffc5d33efc01
+Question: 为什么在这个语境中最后的陈述被认为是讽刺的？
+Choices: 严肃讨论实际的医疗状况，疾病预防措施的夸大，要求正常的点餐，赞扬餐厅的卫生。
+Answer: 疾病预防措施的夸大。
+Difficulty: medium
+
+ID: 1f4f577d-8e92-4725-99a5-20ffcf24ba36
+Question: 什么使得最后一条评论在对话中带有讽刺意味？
+Choices: 更喜欢按摩而不是药物治疗，隐含对亲密接触的不适，喜欢夸大身体疾病，喜欢和朋友开讽刺的玩笑。
+Answer: 隐含对亲密接触的不适。
+Difficulty: medium
+
+ID: 41bef14f-c5f8-4e36-9aa7-5a2edbd4b406
+Question: 是什么让最后一句话在对话中显得讽刺？
+Choices: 他没看到恶作剧。它是一次令人兴奋的经历。他其实很害怕。显然没有受到惊吓。
+Answer: 显然没有受到惊吓。
+Difficulty: medium
+
+ID: 014593c4-11b7-4d6b-9f8c-b14fccbceb42
+Question: 最后一句话中哪些内容表明了讽刺？
+Choices: 真的忘记了自己是谁。, 对揭露感到真正震惊。, 假装对记得前任感到惊讶。, 没有认出第二说话人。
+Answer: 假装对记得前任感到惊讶。
+Difficulty: medium
+
+ID: 094092a6-ae74-4d35-84c3-aeade18bf525
+Question: 解释最后一条评论如何传达讽刺意味。
+Choices: 暗示一种荒谬的改进，真诚地称赞这个想法，提及一种实际的可能性，表达真诚的关心。
+Answer: 暗示一种荒谬的改进。
+Difficulty: medium
+
+ID: 06f95aee-528e-4665-b718-ae876cc11b7c
+Question: 根据对话，是什么让最后一句话显得讽刺？
+Choices: 暗示她非常超重。；他真的用了叉车。；牙医讨厌情绪崩溃的人。；他是叉车操作员。
+Answer: 暗示她非常超重。
+Difficulty: medium
+
+ID: f7b818f0-75c2-4a25-9753-779f975f6252
+Question: 什么使得最后一条评论在对话中带有讽刺意味？
+Choices: 表达对活动的真诚兴奋，表明他们喜欢情人节，表现出结识新朋友的渴望，暗示他们不喜欢这个活动
+Answer: 暗示他们不喜欢这个活动
+Difficulty: medium
+
+ID: 8399f1ff-a7aa-40d0-a2de-b3e8af17ecfa
+Question: 最后的陈述以何种方式带有讽刺意味？
+Choices: 讽刺地驳斥补丁的有效性。表达真实的失望。赞扬补丁的实用性。承认补丁的高成本。
+Answer: 讽刺地驳斥补丁的有效性。
+Difficulty: medium
+
+ID: 7d857919-89a2-42ca-9cd8-bd75ad56a147
+Question: 以何种方式最终陈述是讽刺的？
+Choices: 纳尼亚是虚构的，不可能的主张，乳头有秘密力量，罗斯问了一个愚蠢的问题，第二位说话者相信纳尼亚。
+Answer: 纳尼亚是虚构的，不可能的主张。
+Difficulty: medium
+
+ID: 3151a7b8-a97d-4f3b-b7f2-a3bcc3d2a250
+Question: 为什么在这个语境中最后的陈述被认为是讽刺的？
+Choices: 滑稽地夸张她的鼻孔大小。他想转换话题。他实际上看到了她的大脑。他普遍讨厌大脑。
+Answer: 滑稽地夸张她的鼻孔大小。
+Difficulty: medium
+
+ID: 71b00c77-c045-4f34-803f-85352c5ca940
+Question: 对话中的最后一句话为什么是一个讽刺的例子？
+Choices: 厨师喜欢收到投诉。, 厨师期待赞美，而不是投诉。, 厨师不喜欢被打断对话。, 厨师总是有空闲时间。
+Answer: 厨师期待赞美，而不是投诉。
+Difficulty: medium
+
+ID: c9f57ab1-82d7-40c8-872c-8028218114cc
+Question: 解释最后一条评论是如何传达讽刺意味的。
+Choices: 抱怨订婚日，嘲笑听者的智力，暗示发生了奇迹，暗示怀孕的明显原因
+Answer: 暗示怀孕的明显原因
+Difficulty: medium
+
+ID: 672a3ea9-ddf8-4316-a220-9325ff02d0ec
+Question: 什么使得最后一条评论在对话中显得讽刺？
+Choices: 表示开始时的兴奋。,表示同意计划。,表示理解笑话。,表示没有取得进展。
+Answer: 表示没有取得进展。
+Difficulty: medium
+
+
+----------------------------------------
+Category: Event-Based Knowledge Retrieval
+Statistics: Total=33, Easy=0, Medium=0, Hard=33
+----------------------------------------
+
+ID: 12ea6970-e532-4549-80c7-353c7ae6ce8b
+Question: 演讲者提到的运动正在解决哪个问题？
+Choices: 气候变化和全球变暖。经济不平等和贫困。动物权利和野生动物保护。性骚扰和性侵犯。
+Answer: 性骚扰和性侵犯。
+Difficulty: hard
+
+ID: aba65a16-c0d0-42fe-b963-7f5f6143dbf0
+Question: 演讲者提到的事件发生在哪个州？
+Choices: 北卡罗来纳州，弗吉尼亚州，南卡罗来纳州，俄亥俄州
+Answer: 北卡罗来纳州
+Difficulty: hard
+
+ID: 18fd5726-f740-4727-ad12-74a010f381bf
+Question: 哪位考古学家因演讲者提到的发现而受到赞誉？
+Choices: John Pendlebury，Lord Carnarvon，Arthur Evans，Howard Carter
+Answer: Howard Carter
+Difficulty: hard
+
+ID: ed934345-29e0-4511-b12f-a66d160b9fd5
+Question: 说话人提到的事件是什么时候开始的？
+Choices: 十八世纪，十九世纪，二十世纪，二十一世纪
+Answer: 二十一世纪
+Difficulty: hard
+
+ID: fe2964fb-2aad-4a54-b82d-77e2b1f161d9
+Question: 哪一组对演讲者提到的事件负责？
+Choices: 红手，金环，铁拳，黑手
+Answer: 黑手
+Difficulty: hard
+
+ID: ea71891f-e931-41f9-a093-c3442c5683ed
+Question: 演讲者提到的条约是哪一年签订的？
+Choices: 一千九百一十九年、一千九百二十一年、一千九百一十八年、一千九百二十年
+Answer: 一千九百一十九年
+Difficulty: hard
+
+ID: e4db0e63-1b72-40ad-9b6d-c83887a21745
+Question: 说话者提到的公园位于哪个国家？
+Choices: 新西兰，美国，澳大利亚，加拿大
+Answer: 美国
+Difficulty: hard
+
+ID: 7ac5d87a-fe44-46d2-962d-22998eddecc4
+Question: 说话者提到的书的作者是谁？
+Choices: 马克·吐温，F. Scott Fitzgerald，Ernest Hemingway，J.D. Salinger
+Answer: J.D. Salinger
+Difficulty: hard
+
+ID: 38dbb2bf-62ca-4ecd-9ece-0618e060f6b3
+Question: 说话者提到的手术中移植了哪个器官？
+Choices: 心脏，肺，肾脏，肝脏
+Answer: 肾脏
+Difficulty: hard
+
+ID: 49795e51-3d67-4311-af46-3b3b46527c6e
+Question: 说话者提到的电影是在哪一年上映的？
+Choices: 一千九百二十九年，一千九百零八年，一千九百五十三年，一千九百四十五年
+Answer: 一千九百零八年
+Difficulty: hard
+
+ID: 7634ba47-3115-4b9c-b111-ec13f043dbf0
+Question: 描述的事件发生在哪个美国殖民地？
+Choices: 弗吉尼亚、纽约、宾夕法尼亚、马萨诸塞
+Answer: 马萨诸塞
+Difficulty: hard
+
+ID: c8c2df88-3c19-410e-9e05-fc4031cb8a67
+Question: 演讲者提到的事件发生在哪个美国城市？
+Choices: 达拉斯，洛杉矶，纽约，芝加哥
+Answer: 达拉斯
+Difficulty: hard
+
+ID: 9685984a-9330-45c8-8d90-5de8068b5861
+Question: 发言人所提到的协议是由哪两个国家签署的？
+Choices: 埃及和以色列，沙特阿拉伯和伊拉克，黎巴嫩和巴勒斯坦，约旦和叙利亚
+Answer: 埃及和以色列
+Difficulty: hard
+
+ID: f90bd163-fe58-4a18-bfdb-a75728c1fce8
+Question: 演讲者描述的事件涉及哪个管理机构？
+Choices: 罗马大会，罗马法庭，罗马执政官，罗马元老院
+Answer: 罗马元老院
+Difficulty: hard
+
+ID: 9b7323cf-9c01-46d3-893f-a7c95f319349
+Question: 说话人提到的事件发生前过去了多少年？
+Choices: 八十六年，六十四年，七十二年，九十三年
+Answer: 八十六年
+Difficulty: hard
+
+ID: f006b068-45b1-4bf6-9118-f03f5f67c7b9
+Question: 说话者描述的事件发生在哪个欧洲城市？
+Choices: 柏林，维也纳，巴黎，萨拉热窝
+Answer: 萨拉热窝
+Difficulty: hard
+
+ID: 2b6096e7-a66f-451f-886b-8210e362f84b
+Question: 运动员被说话者提到时，有多少个头衔被剥夺？
+Choices: 一、九、七、三。
+Answer: 一
+Difficulty: hard
+
+ID: 98f8b556-97cf-4619-9cd7-27d31ae71f4f
+Question: 说话者提到的物体是在哪一年被发现的？
+Choices: 一千九百四十五年，一千九百三十年，一千九百五十五年，一千九百二十年
+Answer: 一千九百三十年
+Difficulty: hard
+
+ID: 7e68bc7b-2ab8-48a9-88db-bcc7b2e0dd5e
+Question: 哪位总统因演讲者提到的事件被迫辞职？
+Choices: 约翰·F·肯尼迪、理查德·尼克松、林登·B·约翰逊、杰拉尔德·福特
+Answer: 理查德·尼克松
+Difficulty: hard
+
+ID: d4732336-0c48-4484-9d55-3230ab222f05
+Question: 演讲者提到的暗杀事件是谁负责的？
+Choices: 约翰·威尔克斯·布斯，李·哈维·奥斯瓦尔德，詹姆斯·厄尔·雷，希拉尼·希拉尼
+Answer: 希拉尼·希拉尼
+Difficulty: hard
+
+ID: ecff09e3-ce7e-4b0e-ad97-3933abd8181b
+Question: 说话者提到的事件发生在美国的哪个城市？
+Choices: 洛杉矶，纽约市，芝加哥，华盛顿特区。
+Answer: 洛杉矶
+Difficulty: hard
+
+ID: 86cd240d-a013-4033-8b8d-458c91221111
+Question: 演讲者提到的项目中，哪两个航天机构是主要合作伙伴？
+Choices: 美国国家航空航天局（NASA）和俄罗斯国家航天集团（Roscosmos），印度空间研究组织（ISRO）和阿拉伯联合酋长国航天局（UAESA），加拿大航天局（CSA）和中国国家航天局（CNSA），欧洲航天局（ESA）和日本宇宙航空研究开发机构（JAXA）
+Answer: 美国国家航空航天局（NASA）和俄罗斯国家航天集团（Roscosmos）
+Difficulty: hard
+
+ID: a21ff25d-39ee-4d64-a254-ca19a3707b39
+Question: 说话者提到的事件主要影响了哪个美国州？
+Choices: 内华达、加利福尼亚、俄勒冈、科罗拉多
+Answer: 加利福尼亚
+Difficulty: hard
+
+ID: cde380fe-1583-4bfb-b964-2f80f93e46b5
+Question: 哪位演讲者提到的哪个国家资助了航行？
+Choices: 西班牙，英格兰，葡萄牙，法国
+Answer: 西班牙
+Difficulty: hard
+
+ID: aa78bd82-3552-436d-af9e-e2145c95393e
+Question: 演讲者提到的纪念碑最初是在哪座城市建立的？
+Choices: 纽约，芝加哥，波士顿，费城
+Answer: 波士顿
+Difficulty: hard
+
+ID: d0fb55d9-5a83-4d8f-9927-b1c7edfd52a5
+Question: 哪位发明家通常与改进说话者提到的物品相关联？
+Choices: 托马斯·爱迪生，尼古拉·特斯拉，詹姆斯·瓦特，亚历山大·格雷厄姆·贝尔
+Answer: 詹姆斯·瓦特
+Difficulty: hard
+
+ID: afd137ca-c12d-457b-a219-977b6460153b
+Question: 说话者提到的物品的专利是在哪一年被授予的？
+Choices: 一千八百七十六年，一千八百八十年，一千八百七十四年，一千八百六十九年
+Answer: 一千八百七十六年
+Difficulty: hard
+
+ID: 4e96cbe1-bf9a-4b47-b5eb-63ff69cd97c2
+Question: 说话者提到的事件发生在哪一年？
+Choices: 一千九百九十，一千九百九十二，一千九百九十一，一千九百八十九
+Answer: 一千九百九十
+Difficulty: hard
+
+ID: cb8fb592-88ec-448f-9ba2-6983fb6d2d19
+Question: 哪种户外环境最能解释持续的风和分散的冲击的混合现象？
+Choices: 城市建筑工地，开阔的沿海悬崖，室内体育馆，繁忙的城市街道
+Answer: 开阔的沿海悬崖
+Difficulty: hard
+
+ID: 8d48495f-e545-43cc-9383-53fe6d438c61
+Question: 演讲者提到的对抗涉及哪些国家？
+Choices: 美国、苏联、墨西哥、美国、德国、古巴、英国、苏联、古巴、美国、苏联、古巴
+Answer: 美国、苏联、古巴
+Difficulty: hard
+
+ID: 78bf1c95-9ee4-4746-bb66-fe91ff299090
+Question: 哪种情况最可能促使说话者在录音期间采取行动？
+Choices: 由于天气原因宣布取消户外活动， 在阳光明媚的节日上发表演讲， 描述一个安静的室内场景， 在建筑物内报告消防演习
+Answer: 由于天气原因宣布取消户外活动
+Difficulty: hard
+
+ID: daa1f53f-4314-425b-b3ed-4780624f5e06
+Question: 演讲者提到的活动是在哪个城市举行的？
+Choices: 达拉斯，德克萨斯州，洛杉矶，加利福尼亚州，芝加哥，伊利诺伊州，纽约市，纽约州
+Answer: 达拉斯，德克萨斯州
+Difficulty: hard
+
+ID: 71f95ca1-a409-47b0-af02-80a272f776d5
+Question: 这个场景中涉及人们和庆祝活动，最可能发生的是什么？
+Choices: 一支运动队进球了，一群人正在安静地学习，汽车警报响了，雷雨即将来临
+Answer: 一支运动队进球了
+Difficulty: hard
+
+
+----------------------------------------
+Category: Counting
+Statistics: Total=29, Easy=0, Medium=29, Hard=0
+----------------------------------------
+
+ID: 2ac88129-1a51-41fd-8443-37dd4b070b05
+Question: 这次对话中有多少说话者？
+Choices: 一个，两个，四个，三个
+Answer: 四个
+Difficulty: medium
+
+ID: 97552c53-4daa-469b-aa0a-3198ba2a7722
+Question: 有多少人参与了这次交流？
+Choices: 五，两，四，六
+Answer: 两
+Difficulty: medium
+
+ID: 1a973e6b-0dc9-4d13-98f2-f9fbdceca521
+Question: 你能告诉我现在有多少人正在说话吗？
+Choices: 一、五、两、三
+Answer: 两
+Difficulty: medium
+
+ID: 59623fb5-f9db-45dc-bf1e-f72d477feaf8
+Question: 当前对话中有多少参与者？
+Choices: 五、六、三、二
+Answer: 三
+Difficulty: medium
+
+ID: bfdbc505-1851-43bd-986b-a2bbef472f81
+Question: 你能告诉我现在有多少人正在说话吗？
+Choices: 四，一，六，三
+Answer: 三
+Difficulty: medium
+
+ID: 208630bc-e6e9-46f4-961b-b07c8bec88af
+Question: 有多少人正在参加这个谈话？
+Choices: 两个，一个，六个，三个
+Answer: 两个
+Difficulty: medium
+
+ID: a70b5358-7c03-4a84-a6a9-a11c0a64c2e3
+Question: 你能告诉我现在有多少人正在说话吗？
+Choices: 六，四，五，二
+Answer: 五
+Difficulty: medium
+
+ID: f5cb56e8-45ac-49c3-897d-d3929748356e
+Question: 有多少参与者参与了讨论？
+Choices: 二、六、四、一
+Answer: 二
+Difficulty: medium
+
+ID: 25941a11-499f-420c-a65c-26417a8378b4
+Question: 这次互动中有多少说话者？
+Choices: 三个，四个，六个，两个
+Answer: 两个
+Difficulty: medium
+
+ID: 5c793ad0-ee27-4cd3-b311-1509fe746962
+Question: 有多少人参与这个交流？
+Choices: 一，六，二，三
+Answer: 三
+Difficulty: medium
+
+ID: f438d934-6156-40c1-9767-9cb4d86a8bae
+Question: 这次互动中有多少说话者？
+Choices: 一、五、三、二
+Answer: 二
+Difficulty: medium
+
+ID: 4358b7c2-8a7d-4b8b-8495-1fc7e031ebec
+Question: 有多少人参加这次谈话？
+Choices: 四、二、三、六
+Answer: 四
+Difficulty: medium
+
+ID: e9b4c113-f854-40ad-8df1-4548456149fb
+Question: 讨论中有多少不同的说话者？
+Choices: 三个，四个，两个，五个
+Answer: 两个
+Difficulty: medium
+
+ID: dbd4b69c-fb56-4f42-89a7-622a5ad83f07
+Question: 有多少人参与了这个对话？
+Choices: 三个，五个，四个，两个
+Answer: 五个
+Difficulty: medium
+
+ID: c840f9cc-8b26-4f0b-b8a8-1a2b5e12301a
+Question: 有多少人正在参加这个谈话？
+Choices: 一，五，六，二
+Answer: 二
+Difficulty: medium
+
+ID: f1000146-fbae-4522-8dec-0ed38f86f920
+Question: 你能告诉我现在有多少人正在说话吗？
+Choices: 六，三，二，一
+Answer: 三
+Difficulty: medium
+
+ID: ee8132fc-6b3f-4e8f-8b1f-79e10420cbcd
+Question: 有多少人参与了这个对话？
+Choices: 一、四、六、二
+Answer: 四
+Difficulty: medium
+
+ID: 1ee237cc-3520-4e79-9644-195a5abc8581
+Question: 有多少人参与了这次交流？
+Choices: 三个，五个，两个，一个
+Answer: 两个
+Difficulty: medium
+
+ID: 3bb27627-0763-4a7f-99c7-5e4c88f85979
+Question: 有多少人正在参加这个谈话？
+Choices: 两个，四个，一个，三个
+Answer: 两个
+Difficulty: medium
+
+ID: 648952d2-3bca-4617-b250-f805833e26f8
+Question: 当前对话中有多少参与者？
+Choices: 四、三、二、六
+Answer: 三
+Difficulty: medium
+
+ID: 2b1577a0-7980-4a66-8491-6748181bd636
+Question: 讨论中有多少个不同的说话者？
+Choices: 两个，四个，三个，五个
+Answer: 三个
+Difficulty: medium
+
+ID: c1e78721-e1ec-4cb8-9a09-4cc95747b587
+Question: 你能告诉我现在有多少人正在说话吗？
+Choices: 三个、六个、五个、两个
+Answer: 三个
+Difficulty: medium
+
+ID: 8d0b0306-d8d8-4236-9065-2c43ef907ef0
+Question: 讨论中有多少位不同的说话人？
+Choices: 五、三、二、一
+Answer: 三
+Difficulty: medium
+
+ID: 832c3bd5-97b3-4f93-8fe6-e7368657a210
+Question: 这次对话中有多少贡献者是活跃的？
+Choices: 六，四，一，二
+Answer: 二
+Difficulty: medium
+
+ID: c73e9517-e97d-48f7-832e-41809313bf89
+Question: 有多少贡献者正在参与这个对话？
+Choices: 二、六、三、五
+Answer: 三
+Difficulty: medium
+
+ID: fb032686-26ff-4130-b419-9b3e55ceba11
+Question: 有多少参与者参与了讨论？
+Choices: 五、一、六、二
+Answer: 二
+Difficulty: medium
+
+ID: 1b3edeac-e7c4-439b-98b4-23776c6f7f54
+Question: 有多少人正在参加这个谈话？
+Choices: 六、一、三、五
+Answer: 一
+Difficulty: medium
+
+ID: 107d1b67-4743-4905-adaf-24e23de3cb16
+Question: 有多少参与者参与了讨论？
+Choices: 一、三、四、二
+Answer: 三
+Difficulty: medium
+
+ID: a8c17404-365a-4ee8-831c-23d911c80bbf
+Question: 有多少参与者参与了讨论？
+Choices: 四、一、二、六
+Answer: 二
+Difficulty: medium
+
+
+----------------------------------------
+Category: Phonemic Stress Pattern Analysis
+Statistics: Total=53, Easy=32, Medium=1, Hard=20
+----------------------------------------
+
+ID: 7121aef9-0ed1-432e-87b7-22d401526247
+Question: 从给定的句子中，识别出一对包含至少一个重读音素的词
+Choices: 婚姻，社会的，两个，小时，一个，最远的，流行，文化
+Answer: 流行，文化
+Difficulty: hard
+
+ID: f995bc92-74f6-4e69-94b8-bf6e073fa19f
+Question: 从给定的语句中，计算包含至少一个重读音素的单词数量
+Choices: 五，十六，十七，六
+Answer: 六
+Difficulty: easy
+
+ID: cd086b12-e6a1-460c-ace1-357e68d92eb2
+Question: 从给定的语句中，计算包含至少一个非重读音位的单词数量
+Choices: 十，十三，九，五
+Answer: 五
+Difficulty: easy
+
+ID: 81379226-06d1-4a9c-90fe-b7d0e28c334f
+Question: 从给定的语句中，计算包含至少一个重音音素的单词数量
+Choices: 零、九、六、七
+Answer: 七
+Difficulty: easy
+
+ID: 8b092633-c60c-4d2e-820e-4c92bb650db9
+Question: 根据所给话语，找出一对单词，其中一个包含重读音素，另一个包含发音相近的非重读音素。
+Choices: Riz,injury, live,like, Jack,taxes, races,make
+Answer: live,like
+Difficulty: hard
+
+ID: a2684a06-6eca-4aa8-8fdf-aa8f063e5492
+Question: 根据所给话语，找出一对单词，其中一个包含重读音素，另一个包含发音相近的非重读音素。
+Choices: dispaced,Inferno, engagement,from, live,in, he's,Bashi
+Answer: live,in
+Difficulty: hard
+
+ID: ab0450fb-ac8c-4303-aecd-5e5b10f41c2d
+Question: 从给定的语句中，计算包含至少一个非重读音素的单词数量
+Choices: 四，十九，十五，一
+Answer: 十五
+Difficulty: easy
+
+ID: d950c770-3c41-4795-882e-a0ad39e45a7f
+Question: 从给定的语句中，识别出一对词，其中一个是包含重读音素的词，另一个是包含非重读版本的类似发音音素的词
+Choices: undercover，Lopez，If，wife，一千，九百七十，lost，family，philanthropic
+Answer: family，philanthropic
+Difficulty: hard
+
+ID: 04f3811d-80cb-419b-9a9f-c6fc1dca1d31
+Question: 从给定的语句中，计算包含至少一个重读音素的单词数量
+Choices: 二，十四，三十，十九
+Answer: 三十
+Difficulty: easy
+
+ID: 8fe62fe4-01ad-417a-8a0e-4f986b856308
+Question: 从给定的语句中，识别出一对词，其中一个包含重读音素，另一个包含发音相似的非重读音素版本
+Choices: weight，cutting，ended，policies，Delbert，Bird，project，particularly
+Answer: project，particularly
+Difficulty: hard
+
+ID: dd249c7f-9b01-4114-a7a8-c7d0f4a1ed19
+Question: 从给定的句子中，统计包含至少一个非重读音素的单词数量
+Choices: 四、九、十四、十四
+Answer: 九
+Difficulty: easy
+
+ID: b1706b12-cd87-448f-b2e4-94a3e6712141
+Question: 从给定的语句中，识别出一对单词，其中一个是包含重读音素的单词，另一个是包含相似发音但非重读音素的单词
+Choices: 十，杀死，拿，更少，摇头娃娃，严重地，漫画，轰炸
+Answer: 漫画，轰炸
+Difficulty: hard
+
+ID: d1f3a142-682c-46ca-876a-293be9afb88b
+Question: 从给定的语句中，计算包含至少一个重音音素的单词数量
+Choices: 二，六，四，十八
+Answer: 六
+Difficulty: easy
+
+ID: fec3402e-7883-45c0-90d4-38647f615dc3
+Question: 从给定的语句中，找出一对词，其中一个是包含重读音素的词，另一个是包含类似发音的非重读音素的词
+Choices: 然后，课程，说，真的，游戏，你，握住，大学
+Answer: 说，真的
+Difficulty: hard
+
+ID: d789c9cd-bd32-4610-9a97-f4ab83959375
+Question: 从给定的句子中，计算包含至少一个非重读音素的单词数量
+Choices: 三，二十，十三，七
+Answer: 二十
+Difficulty: easy
+
+ID: c15ad761-0973-4d57-97f2-6709ad637548
+Question: 从给定的句子中，计算包含至少一个非重读音位的单词数量
+Choices: 十二，一，十八，九
+Answer: 九
+Difficulty: easy
+
+ID: e846f89b-ce17-475f-9e8a-a7d80a877857
+Question: 从给定的语句中，识别出一对词，其中一个包含重读音素，另一个包含相似发音的非重读音素
+Choices: 有趣的，成长的，的，一，指导的，变得，踏出的，关闭的
+Answer: 的，一
+Difficulty: hard
+
+ID: b96baa27-d2d2-4fed-942c-447ba1e0463a
+Question: 从给定的句子中，计算包含至少一个非重读音素的单词数量
+Choices: 十八，八，十二，十四
+Answer: 八
+Difficulty: easy
+
+ID: be91d038-3a5e-4334-b264-5c3870b1e59c
+Question: 在给定的语句中，计算包含至少一个重音音素的单词数量
+Choices: 三，三十二，十五，十一
+Answer: 三十二
+Difficulty: easy
+
+ID: bc9a6036-2011-42af-bd0f-f1a62a69823a
+Question: 从给定的语句中，计算包含至少一个重音音素的单词数量
+Choices: 二十，十六，十四，二
+Answer: 二十
+Difficulty: easy
+
+ID: 855e33dd-c689-4ea5-9567-1df40e0ab7c4
+Question: 从给定的句子中，识别出一对单词，其中一个是包含重读音素的单词，另一个是包含相似发音但非重读音素的单词
+Choices: 看见，握住，撕开，年份，辉煌的，分钟，发生，疲倦的
+Answer: 发生，疲倦的
+Difficulty: hard
+
+ID: dbad5f70-5533-4357-8bc1-f95b208f536c
+Question: 从给定的话语中，计算包含至少一个重读音素的单词数量
+Choices: 十二、十一、五、六
+Answer: 十二
+Difficulty: easy
+
+ID: ab53be54-3300-4964-b943-82feae51d6cd
+Question: 根据所给话语，找出一对单词，其中一个包含重读音素，另一个包含发音相近的非重读音素
+Choices: sexual,point, followed,safe, always,bus, she, the
+Answer: she, the
+Difficulty: hard
+
+ID: d9d7f111-da32-47cb-baa0-fd5ba4e4bca1
+Question: 统计包含至少一个非重读音素的单词数量
+Choices: 八、四、十三、九
+Answer: 八
+Difficulty: easy
+
+ID: b9655f21-1124-42f1-be76-76d5d04051ef
+Question: 统计包含至少一个重读音素的单词数量
+Choices: 二十，十，四十九，十七
+Answer: 四十九
+Difficulty: easy
+
+ID: 71a3ee2e-8367-4940-a173-8e38c3a5236c
+Question: 从给定的语句中，计算包含至少一个非重读音素的单词数量
+Choices: 十、二、三、零
+Answer: 十
+Difficulty: easy
+
+ID: a7ae8690-6394-4d8c-9567-9dd399fe7531
+Question: 从给定的句子中，识别出一对词，其中一个包含重读音素，另一个包含类似发音的非重读音素版本
+Choices: 犹太人，像，可见性，提供，公共，和，背景，制作
+Answer: 公共，和
+Difficulty: hard
+
+ID: 972387bf-ab0f-4461-8086-d45332eaa487
+Question: 从给定的语句中，计算包含至少一个非重读音素的单词数量
+Choices: 一，十，十五，十五
+Answer: 十
+Difficulty: easy
+
+ID: 9419fc2c-1acb-4bdf-8e0f-6ccb7ff029e3
+Question: 从给定的语句中，计算包含至少一个重读音素的单词数量
+Choices: 七，九，十，十五
+Answer: 七
+Difficulty: easy
+
+ID: 87c3c985-3a3b-475f-8ded-458b64c0ad82
+Question: 从给定的语句中，识别出一对词，其中一个包含重读音素，另一个包含非重读的类似发音音素
+Choices: 州，不成比例地，限制，到，发生，撒克逊，猜测，州
+Answer: 限制，到
+Difficulty: hard
+
+ID: b70acae1-3bf0-4367-9294-aac1d14a5303
+Question: 根据给定的语句，计算包含至少一个非重读音素的单词数量
+Choices: 六，十二，八，十一
+Answer: 八
+Difficulty: easy
+
+ID: 1e451b5e-a8fb-4d7a-84ef-8314dfdec076
+Question: 从给定的句子中，识别出一对词，其中一个包含重读音素，另一个包含发音相似的非重读音素版本
+Choices: 安静，团队，小，可能性，凯瑟琳，救援，图片，女儿
+Answer: 小，可能性
+Difficulty: hard
+
+ID: 48780513-ea63-4c6a-95ce-f02413b467b9
+Question: 从给定的句子中，识别出一对词，其中一个包含重读音素，另一个包含非重读的类似发音音素
+Choices: 负担，大量，Panoriti，一千，九百七十，种类，具有挑战性的，发送，憎恨的
+Answer: 种类，具有挑战性的
+Difficulty: hard
+
+ID: 85ca4722-71ec-47dd-b3e2-8337d376a513
+Question: 从给定的句子中，找出一对词，其中一个包含重读音素，另一个包含非重读的类似发音音素
+Choices: reverted，screens，empty，Nye，was，panel，was，a
+Answer: was，a
+Difficulty: hard
+
+ID: 16964657-d35e-426a-8c3e-6aac228a2577
+Question: 从给定的语句中，计算包含至少一个非重读音素的单词数量
+Choices: 十三，二十，十三，五
+Answer: 十三
+Difficulty: easy
+
+ID: 873aae70-0d9d-4449-b92e-da93c8d16932
+Question: 从给定的句子中，计算包含至少一个重读音素的单词数量
+Choices: 七，三十，十五，十一
+Answer: 三十
+Difficulty: easy
+
+ID: a0dfb542-d77d-4303-bd11-34f20167a1e1
+Question: 从给定的语句中，识别出一对词，其中一个包含重读音素，另一个包含相似发音的非重读音素版本
+Choices: How，grass，been，before，wants，Syfy's，writer，hard
+Answer: been，before
+Difficulty: hard
+
+ID: 16faf4a0-4fa0-40f2-9e11-fd199684c9a0
+Question: 从给定的语句中，识别出一对词，其中一个包含重读音素，另一个包含发音相似的非重读音素版本
+Choices: 那是，a，在...后面，与，质量，抱歉，导演们，展示
+Answer: 那是，a
+Difficulty: hard
+
+ID: 760e99b1-09aa-479b-b90d-c3c581076e0d
+Question: 从给定的语句中，识别出一对词语，其中一个是包含重读音素的词语，另一个是包含相似发音但非重读音素的词语
+Choices: miles,acted, 娱乐的, 讲述的, great, fourteen, William, mobilization
+Answer: 娱乐的, 讲述的
+Difficulty: hard
+
+ID: e3254a02-d2eb-45b1-a810-eaf6998498bc
+Question: 从给定的语句中，计算包含至少一个非重读音素的单词数量
+Choices: 六、十六、十四、九
+Answer: 九
+Difficulty: easy
+
+ID: 30543d55-69f5-4b07-8f48-819aac8517d8
+Question: 从给定的句子中，计算包含至少一个非重读音素的单词数量
+Choices: 六、九、八、十
+Answer: 九
+Difficulty: easy
+
+ID: f0f54802-6c0a-4313-bfbe-51923e0b05af
+Question: 从给定的语句中，识别出一对词，其中一个是包含重读音素的词，另一个是包含相似发音但非重读音素的词。
+Choices: 非常，看，称为，不，伊拉克，独立的，伊芙，漏斗
+Answer: 非常，看
+Difficulty: hard
+
+ID: 1b9e32b8-cf8e-42d6-bc08-292ad5857d67
+Question: 根据给定的句子，统计包含至少一个非重读音素的单词数量
+Choices: 一、十、九、十五
+Answer: 九
+Difficulty: easy
+
+ID: 5248f4c4-03dc-40fe-9c66-1916f2ccb472
+Question: 从给定的语句中，计算包含至少一个重读音素的单词数量
+Choices: 二十二，七，八，八
+Answer: 二十二
+Difficulty: easy
+
+ID: 2a5d8660-2043-4d40-87ed-9d79d4468c75
+Question: 根据给定的句子，统计包含至少一个非重读音素的单词数量。
+Choices: 十一，十七，十三，十六
+Answer: 十一
+Difficulty: easy
+
+ID: 27e5a06f-564c-4855-a29f-4a23f7b64ff6
+Question: 从给定的句子中，统计包含至少一个重音音素的单词数量
+Choices: 三，九，十五，十三
+Answer: 九
+Difficulty: easy
+
+ID: 2d861e76-cb19-4178-8eaa-137c892a5d84
+Question: 从给定的句子中识别一个包含非重读音素的单词
+Choices: 二十一，伯曼的，说，一个
+Answer: 一个
+Difficulty: medium
+
+ID: ac85ba57-edc0-4ccb-aa61-ce50f4af7650
+Question: 从给定的语句中，计算包含至少一个非重读音素的单词数量
+Choices: 零，十五，十，十四
+Answer: 十
+Difficulty: easy
+
+ID: a3af9286-2cf5-40fe-87d0-a74da303330e
+Question: 从给定的语句中，计算包含至少一个重读音素的单词数量
+Choices: 二十，二十三，十八，十三
+Answer: 二十三
+Difficulty: easy
+
+ID: 8d99e9aa-2034-42c9-9c23-6adbf10759a1
+Question: 从给定的语句中，计算包含至少一个重读音素的单词数量。
+Choices: 十七，二，十二，零
+Answer: 十七
+Difficulty: easy
+
+ID: 3dd9c636-67bd-401d-9b4a-712719b18398
+Question: 从给定的句子中，计算包含至少一个非重读音位的单词数量
+Choices: 十四，十三，八，七
+Answer: 八
+Difficulty: easy
+
+ID: 9e96587b-7aad-4f9f-8dd7-3d36a9a507bf
+Question: 从给定的语句中，识别出一对词，其中一个是包含重读音素的词，另一个是包含相似发音但非重读音素的词
+Choices: 关系，成长的，现实的，苏格兰，这些，Denhoff，Apna，人们
+Answer: 关系，成长的
+Difficulty: hard
+
+ID: a9ce0e80-f522-4bfa-8737-26ec183d6287
+Question: 从给定的语句中，计算包含至少一个重读音素的单词数量
+Choices: 四十二，十三，十六，十
+Answer: 四十二
+Difficulty: easy
+
+
+----------------------------------------
+Category: Emotion State summarisation
+Statistics: Total=44, Easy=0, Medium=0, Hard=44
+----------------------------------------
+
+ID: e3c6ba04-1aca-4511-9d88-d26107ca98d7
+Question: 确定对话中每个说话者的情绪。
+Choices: 第五和第二分别表现出悲伤和愤怒。第一和第二分别表现出恐惧和中性。第一和第三分别表现出恐惧和悲伤。第三和第四分别表现出悲伤和惊讶。
+Answer: 第一和第三分别表现出恐惧和悲伤。
+Difficulty: hard
+
+ID: 6daf1dda-fdac-44fc-bcea-a8d8ae5366af
+Question: 识别对话中每个说话者的情绪。
+Choices: 所有说话者都表现出混合情绪，所有说话者都表现出中性情绪，第一个说话者表现出悲伤，其他表现出中性，第一个说话者表现出中性和快乐，其他表现出中性。
+Answer: 第一个说话者表现出中性和快乐，其他表现出中性。
+Difficulty: hard
+
+ID: e5babee5-f882-4363-b820-58b1af41c028
+Question: 请识别每位说话者的情绪。
+Choices: 第一位说话者表现出悲伤，第二位说话者表现出快乐。第一位说话者始终保持中立，第二位说话者始终表现出喜悦。两位说话者始终保持中立。第一位说话者表现出惊讶和喜悦，第二位说话者表现出中立和喜悦。
+Answer: 第一位说话者表现出惊讶和喜悦，第二位说话者表现出中立和喜悦。
+Difficulty: hard
+
+ID: b21e5657-6d60-4acc-9b63-40a460a049be
+Question: 识别对话中每位说话者的情绪
+Choices: 两位说话者在整个对话中都表现出悲伤，两位说话者在整个对话中都表现出中性情绪，第一位说话者表现出愤怒，第一位说话者表现出快乐，第二位说话者表现出悲伤
+Answer: 第一位说话者表现出愤怒
+Difficulty: hard
+
+ID: bb691833-72f0-415c-b222-e25dcdb7dd67
+Question: 识别对话中每位说话人的情绪
+Choices: 第一个是高兴，第二个是中性，第三个是生气，第四个是悲伤；第一个是中性，第二个是高兴，第三个是悲伤，第四个是沮丧；第一个显示中性和惊讶，其余显示中性；第一个显示恐惧和愤怒，第二个是中性和愤怒，第三个是中性，第四个是喜悦和中性
+Answer: 第一个显示中性和惊讶，其余显示中性
+Difficulty: hard
+
+ID: 603dfbf0-e0c5-4c13-b809-b0dc0eb03752
+Question: 确定每位说话人的情绪。
+Choices: 第三位说话人表现出中性和喜悦，第一位说话人表现出悲伤、中性和喜悦；其他为中性，第一位和第二位说话人表现出喜悦，其他为中性，第三位和第四位说话人表现出喜悦，其他为中性
+Answer: 第三位说话人表现出中性和喜悦
+Difficulty: hard
+
+ID: 13cd0db2-cb58-4141-886c-398f59a874cd
+Question: 确定对话中每个说话者的情绪
+Choices: 第一个说话者表现出喜悦和中性，第二个说话者表现出喜悦和中性。第一个说话者表现出恐惧和喜悦，第二个说话者表现出中性。第一个和第二个说话者在整个对话中保持中性。第一个和第二个说话者分别表现出喜悦和中性。
+Answer: 第一个说话者表现出喜悦和中性，第二个说话者表现出喜悦和中性。
+Difficulty: hard
+
+ID: 20cf7678-509c-41fc-9d1c-4a1f000513ee
+Question: 请识别每位说话者的情绪。
+Choices: 第一位说话者全程表现出喜悦；第二位说话者表现出愤怒。第一位说话者表现出厌恶、愤怒和喜悦；第二位说话者表现出愤怒。第一位说话者仅表现出愤怒；第二位说话者表现出厌恶。第一位和第二位说话者都表现出厌恶。
+Answer: 第一位说话者表现出厌恶、愤怒和喜悦；第二位说话者表现出愤怒。
+Difficulty: hard
+
+ID: 004fd9c5-1f2b-4c16-939b-4c75e39c84ba
+Question: 确定对话中每个说话人的情绪。
+Choices: 第一个说话人表现出惊讶和喜悦，第二个说话人表现出悲伤。第一个说话人表现出悲伤和喜悦，第二个说话人表现出惊讶和悲伤。第一个说话人表现出悲伤和中性，第二个说话人表现出喜悦。第一和第二说话人在整个对话中保持中性。
+Answer: 第一个说话人表现出悲伤和喜悦，第二个说话人表现出惊讶和悲伤。
+Difficulty: hard
+
+ID: 3c22a476-7117-432b-890b-b8ebc53b35b0
+Question: 识别每位说话人的情绪。
+Choices: 第一位说话人表现出喜悦和中性，第二位说话人表现出喜悦和中性。两位说话人在整个对话中都表现出中性。第一位说话人表现出中性，第二位说话人在整个对话中表现出喜悦。第一位和第二位说话人分别表现出喜悦和中性。
+Answer: 第一位说话人表现出喜悦和中性，第二位说话人表现出喜悦和中性。
+Difficulty: hard
+
+ID: 12ac8911-0751-4ce3-a1d4-9f9879fe3cff
+Question: 识别对话中每个说话者的情绪
+Choices: 第一位说话者表现出愤怒，其余人表现出惊讶，第一位说话者表现出惊讶，第二位说话者表现出愤怒，第三位说话者表现出中性，第四位说话者表现出恐惧，第五位说话者表现出厌恶。所有说话者在整个对话中都表现出惊讶。第一位说话者表现出厌恶，第二位说话者表现出中性，第三位说话者表现出愤怒，第四位说话者表现出快乐，第五位说话者表现出悲伤。
+Answer: 第一位说话者表现出愤怒，其余人表现出惊讶
+Difficulty: hard
+
+ID: 463cd0e0-cb9a-4b12-833e-c727adf7708c
+Question: 识别对话中每位说话者的情绪
+Choices: 第一位说话者在整个对话中表现出悲伤，第二位说话者表现出快乐；第一位说话者表现出快乐和悲伤，而第二位说话者在整个对话中保持中性；第一位和第二位说话者在整个对话中保持中性；第一位和第二位说话者在整个对话中分别表现出中性和悲伤。
+Answer: 第一位和第二位说话者在整个对话中分别表现出中性和悲伤。
+Difficulty: hard
+
+ID: e32b702b-b49b-483f-8d8d-f5238edbf7e2
+Question: 请识别每位说话者的情绪。
+Choices: 第一位说话者表现出惊讶和喜悦，第二位说话者表现出中性情绪，所有说话者全程表现出中性情绪。第一位说话者表现出愤怒，第三位说话者表现出厌恶。第一位和第二位说话者分别表现出中性和愤怒。
+Answer: 第一位说话者表现出惊讶和喜悦，第二位说话者表现出中性情绪
+Difficulty: hard
+
+ID: 660ec87b-c30a-4f38-a6b6-eac2beb8589d
+Question: 请识别每位说话者的情绪。
+Choices: 第一位说话者表现出悲伤，其余说话者表现出中性，第一位说话者表现出快乐和悲伤，第二位说话者保持中性。第一位说话者表现出愤怒和惊讶，第二位说话者表现出愤怒和中性。两位说话者在整个对话中保持中性。
+Answer: 第一位说话者表现出悲伤，其余说话者表现出中性
+Difficulty: hard
+
+ID: 40c9c875-1922-4e1e-adc9-076432418a02
+Question: 确定每位说话者的情绪。
+Choices: first: 中性，second: 挫败感，first: 挫败感，second: 中性，first: 高兴，second: 悲伤，both 中性
+Answer: first: 中性，second: 挫败感
+Difficulty: hard
+
+ID: 7a771394-3d0d-4e49-b828-63cae297ccda
+Question: 请识别每位说话者的情绪。
+Choices: 两位说话者在整个对话中都表现出悲伤。第一位说话者表现出悲伤，第二位说话者表现出中性和悲伤。第一位说话者表现出中性，第二位说话者表现出中性。第一位说话者表现出快乐，第二位说话者表现出悲伤。
+Answer: 第一位说话者表现出悲伤，第二位说话者表现出中性和悲伤。
+Difficulty: hard
+
+ID: c9af67f1-bc34-4afb-86b9-889ae2743be9
+Question: 确定对话中每位说话者的情绪。
+Choices: 第一位说话者表现出高兴，第二位说话者表现出沮丧。第一位说话者表现出悲伤，第二位说话者表现出高兴。第一位说话者表现出沮丧，第二位说话者表现出悲伤。第一位和第二位说话者在整个对话中都表现出沮丧。
+Answer: 第一位和第二位说话者在整个对话中都表现出沮丧。
+Difficulty: hard
+
+ID: a718dccd-d1c6-465d-a659-c398fabed86d
+Question: 请识别每位说话人的情绪。
+Choices: 第一位说话人表现出高兴，第二位说话人感到悲伤。, 两位说话人都始终保持中立。, 两位说话人都始终保持高兴。, 第一位说话人保持中立，第二位说话人保持中立并感到沮丧。
+Answer: 第一位说话人保持中立，第二位说话人保持中立并感到沮丧。
+Difficulty: hard
+
+ID: 7722117e-32fc-4786-813a-3a5666e449e0
+Question: 请识别每位说话者的情绪。
+Choices: 第一位和第二位说话者在整个过程中保持中立。第一位说话者表现出悲伤，第二位说话者表现出快乐。第一位说话者表现出快乐，第二位说话者表现出悲伤。第一位和第二位说话者分别表现出沮丧和中立。
+Answer: 第一位和第二位说话者分别表现出沮丧和中立。
+Difficulty: hard
+
+ID: 94588e32-db48-45b7-af24-b50f26bdc6cd
+Question: 识别对话中每位说话者的情绪
+Choices: 第一位说话者在整个对话中表现出沮丧，第二位说话者表现出快乐。第一位说话者表现出悲伤和中性情绪，第二位说话者在整个对话中保持中性。第一位说话者表现出快乐和中性情绪，第二位说话者在整个对话中表现出悲伤。第一位和第二位说话者在整个对话中保持中性。
+Answer: 第一位说话者表现出悲伤和中性情绪，第二位说话者在整个对话中保持中性。
+Difficulty: hard
+
+ID: 5b453322-b158-4b9a-9989-45fbeadde270
+Question: 识别参与对话的每位说话者的情绪
+Choices: 第一位和第二位说话者在整个对话中保持中性。第一位和第二位说话者分别在整个对话中表现出中性和惊讶。第一位说话者在整个对话中表现出愤怒，第二位说话者保持中性。第一位说话者表现出中性和愤怒，而第二位说话者保持中性和惊讶。第一位说话者表现出中性和愤怒，而第二位说话者保持中性和惊讶。
+Answer: 第一位说话者表现出中性和愤怒，而第二位说话者保持中性和惊讶。
+Difficulty: hard
+
+ID: 9de3c090-27e0-4b4b-9e58-d8549460d664
+Question: 确定每位说话人的情绪。
+Choices: 第一位说话人中性，第二位悲伤，第一位和第二位说话人中性，第一位说话人高兴，第二位中性，两位说话人都悲伤，第一位和第二位说话人中性。
+Answer: 第一位和第二位说话人中性。
+Difficulty: hard
+
+ID: f430c276-05dc-4ff1-8227-c44cc4ce429e
+Question: 识别对话中说话人的情绪
+Choices: 第一位说话人表现出喜悦，第二位说话人表现出中性，第一位和第二位说话人在整个对话中保持中性，第一位和第二位说话人分别在整个对话中表现出中性和喜悦，第一位和第二位说话人分别在整个对话中表现出中性和愤怒，第一位说话人表现出喜悦，第二位说话人表现出悲伤。
+Answer: 第一位说话人表现出喜悦，第二位说话人表现出中性
+Difficulty: hard
+
+ID: 1bc97ba7-d567-4218-be11-4f281306c5fb
+Question: 识别说话者的情绪。
+Choices: 第一和第二说话者表现出悲伤和中性，第三说话者表现出喜悦和愤怒；第一和第二说话者始终表现出中性，第三说话者表现出喜悦和愤怒；第一说话者表现出愤怒，第二说话者表现出悲伤，第三说话者表现出中性；第一说话者表现出悲伤和惊讶，第二说话者表现出中性和愤怒，第三说话者表现出喜悦和愤怒；第一说话者表现出喜悦，第二说话者表现出悲伤，第三说话者表现出喜悦
+Answer: 第一和第二说话者表现出悲伤和中性，第三说话者表现出喜悦和愤怒
+Difficulty: hard
+
+ID: faa5e92a-8de6-49e1-b72e-bd4defebd794
+Question: 确定参与对话的每位说话者的情绪
+Choices: 第一位和第二位说话者在整个对话中保持中立。第一位和第二位说话者在整个对话中分别表现出愤怒和混合情绪。第一位说话者在整个对话中表现出悲伤，第二位说话者表现出快乐。第一位和第二位说话者在整个对话中分别表现出愤怒和混合情绪。两位说话者在整个对话中都表现出喜悦。
+Answer: 第一位和第二位说话者在整个对话中分别表现出愤怒和混合情绪。
+Difficulty: hard
+
+ID: af7e9a6f-654a-4869-a781-245a103ce773
+Question: 请识别对话中每位说话者的情绪。
+Choices: 第一位和第二位说话者分别表现出中性情绪和喜悦。第一位说话者表现出喜悦，第二位说话者保持中性情绪。第一位和第二位说话者分别表现出中性情绪和喜悦。两位说话者在整个对话中都表现出中性情绪。第一位说话者表现出悲伤，第二位说话者表现出喜悦。
+Answer: 第一位和第二位说话者分别表现出中性情绪和喜悦。
+Difficulty: hard
+
+ID: 35330c05-c50f-4f30-80b1-263c61357866
+Question: 识别说话者的情绪。
+Choices: 第一个表现出愤怒和喜悦；第二个表现出愤怒、中性，和喜悦。 第一个表现出愤怒；第二个表现出愤怒、中性，和喜悦。 第一个表现出喜悦；第二个表现出悲伤。 两个说话者都表现出悲伤。 两个说话者都保持中性。
+Answer: 第一个表现出愤怒；第二个表现出愤怒、中性，和喜悦。
+Difficulty: hard
+
+ID: a4643815-8b38-4b89-8a19-b8e068e209ba
+Question: 识别说话者的情绪。
+Choices: 第一位说话者表现出快乐，第二位说话者表现出悲伤。第一位说话者表现出愤怒，第二位说话者在整个对话中表现出愤怒。第一位说话者表现出中性，第二位说话者表现出愤怒和悲伤。第一位和第二位说话者分别表现出中性和愤怒。第一位说话者表现出惊讶，第二位说话者表现出愤怒和悲伤。
+Answer: 第一位说话者表现出中性，第二位说话者表现出愤怒和悲伤。
+Difficulty: hard
+
+ID: e550a355-2aba-4d47-ad82-dbf811781848
+Question: 确定每位说话者的情绪。
+Choices: 第一位说话者表现出喜悦和愤怒，而第二位说话者在整个对话中保持中性，第一位说话者表现出中性和喜悦，而第二位说话者表现出中性和愤怒，第一位和第二位说话者在整个对话中保持中性，第一位说话者表现出中性和喜悦，而第二位说话者表现出中性和愤怒，第一位和第二位说话者分别在整个对话中表现出中性和喜悦。
+Answer: 第一位说话者表现出中性和喜悦，而第二位说话者表现出中性和愤怒。
+Difficulty: hard
+
+ID: 19490503-df98-4e95-aa80-a10b67675748
+Question: 识别每位说话人的情绪。
+Choices: 第一位说话人表现出悲伤，第二位中性，第三位喜悦。第一位说话人表现出喜悦，第二位愤怒，第三位厌恶。第一位说话人表现出喜悦，第二位中性，第三位愤怒和中性。第一位说话人表现出喜悦，第二位中性，第三位愤怒和中性。第一位说话人表现出中性，第二位喜悦，第三位愤怒。
+Answer: 第一位说话人表现出喜悦，第二位中性，第三位愤怒和中性。
+Difficulty: hard
+
+ID: 42e35733-9630-4960-9ce0-75325e5906f6
+Question: 识别说话人的情绪。
+Choices: 第一位说话人表现出中性、惊讶和厌恶；第二位说话人表现出中性、恐惧和愤怒。第一位说话人表现出惊讶和厌恶，第二位说话人表现出中性、恐惧和愤怒。第一位说话人表现出中性、惊讶和厌恶；第二位说话人表现出恐惧和愤怒。两位说话人在整个对话中保持中性。第一位和第二位说话人分别表现出中性和恐惧。
+Answer: 第一位说话人表现出中性、惊讶和厌恶；第二位说话人表现出恐惧和愤怒。
+Difficulty: hard
+
+ID: 1c6896a1-b123-4c1b-876d-458d6dfa43a4
+Question: 请识别对话中说话人的情绪
+Choices: 第一个说话人表现出悲伤，第二个说话人表现出愤怒，第三个说话人表现出悲伤。第一个说话人表现出中性，第二和第三说话人分别表现出愤怒和悲伤。第一个说话人表现出愤怒，第二个说话人表现出悲伤，第三个说话人表现出高兴。第一个说话人表现出悲伤，第二和第三说话人分别表现出愤怒和悲伤。第一个说话人表现出高兴，第二个说话人表现出沮丧，第三个说话人表现出悲伤。
+Answer: 第一个说话人表现出中性，第二和第三说话人分别表现出愤怒和悲伤。
+Difficulty: hard
+
+ID: 692ba369-6437-4e4e-9c1b-54a80abd868f
+Question: 确定每位说话者的情绪。
+Choices: 两位说话者都保持中立，第一位说话者保持中立，第二位是高兴的，第一位说话者是悲伤的，第二位是高兴的，第一位说话者是高兴的，第二位是悲伤的，两位说话者都保持中立。
+Answer: 两位说话者都保持中立。
+Difficulty: hard
+
+ID: d052875f-6dc4-40f9-8194-063c7a636892
+Question: 识别参与对话的说话者的情绪
+Choices: 第一个表现出厌恶，第二个中性，第三个悲伤。第一个表现出悲伤，第二个快乐，第三个中性。第一个和第二个说话者表现出中性，第三个悲伤。所有说话者在整个对话中保持中性。第一个表现出快乐，第二个中性，第三个悲伤。
+Answer: 第一个和第二个说话者表现出中性，第三个悲伤。
+Difficulty: hard
+
+ID: e6e02fec-0241-40d6-a0f5-7d79d60b9649
+Question: 识别说话者的情绪。
+Choices: 第一位说话者表现出喜悦和惊讶，第二位说话者表现出中性和愤怒，两位说话者都表现出中性和惊讶，第一位说话者表现出中性和愤怒，第二位说话者表现出喜悦和惊讶，第一位说话者表现出喜悦和惊讶，第二位说话者表现出喜悦，两位说话者都表现出喜悦和愤怒。
+Answer: 第一位说话者表现出喜悦和惊讶，第二位说话者表现出中性和愤怒。
+Difficulty: hard
+
+ID: 7fa63d67-5d84-4f56-b5c4-9b26c4cf9d26
+Question: 确定对话中每位说话者的情绪。
+Choices: 第一位和第二位说话者保持中立。第一位说话者表现出惊讶；第二位说话者保持中立。第一位说话者保持中立；第二位说话者表现出惊讶。第一位和第二位说话者全程表现出惊讶。第一位说话者表现出惊讶；第二位说话者保持中立。
+Answer: 第一位说话者表现出惊讶；第二位说话者保持中立。
+Difficulty: hard
+
+ID: 8af84161-0840-4c9c-b2cc-3c82fc34f169
+Question: 识别说话者的情绪。
+Choices: 第一个显示高兴，第二个显示悲伤，第三个显示惊讶；第一个显示悲伤，第二个显示中性和高兴，第三个显示中性；第一个显示中性，第二个显示中性、高兴和惊讶，第三个显示中性；第一个和第二个说话者显示中性，第三个显示悲伤；所有说话者全程显示中性
+Answer: 第一个显示中性，第二个显示中性、高兴和惊讶，第三个显示中性
+Difficulty: hard
+
+ID: 1d9d7024-7eed-4fb5-8358-0526d3d9c49f
+Question: 确定对话中每位说话人的情绪
+Choices: 第一位说话人表现出喜悦，第四位说话人表现出悲伤。第二位说话人表现出喜悦，第三位说话人表现出中性。第三位说话人表现出愤怒，第四位说话人表现出惊讶。第一位和第二位说话人分别表现出中性和喜悦。第一位和第二位说话人分别表现出中性和喜悦。
+Answer: 第一位和第二位说话人分别表现出中性和喜悦。
+Difficulty: hard
+
+ID: 0ed9d7c8-3b63-4861-af81-925d4176c059
+Question: 识别参与对话的每位说话者的情绪
+Choices: 第一位说话者表现出恐惧和快乐，第二位说话者表现出恐惧、中性和快乐。第一位说话者仅表现出恐惧，第二位说话者仅表现出中性。第一位说话者表现出恐惧和快乐，第二位说话者表现出恐惧、中性和快乐。第一位和第二位说话者仅表现出中性。第一位说话者仅表现出恐惧，而第二位说话者仅表现出快乐。
+Answer: 第一位说话者表现出恐惧和快乐，第二位说话者表现出恐惧、中性和快乐。
+Difficulty: hard
+
+ID: 5e6c9baa-585f-480e-a89f-7ea18b4292a2
+Question: 识别每个说话者的情绪。
+Choices: 第一个表现出沮丧，第二个表现出中立和快乐。第一个表现出快乐，第二个表现出沮丧。第一个表现出沮丧，第二个表现出悲伤。第一个表现出沮丧，第二个表现出中立和快乐。两者都保持中立。
+Answer: 第一个表现出沮丧，第二个表现出中立和快乐。
+Difficulty: hard
+
+ID: 9f83cb33-2daa-462b-99fd-5eee5e8345a7
+Question: 确定每位说话者的情绪。
+Choices: 第一位说话者表现出惊讶；第二位保持中立。, 两位说话者都表现出惊讶和高兴。, 两位说话者在整个过程中保持中立。, 第一位说话者表现出惊讶；第二位保持中立。, 第一位说话者表现出惊讶和高兴；第二位保持中立。
+Answer: 第一位说话者表现出惊讶；第二位保持中立。
+Difficulty: hard
+
+ID: 1b1df9d5-9795-46cf-bb5d-accd23a337b7
+Question: 识别每位说话人的情绪
+Choices: 第一位表现出悲伤，第二位表现出快乐和中性；第一位表现出快乐，第二位表现出沮丧和中性；两位说话人都表现出快乐；第一位表现出快乐，第二位表现出沮丧和中性；两位说话人都表现出沮丧
+Answer: 第一位表现出快乐，第二位表现出沮丧和中性
+Difficulty: hard
+
+ID: 479a30cf-3c11-41f5-9fce-633b1ea2eb3e
+Question: 确定对话中每位说话者的情绪
+Choices: 第一位说话者表现出悲伤，第二位说话者表现出快乐，第一位说话者是快乐的，第二位说话者是兴奋的，两位说话者在整个对话中保持中立，第一位说话者表现出快乐，第二位说话者表现出悲伤，两位说话者在整个对话中表现出混合情绪
+Answer: 第一位说话者是高兴的，第二位说话者是兴奋的
+Difficulty: hard
+
+ID: 2705d1a7-e4aa-448b-98d3-df8d668e4a5a
+Question: 请识别对话中每位说话人的情绪
+Choices: 第一位说话人表现出快乐，第二位表现出悲伤。第一位和第二位说话人全程表现出中性情绪。第一位和第二位说话人全程表现出中性情绪。两位说话人全程表现出快乐。第一位说话人表现出悲伤，第二位表现出快乐。
+Answer: 第一位和第二位说话人全程表现出中性情绪。
+Difficulty: hard
+
+
+----------------------------------------
+Category: Conversational Fact Retrieval
+Statistics: Total=22, Easy=0, Medium=22, Hard=0
+----------------------------------------
+
+ID: 8cbc0f29-4cf5-41e6-83ff-abcd70fbd96d
+Question: 第一位说话者关于爱父母说了什么？
+Choices: 爱父母不是坏事，而是好事。爱父母是坏事，不是好事。爱父母既不是好事也不是坏事。爱父母有时是好事，有时是坏事。
+Answer: 爱父母不是坏事，而是好事。
+Difficulty: medium
+
+ID: 427e55eb-4ab4-4bb0-8c8f-574f10097087
+Question: 第一说话者获得奖学金的运动是什么？
+Choices: 篮球，足球，棒球，垒球
+Answer: 垒球
+Difficulty: medium
+
+ID: cb07d59a-dbf0-4a9e-949a-c917633c4d21
+Question: 第二位说话者是从哪个城市到达的？
+Choices: 迈阿密，佛罗里达州，亚特兰大，佐治亚州，纽约，纽约州，达拉斯，德克萨斯州
+Answer: 亚特兰大，佐治亚州
+Difficulty: medium
+
+ID: c12946ac-b0b0-4cec-828e-bd66a6abbea1
+Question: 她为了见他旅行了多远？
+Choices: 七百英里，五百英里，八百英里，七百公里。
+Answer: 七百英里。
+Difficulty: medium
+
+ID: 8389a090-af5c-4d60-8238-6cabbd59532a
+Question: 当第一说话者与第二说话者交谈时，他们主要关注什么？
+Choices: 航空公司丢失了他们的行李。 航班延误了。 酒店预订被取消了。 航空公司丢失了他们的护照。
+Answer: 航空公司丢失了他们的行李。
+Difficulty: medium
+
+ID: b09b362f-110a-4829-b94a-8337cd1a906b
+Question: 第一位说话者告诉第二位说话者不要看什么？
+Choices: 她的左手。, 她的右手。, 她的脸。, 她的左脚。
+Answer: 她的左手。
+Difficulty: medium
+
+ID: f8e9b625-6561-41bc-9046-291a9d933837
+Question: 当物体破裂时，这个人站在哪里？
+Choices: 他站在就在这里，外面。, 他站在里面，靠近门。, 他站在后院里。, 他站在屋顶上。
+Answer: 他站在就在这里，外面。
+Difficulty: medium
+
+ID: 091db5d0-10a4-4650-8c48-c7cbc0c71e96
+Question: 第二位说话者的名字是什么？
+Choices: Isabella，Sophia，Isabelle，Isabel
+Answer: Isabella
+Difficulty: medium
+
+ID: 93502563-c3f3-411e-826b-5e3736d703e1
+Question: 第一说话人如何描述空气？
+Choices: 苦的，新鲜的，甜的，陈腐的
+Answer: 甜的
+Difficulty: medium
+
+ID: e0e884f4-8599-4383-bad4-d9dc380132a5
+Question: 第二发言者是谁？
+Choices: 第二发言者是Susanna。, 第二发言者是John。, 第二发言者是Alex。, 第二发言者是Sarah。
+Answer: 第二发言者是Susanna。
+Difficulty: medium
+
+ID: 854ff842-d711-4214-8192-0b52fd5e9fb1
+Question: 第一位说话人看到其他人在发生什么？
+Choices: 收到商业广告和工作机会。失去工作和机会。收到商业广告但工作困难。晋升和新工作机会。
+Answer: 收到商业广告和工作机会。
+Difficulty: medium
+
+ID: 94c8ff63-d1b8-4f83-b4de-6f78299c59e0
+Question: 当对话开始时，第一位说话者正在做什么？
+Choices: 看电视。, 读书。, 听音乐。, 做晚餐。
+Answer: 看电视。
+Difficulty: medium
+
+ID: f1ead136-481b-430d-a08f-1b285b75db68
+Question: 第一位说话者在哪里询问第二位说话者是否提交了投诉？
+Choices: 在前台或行李认领处，在线或通过电话，在候机区或安检点，在前台或通过电话
+Answer: 在前台或行李认领处
+Difficulty: medium
+
+ID: d53ada91-8686-465c-8a09-fd8e4e434af7
+Question: 第一位说话者如何描述他们对经理反应的记忆？
+Choices: 第一位说话者说他们永远不会忘记他的脸，第一位说话者提到经理非常冷静，第一位说话者说经理根本没有反应，第一位说话者说他们模糊地记得经理的反应。
+Answer: 第一位说话者说他们永远不会忘记他的脸。
+Difficulty: medium
+
+ID: f4ef9f4a-ba35-4424-9a63-eb3a72085479
+Question: 第一位发言人站在错误的队伍里多久了？
+Choices: 一小时，两小时，三十分钟，十五分钟
+Answer: 一小时
+Difficulty: medium
+
+ID: 7296d246-b708-47dd-8a07-333fe8152a70
+Question: 第二位发言人的朋友患有什么疾病？
+Choices: 进行性癌症，慢性心脏病，进行性关节炎，急性肺炎。
+Answer: 进行性癌症
+Difficulty: medium
+
+ID: df114cde-1cf1-42d5-895a-e3f496de6d52
+Question: First speaker 一直无法找到工作，已经多久了？
+Choices: First speaker 一直无法找到工作，已经三个月了。First speaker 一直无法找到工作，已经三年了。First speaker 一直无法找到工作，已经几年了。First speaker 一直无法找到工作，已经两年了。
+Answer: First speaker 一直无法找到工作，已经三年了。
+Difficulty: medium
+
+ID: 2246a36e-8464-4c60-b7f1-96dd28898630
+Question: 说话人5想借制服是星期几？
+Choices: 星期六，星期四，星期一，星期日
+Answer: 星期四
+Difficulty: medium
+
+ID: 6785ccc4-2170-414b-86ac-b01360f369ff
+Question: 说话人1为什么需要顺路去他们家？
+Choices: 去取一个包裹，见公寓是否可用，给植物浇水，录下比赛
+Answer: 见公寓是否可用
+Difficulty: medium
+
+ID: 870d0bc9-9ede-4ad4-ba36-b51ad4615874
+Question: 说话人1说她做的布丁用了哪些食材？
+Choices: 面包，果冻，布丁，草莓，鸡肉，胡萝卜，大蒜，苹果，奶油，蛋糕，果酱，慕斯，樱桃，火鸡，玉米，辣椒，甜瓜，奶油，饼干，果冻，布丁，蓝莓，猪肉，豆类，番茄，桃子，酸奶，手指饼干，果酱，蛋奶沙司，树莓，牛肉，豌豆，洋葱，香蕉，打发奶油。
+Answer: 手指饼干，果酱，蛋奶沙司，树莓，牛肉，豌豆，洋葱，香蕉，打发奶油。
+Difficulty: medium
+
+ID: 18234671-43b7-4be3-b369-be5b4b522d27
+Question: 他上次见到她已经多久了？
+Choices: 两年，三年，三年半，四年
+Answer: 三年半
+Difficulty: medium
+
+ID: 17d53044-9bbb-4465-ba1b-17d72b6e29b0
+Question: 第一位说话者提到他们有多少个年幼的孩子？
+Choices: 三个年幼的孩子。两个年幼的孩子。一个年幼的孩子。四个年幼的孩子。
+Answer: 两个年幼的孩子。
+Difficulty: medium
+
+
+----------------------------------------
+Category: Multi Speaker Role Mapping
+Statistics: Total=27, Easy=0, Medium=27, Hard=0
+----------------------------------------
+
+ID: aac87e2d-60cd-4ca9-b3e4-5416d3b12072
+Question: 两个说话者之间的互动关系是什么？
+Choices: 咖啡师-顾客，DJ-派对参加者，音乐人-制作人，政治家-顾问
+Answer: 咖啡师-顾客
+Difficulty: medium
+
+ID: 6f2d6278-99f5-452f-baad-d03ba797bc37
+Question: 对话中涉及的个人是如何关联的？
+Choices: 牧师-教徒，辩论者-对手，警察-线人，音乐家-制作人
+Answer: 牧师-教徒
+Difficulty: medium
+
+ID: b4180fa8-96a9-4211-8059-d03d65eb2f04
+Question: 两个说话人之间是什么关系？
+Choices: 房产中介-租客，策展人-艺术家，作者-编辑，飞行教练-学生飞行员
+Answer: 策展人-艺术家
+Difficulty: medium
+
+ID: ea8a2fc9-500f-46f2-bf97-bd86c10e8cd0
+Question: 对话中的两个人是什么关系？
+Choices: 瑜伽教练-客户，音乐家-制作人，辅导员-家长，滑雪教练-游客
+Answer: 音乐家-制作人
+Difficulty: medium
+
+ID: a0fe997b-bcef-498c-86bc-d73a8e855355
+Question: 说话人以什么身份彼此认识？
+Choices: 生活教练-客户，博主-订阅者，空乘人员-常旅客，铁匠-顾客
+Answer: 空乘人员-常旅客
+Difficulty: medium
+
+ID: be3b7242-b254-48fe-8f7a-debddef08997
+Question: 对话中的参与者之间有什么联系？
+Choices: 钢琴老师-学生，外交官-大使，医院管理员-医生，动物园管理员-游客
+Answer: 钢琴老师-学生
+Difficulty: medium
+
+ID: 49e9a52a-ca63-43ca-98d7-baf8c1337f88
+Question: 这次对话中说话者之间的关系是什么？
+Choices: 法官-被告，拍卖师-卖家，瑜伽教练-学生，理发师-顾客
+Answer: 拍卖师-卖家
+Difficulty: medium
+
+ID: 69d6594d-b582-4f98-9f20-0662ff891b3f
+Question: 两位说话者之间存在什么样的关系？
+Choices: 警察-线人，政治家-顾问，档案管理员-历史学家，管家-客人
+Answer: 政治家-顾问
+Difficulty: medium
+
+ID: 61f2cd0b-ed43-4e1b-aa48-112b1129e1c5
+Question: 对话中两个人的关系是什么？
+Choices: 婚礼主持人-新娘和新郎，初创公司创始人-投资者，飞行教练-学生飞行员，公园管理员-徒步旅行者
+Answer: 飞行教练-学生飞行员
+Difficulty: medium
+
+ID: 5398e7ca-79c1-439b-80dd-fff437aaa772
+Question: 这两个说话者之间是什么关系？
+Choices: 酒吧老板-常客，宠物美容师-宠物主人，插画师-作者，政客-选民
+Answer: 政客-选民
+Difficulty: medium
+
+ID: aa0c930c-11f7-406e-b717-5f138b57e21a
+Question: 说话人以什么身份彼此认识？
+Choices: 画家—艺术买家，朋友—半敌半友，理发师—顾客，渔夫—船长
+Answer: 理发师—顾客
+Difficulty: medium
+
+ID: 24d64f05-1113-4081-847f-60023addbae7
+Question: 两位说话者之间的关系是什么？
+Choices: 人生教练—客户，侦探—受害者，博主—读者，拍卖行经理—客户
+Answer: 博主—读者
+Difficulty: medium
+
+ID: e9b38c9f-d91f-4356-b527-e5d395238b18
+Question: 对话中两个人之间的关系是什么？
+Choices: 移民官员-旅行者，司机-乘客，艺术家-艺术收藏家，消防检查员-活动策划人
+Answer: 消防检查员-活动策划人
+Difficulty: medium
+
+ID: 3fb08817-a3c5-4c3e-8d25-5c866549c28b
+Question: 说话的两个人之间是什么关系？
+Choices: 旅行社代理-顾客，飞行员-副驾驶，渔民-船长，动物园管理员-游客
+Answer: 旅行社代理-顾客
+Difficulty: medium
+
+ID: d77e9fec-1516-4252-a8a2-65e5df8b8e47
+Question: 谈话的两个人之间是什么关系？
+Choices: 水管工-房主，政治家-顾问，理发师-顾客，鞋匠-顾客
+Answer: 水管工-房主
+Difficulty: medium
+
+ID: b56354c8-07c0-4b06-9635-0e462b14509e
+Question: 两位说话者之间有什么样的关系？
+Choices: 言语治疗师-患者，艺术家-艺术收藏家，房东-租客，法官-被告
+Answer: 言语治疗师-患者
+Difficulty: medium
+
+ID: 9ba205b2-fe78-47c7-bbf4-c2c9b94f517e
+Question: 两位说话者之间的关系是什么？
+Choices: 移民官员-申请人，医生-病人，言语治疗师-病人，教授-系主任
+Answer: 言语治疗师-病人
+Difficulty: medium
+
+ID: 6f89408d-fd68-471f-91b5-20839071324b
+Question: 对话中的两个人之间的关系是什么？
+Choices: 房东-承包商，法庭速记员-律师，保姆-家长，公设辩护人-客户
+Answer: 法庭速记员-律师
+Difficulty: medium
+
+ID: 80bba9ee-7688-486c-a9b6-62ece6aa4e68
+Question: 说话人以什么身份彼此认识？
+Choices: 法官-检察官，慈善家-慈善工作者，水管工-房主，科学家-研究助理
+Answer: 法官-检察官
+Difficulty: medium
+
+ID: 92fdb380-7cab-48c7-81ea-bb5d5652a374
+Question: 谈话的两个人之间是什么关系？
+Choices: 律师-客户，教师-学生，客服-客户，拍卖行经理-客户
+Answer: 教师-学生
+Difficulty: medium
+
+ID: b371a741-748e-4065-8826-f5bd07dc3979
+Question: 这段对话中说话者之间的关系是什么？
+Choices: 出租车司机-乘客，个人购物顾问-客户，消防员-队长，马术教练-骑手
+Answer: 马术教练-骑手
+Difficulty: medium
+
+ID: 7dbc57c2-4584-4edf-b34f-ed1d1716cdb7
+Question: 说话人以什么身份彼此认识？
+Choices: 主厨-副厨，大学顾问-学生，私人助理-高管，软件测试员-开发者
+Answer: 主厨-副厨
+Difficulty: medium
+
+ID: a6f1c137-3ac4-41a3-8875-620d3dcba65c
+Question: 这两个说话人之间有什么样的关系？
+Choices: 人生教练-客户，自行车信使-办公室职员，外交官-大使，牧师-教区居民
+Answer: 牧师-教区居民
+Difficulty: medium
+
+ID: 06483ca8-fc50-4c30-a6e9-5d94b59245c7
+Question: 这段对话中的说话者之间有什么联系？
+Choices: 药剂师-药房技术员，园丁-房主，工头-建筑工人，养蜂人-蜂蜜商
+Answer: 园丁-房主
+Difficulty: medium
+
+ID: ae91627d-43d4-475e-8c6f-e74c38fa7fc9
+Question: 这两个说话者之间有什么关系？
+Choices: 铁匠-顾客，青年辅导员-青少年，医生-病人，警察-线人
+Answer: 警察-线人
+Difficulty: medium
+
+ID: af441fb6-74a9-486f-a7b3-65882313698d
+Question: 两位说话者之间有什么联系？
+Choices: DJ-派对参加者，企业家-商业教练，演员-导演，房产经纪人-房产买家
+Answer: 演员-导演
+Difficulty: medium
+
+ID: a370dd7d-ec74-4b7f-ac1d-9294c2bcad5c
+Question: 这次对话中说话者之间的关系是什么？
+Choices: 银行家-顾客，记者-编辑，出租车司机-乘客，玻璃吹制工-顾客
+Answer: 银行家-顾客
+Difficulty: medium
+
+
+----------------------------------------
+Category: Phonological Sequence Decoding
+Statistics: Total=49, Easy=49, Medium=0, Hard=0
+----------------------------------------
+
+ID: 78f299b4-49f8-4d5b-8b8f-fcd417e49ba4
+Question: 哪个词首先出现
+Choices: 风，码头
+Answer: 风
+Difficulty: easy
+
+ID: 26600e97-5df3-43be-80ed-ff817c078a77
+Question: 哪个单词最先出现
+Choices: 奥克塔维亚，橙子
+Answer: 奥克塔维亚
+Difficulty: easy
+
+ID: f4d842a3-faf6-40dd-8cf6-ee0f756bdb9a
+Question: 哪个词最先出现
+Choices: 犯罪，懦夫
+Answer: 犯罪
+Difficulty: easy
+
+ID: 30bb0e51-2077-4217-ac2b-a2c7019f35ee
+Question: 哪个词最先出现
+Choices: 马虎的，油滑的
+Answer: 马虎的
+Difficulty: easy
+
+ID: 7aa85650-7df8-42cd-a612-0d1706ce5fec
+Question: 句子中单词 'anchor' 出现了多少次？
+Choices: 一次，五次，七次，两次
+Answer: 一次
+Difficulty: easy
+
+ID: e19a27f5-b68f-46fe-a0d7-53b8ef9dc4b8
+Question: 单词'silver'在句子中出现了多少次？
+Choices: 零次，一次，四次，五次
+Answer: 一次
+Difficulty: easy
+
+ID: f3ef32e1-6b38-4d35-a64f-25c056169e03
+Question: 句子中单词‘hippo’出现了多少次？
+Choices: 五、一、二、七
+Answer: 一
+Difficulty: easy
+
+ID: 6f506513-7c70-424d-b864-ed73956ea17a
+Question: 句子中单词'train'出现了多少次？
+Choices: 三个，两个，一个，五个
+Answer: 一个
+Difficulty: easy
+
+ID: 8b4ac0fd-1ddf-4ca6-90db-4f851366c334
+Question: 'soothes'这个词在句子中出现了多少次？
+Choices: 一，六，四，四
+Answer: 一
+Difficulty: easy
+
+ID: 999ce71c-8934-4579-b5dc-6e3b3af735ec
+Question: 句子中单词'boat'出现了多少次？
+Choices: 三、二、五、零
+Answer: 零
+Difficulty: easy
+
+ID: a0125222-5e3e-4f96-86db-8a19f6782720
+Question: 句子中单词 'bag' 出现了多少次？
+Choices: 六、一、七、五
+Answer: 一
+Difficulty: easy
+
+ID: 91eb5cf6-e889-495e-81b6-8756eb629e59
+Question: 句子中单词'Forfar'出现了多少次？
+Choices: 零，零，七，一
+Answer: 一
+Difficulty: easy
+
+ID: 0d46136b-5249-4ca9-a761-705686ec60b9
+Question: 句子中单词 'help' 出现了多少次？
+Choices: 四、二、五、一
+Answer: 一
+Difficulty: easy
+
+ID: cf52aadd-c327-4435-8d7e-3d552862b942
+Question: 句子中“otter”这个词出现了多少次？
+Choices: 一，零，一，三
+Answer: 三
+Difficulty: easy
+
+ID: 421fcbf8-7f60-4770-8923-512323e5efba
+Question: 哪个词首先出现
+Choices: 俯卧撑，引体向上
+Answer: 俯卧撑
+Difficulty: easy
+
+ID: f37f225c-98a7-47c9-bce6-35409ad56407
+Question: 哪个词最先出现
+Choices: 可怕的，咧嘴笑的
+Answer: 可怕的
+Difficulty: easy
+
+ID: 4d17b24a-3bd2-4703-aba7-7886c23361a3
+Question: 哪个词最先出现
+Choices: Handy，Sunday
+Answer: Handy
+Difficulty: easy
+
+ID: 54d927bb-d3ef-42c7-b09c-25f94ccf252e
+Question: 哪个词最先出现
+Choices: 细的，厚的
+Answer: 细的
+Difficulty: easy
+
+ID: 87326e29-9675-4105-aa7c-d51e98b51011
+Question: 哪个词最先出现
+Choices: 狗，拨弄
+Answer: 狗
+Difficulty: easy
+
+ID: f451db46-7306-4f97-867c-db846e03f759
+Question: 哪个词最先出现
+Choices: 红色，Limuru
+Answer: 红色
+Difficulty: easy
+
+ID: 8105129d-e232-4255-9588-8a1fed9cab29
+Question: 哪个词最先出现
+Choices: 紫色，纸
+Answer: 紫色
+Difficulty: easy
+
+ID: 47ae81d9-8cb5-4267-9394-2f511cc84871
+Question: 哪个词最先出现
+Choices: 曾祖母，惊骇的
+Answer: 曾祖母
+Difficulty: easy
+
+ID: 750a196d-ad01-4017-9db9-67e41ae5a88c
+Question: 哪个词最先出现
+Choices: 充满希望的，忧郁的
+Answer: 充满希望的
+Difficulty: easy
+
+ID: cec30bc1-1a82-4d05-9225-0367d65565eb
+Question: 哪个词最先出现
+Choices: 菲利普，朋友们
+Answer: 菲利普
+Difficulty: easy
+
+ID: 9ebc1037-d01d-4078-879c-1ab873f71ab0
+Question: 哪个词最先出现
+Choices: 呼吸，死亡
+Answer: 呼吸
+Difficulty: easy
+
+ID: be645c09-f646-45af-9ce9-730069723b65
+Question: 哪个单词最先出现
+Choices: Jerry，green
+Answer: Jerry
+Difficulty: easy
+
+ID: cc3ba5df-e272-4ff7-9688-fb3fc76757c1
+Question: 哪个词先出现
+Choices: 瑞士，腕表
+Answer: 腕表
+Difficulty: easy
+
+ID: 7c58f831-316f-460d-a4b5-399b8490b245
+Question: 哪个词最先出现
+Choices: 开关，手腕
+Answer: 开关
+Difficulty: easy
+
+ID: 3c4fa8f8-972a-4dcb-a24b-e5d1039dd23f
+Question: 哪个词排在第二位
+Choices: 特蕾西，老师
+Answer: 老师
+Difficulty: easy
+
+ID: becaaa03-b09e-4d3e-bf28-c119d646666d
+Question: 哪个单词先出现
+Choices: wish，wash
+Answer: wish
+Difficulty: easy
+
+ID: c8802ef5-caa1-4259-8820-3bb4456a728f
+Question: 哪个词最先出现
+Choices: 板，群
+Answer: 板
+Difficulty: easy
+
+ID: 9439b65d-ac04-4f2d-bde1-396422517c46
+Question: 哪个词出现得更晚
+Choices: 唠叨，歪曲
+Answer: 歪曲
+Difficulty: easy
+
+ID: 381f854d-d5b7-4f02-a2a8-6afeb378d261
+Question: 哪个词最先出现
+Choices: 红色，蓝色
+Answer: 红色
+Difficulty: easy
+
+ID: 594798f5-f0dc-416f-b7d8-4f4db8ddf4b3
+Question: 哪个词最先出现
+Choices: 块，皮革
+Answer: 块
+Difficulty: easy
+
+ID: 6d3e431a-ba0c-4914-afa5-9d154ba32eff
+Question: 哪个词最先出现
+Choices: 疯狂的，作品
+Answer: 疯狂的
+Difficulty: easy
+
+ID: c2289905-efb3-4552-a693-075ef24b5d57
+Question: 哪个单词最先出现
+Choices: hedge，hombre
+Answer: hedge
+Difficulty: easy
+
+ID: 45abff91-d6e8-4861-937e-62f0c036314e
+Question: 哪个词最先出现
+Choices: 另一个，你的
+Answer: 另一个
+Difficulty: easy
+
+ID: b8f25d1a-bdc3-4d2a-b4a3-ffe7e399ba60
+Question: 哪个词最先出现
+Choices: Blaire，坏的，为了，bestie
+Answer: Blaire
+Difficulty: easy
+
+ID: 7235d35a-373e-4ca9-9be3-310b4022a371
+Question: 句子中单词'red'出现了多少次？
+Choices: 七、三、一、二
+Answer: 一
+Difficulty: easy
+
+ID: 23f21925-92f8-417f-834a-f87f354e0b5b
+Question: 句子中单词"raging"出现了多少次？
+Choices: 一，三，三，零
+Answer: 一
+Difficulty: easy
+
+ID: 427ba822-c000-4303-bf21-7da0a703efc2
+Question: 句子中单词 'attention' 出现了多少次？
+Choices: 六、七、一、五
+Answer: 一
+Difficulty: easy
+
+ID: 36220c27-9060-47b6-b647-ccf7f3ba8f58
+Question: 句子中单词 'said' 出现了多少次？
+Choices: 一，七，七，四
+Answer: 一
+Difficulty: easy
+
+ID: 93c1c06a-ef2f-4112-8ffe-7c7f3154dcde
+Question: 句子中单词‘fate’出现了多少次？
+Choices: 五、一、五、零
+Answer: 一
+Difficulty: easy
+
+ID: 08267cd7-ef33-4aae-9351-047b6cbeaa0c
+Question: 句子中单词'sloppy'出现了多少次？
+Choices: 一、七、二、三
+Answer: 一
+Difficulty: easy
+
+ID: b86317c4-d42b-43fa-a4b3-c892dff8cfe5
+Question: 句子中单词 'and' 出现了多少次？
+Choices: 五、二、一、二
+Answer: 一
+Difficulty: easy
+
+ID: 976cd4b0-1894-4a7e-ba61-e6e5f4f28453
+Question: 句子中单词'ninety-nine'出现了多少次？
+Choices: 四，三，二，零
+Answer: 三
+Difficulty: easy
+
+ID: dd2f3e8d-cca8-42fc-bf0a-b6ce0ac27dae
+Question: 句子中单词'examiner'出现了多少次？
+Choices: 一，六，三，七
+Answer: 一
+Difficulty: easy
+
+ID: 2783e849-9174-4f84-abe6-45abf50f6d2b
+Question: 句子中单词 'beautiful' 出现了多少次？
+Choices: 一次、七次、五次、三次
+Answer: 一次
+Difficulty: easy
+
+ID: 9b66a67f-d2a8-42df-a629-2d0035682fc7
+Question: 句子中单词 'played' 出现了多少次？
+Choices: 二、三、三、一
+Answer: 一
+Difficulty: easy
+
+
+----------------------------------------
+Category: Emotion Flip Detection
+Statistics: Total=20, Easy=0, Medium=0, Hard=20
+----------------------------------------
+
+ID: 4ef68d01-f537-44fc-bffe-9f05fa48e5cd
+Question: 对话中是否有说话者的情绪发生了变化？
+Choices: 第二位说话者，没有说话者，第一位说话者，两位说话者
+Answer: 两位说话者
+Difficulty: hard
+
+ID: c4bf1b86-65d1-403f-98bd-921ac784e4a6
+Question: 你能确认在对话中是否有说话人的情绪发生了变化吗？
+Choices: 没有说话人，第二位说话人，第一位说话人，两位说话人
+Answer: 第一位说话人
+Difficulty: hard
+
+ID: 78c2cba3-44a8-4001-869c-960b71eed932
+Question: 你能检测到在提供的对话中是否有说话人的情绪状态发生了变化吗？
+Choices: 没有说话人，两位说话人，第一位说话人，第二位说话人
+Answer: 第一位说话人
+Difficulty: hard
+
+ID: f0e1ff2d-d002-422a-b2fd-348273d731dd
+Question: 你能确认在对话中是否有说话人的情绪发生了变化吗？
+Choices: 两位说话人，第一位说话人，没有说话人，第二位说话人
+Answer: 第二位说话人
+Difficulty: hard
+
+ID: 596091f2-5107-4184-8a92-63e002616e05
+Question: 检查对话中是否有说话者的情绪发生了波动。
+Choices: 第二位说话者，两位说话者，第一位说话者，没有说话者
+Answer: 没有说话者
+Difficulty: hard
+
+ID: 4282785a-d7f9-46a5-9c11-bec05ae4b7c2
+Question: 在互动过程中，任何说话人的情绪语气发生了变化吗？
+Choices: 第二说话人，没有说话人，第一说话人，两位说话人
+Answer: 第一说话人
+Difficulty: hard
+
+ID: b177acaa-7912-49b6-8b1d-3a3a8fb29289
+Question: 在这段对话中，是否有说话者的情感发生了变化？
+Choices: 第二位说话者，没有说话者，第一位说话者，两位说话者
+Answer: 没有说话者
+Difficulty: hard
+
+ID: ff8ea71a-63e2-4a59-9f4f-f7620c2b5bb6
+Question: 判断对话中是否有说话人的情感发生变化。
+Choices: 第二说话人，第一说话人，没有说话人，两位说话人
+Answer: 第二说话人
+Difficulty: hard
+
+ID: 73efeae9-07a4-45de-b6df-edafc36d2961
+Question: 在互动过程中，任何说话人的情感语气发生了变化吗？
+Choices: 第二位说话人，没有说话人，两位说话人，第一位说话人
+Answer: 没有说话人
+Difficulty: hard
+
+ID: 9f6d4d7b-057e-49ff-88dd-ef3cb0621ef2
+Question: 确定在整个对话中是否有任一说话人的情感变化。
+Choices: 无说话人，第一位说话人，第二位说话人，两位说话人
+Answer: 无说话人
+Difficulty: hard
+
+ID: 2d668257-f627-4f80-b640-eca0c1522297
+Question: 注意对话过程中说话者的情绪变化。
+Choices: 第一位说话者，第二位说话者，没有说话者，两位说话者
+Answer: 两位说话者
+Difficulty: hard
+
+ID: 6966bbc3-e2c0-40f4-9002-90983182b802
+Question: 对话中是否有说话者的情绪发生了变化？
+Choices: 没有说话者，第二位说话者，第一位说话者，两位说话者
+Answer: 第一位说话者
+Difficulty: hard
+
+ID: 8bc5daaf-8f39-4dcd-983d-a2eec729bc31
+Question: 你能检测到提供的对话中是否有说话者的情绪状态发生了变化吗？
+Choices: 两位说话者，第二位说话者，没有说话者，第一位说话者
+Answer: 第二位说话者
+Difficulty: hard
+
+ID: df0efcb1-083d-4025-999e-073ad1c3f9a4
+Question: 在对话过程中寻找说话人的情绪变化。
+Choices: 第二位说话人，没有说话人，两位说话人，第一位说话人
+Answer: 没有说话人
+Difficulty: hard
+
+ID: 3bbddd67-ebe8-47ac-9069-e5708ca2a4b5
+Question: 确定在给定的讨论中是否有说话者经历了情绪变化。
+Choices: 第二位说话者，第一位说话者，没有说话者，两位说话者
+Answer: 第一位说话者
+Difficulty: hard
+
+ID: 9ac44322-e9c2-4aef-a842-ca0e541cd278
+Question: 对话中是否有说话者的情绪发生了变化？
+Choices: 第二位说话者，没有说话者，两位说话者，第一位说话者
+Answer: 第二位说话者
+Difficulty: hard
+
+ID: d54ae8ab-ab90-4721-8204-fb704be3e2c7
+Question: 你能检测到提供的对话中是否有说话者的情绪状态发生了变化吗？
+Choices: 双方说话者，第一位说话者，第二位说话者，没有说话者
+Answer: 没有说话者
+Difficulty: hard
+
+ID: 5fd6b3fc-8f27-40a9-afb9-1153e7fe161c
+Question: 请判断在对话过程中是否有任一说话者的情绪发生变化。
+Choices: 第一位说话者，第二位说话者，双方说话者，没有说话者
+Answer: 双方说话者
+Difficulty: hard
+
+ID: 35cc0b00-e3db-45bd-8544-4c0c5cbb3396
+Question: 确定在给定的讨论中是否有任何说话者经历了情绪变化。
+Choices: 第一位说话者，第二位说话者，两位说话者，没有说话者
+Answer: 第一位说话者
+Difficulty: hard
+
+ID: a063e4d1-15cf-4ced-a9d5-8130d629c604
+Question: 在互动过程中，任何说话人的情感语气发生了变化吗？
+Choices: 没有说话人，两个说话人都，第二个说话人，第一个说话人
+Answer: 没有说话人
+Difficulty: hard
+
+
+----------------------------------------
+Category: Key highlight Extraction
+Statistics: Total=21, Easy=0, Medium=21, Hard=0
+----------------------------------------
+
+ID: 58987ac8-0f11-41c2-9789-3efd40631a81
+Question: 第一位说话者和第二位说话者之间的对话的主要话题是什么？
+Choices: 第二位说话者声称在凌晨四点看到某物。, 第一位说话者对早起习惯的看法。, 关于凌晨四点天气的讨论。, 第二位说话者凌晨四点的日常安排。
+Answer: 第二位说话者声称在凌晨四点看到某物。
+Difficulty: medium
+
+ID: 9d5ef0e3-b801-4f7c-a012-b7b5793ca1c6
+Question: 第二说话人在对话中感觉如何？
+Choices: 第二说话人感到冷静和镇定，第二说话人感到兴奋和热情，第二说话人感到沮丧和不耐烦，第二说话人感到漠不关心和不感兴趣。
+Answer: 第二说话人感到沮丧和不耐烦。
+Difficulty: medium
+
+ID: 6658e43e-f56d-44a2-ab80-6c73a40ee713
+Question: 对话的主要主题是什么？
+Choices: 第一位说话者决定继续，尽管他们已经做了很多。第一位说话者决定停止，因为他们已经做了很多。第一位说话者和第二位说话者讨论他们最喜欢的活动。第一位说话者决定回去，尽管他们已经做了很多。
+Answer: 第一位说话者决定回去，尽管他们已经做了很多。
+Difficulty: medium
+
+ID: dbe1cef1-a02d-4556-92d2-a9eaff9315c0
+Question: 第一位说话者和第二位说话者对当前处境有何感受？
+Choices: 他们似乎焦虑但顺从地接受可能发生的一切。, 他们似乎兴奋且对未来充满乐观。, 他们似乎漠不关心且对情况无动于衷。, 他们似乎困惑且不确定下一步该怎么做。
+Answer: 他们似乎焦虑但顺从地接受可能发生的一切。
+Difficulty: medium
+
+ID: 9a394489-4d24-4e85-8148-b89e87e363b2
+Question: First speaker和Second speaker之间的对话的主要主题是什么？
+Choices: 第一位说话者宣布她的订婚。第一位说话者讨论最近的假期。第二位说话者谈论新工作。第一位说话者计划一个惊喜派对。
+Answer: 第一位说话者宣布她的订婚。
+Difficulty: medium
+
+ID: bab237cb-8ef7-468e-9bcb-239c73143331
+Question: 第一位说话者对录取信的感觉如何？
+Choices: 兴奋且高兴。, 漠不关心且无动于衷。, 担心且焦虑。, 惊讶且困惑。
+Answer: 兴奋且高兴。
+Difficulty: medium
+
+ID: 293c7acb-5548-414e-9fc6-7d3db2cc7ec7
+Question: First speaker和Second speaker之间的对话的主要主题是什么？
+Choices:  Second speaker对无果线索的沮丧以及First speaker鼓励其继续尝试，Second speaker对进展的满意以及First speaker的同意，First speaker对项目的沮丧以及Second speaker关于如何解决的建议，对项目里程碑和截止日期的详细讨论。
+Answer:  Second speaker对无果线索的沮丧以及First speaker鼓励其继续尝试。
+Difficulty: medium
+
+ID: e480a6d2-6c05-4820-a721-582dbe0f0917
+Question: 第一位说话者正在提及什么问题？
+Choices: 打电话时漫长的等待时间。出色的客户服务。产品质量。公司快速的响应时间。
+Answer: 打电话时漫长的等待时间。
+Difficulty: medium
+
+ID: f4c0c09c-7023-4874-83ee-46a8b944a1aa
+Question: 第一个说话者需要什么具体物品？
+Choices: 第一个说话者需要一张用于他们车牌的小贴纸，第一个说话者需要一张新的车牌用于他们的汽车，第一个说话者需要一张停车许可用于他们的汽车，第一个说话者需要一份车辆注册文件。
+Answer: 第一个说话者需要一张用于他们车牌的小贴纸。
+Difficulty: medium
+
+ID: e0b9d9f4-2e95-4a2b-8a7a-5d9a0640be3e
+Question: 对话中讨论的是哪种服务？
+Choices: 对话正在讨论Sprint电话服务的账单问题。对话正在讨论Comcast推出的新互联网服务计划。对话正在讨论Verizon有线电视服务的客户投诉。对话正在讨论AT&T无线服务的促销优惠。
+Answer: 对话正在讨论Sprint电话服务的账单问题。
+Difficulty: medium
+
+ID: 3468afbd-49d5-4987-b49f-656f5f83fe76
+Question: 对话中，第一说话者试图做什么？
+Choices: 第一说话者试图安慰或抚慰第二说话者。，第一说话者试图批评第二说话者的行为。，第一说话者试图转换话题。，第一说话者试图给第二说话者建议。
+Answer: 第一说话者试图安慰或抚慰第二说话者。
+Difficulty: medium
+
+ID: 26476a60-839f-45cb-982f-ab3c59e1bf8e
+Question: 对话很可能涉及什么服务？
+Choices: D.S.L. Extreme的技术支持，本地银行的账单查询，在线购买的送货安排，D.S.L. Extreme的客户服务
+Answer: D.S.L. Extreme的客户服务
+Difficulty: medium
+
+ID: 9272b29d-40a6-4920-b109-fb5e497c8d27
+Question: 第一位说话人面临的主要问题是什么？
+Choices: 第一位说话人的行李没有从传送带上下来。第一位说话人弄丢了他们的护照。第一位说话人对航空公司的服务不满意。第一位说话人错过了转机航班。
+Answer: 第一位说话人的行李没有从传送带上下来。
+Difficulty: medium
+
+ID: c90b3626-ad19-4b68-be2b-cd725ba74567
+Question: 对话的整体语气是什么？
+Choices: 对话是轻松幽默的。，对话是严肃且关切的。，对话是漠不关心且随意的。，对话是乐观且充满希望的。
+Answer: 对话是严肃且关切的。
+Difficulty: medium
+
+ID: b74831c1-06e5-4c58-b965-f7a7b8ed42cd
+Question: 说话人2为哪件事道歉？
+Choices: 霍华德的，相信那个人，欢迎来到大楼，从未
+Answer: 从未
+Difficulty: medium
+
+ID: 8b4c6295-9adb-4a8f-8ebb-437721114bd3
+Question: 说话人1为了防止自己尖叫必须做什么？
+Choices: 拍手，咬嘴唇，捂住耳朵，闭上眼睛
+Answer: 咬嘴唇
+Difficulty: medium
+
+ID: 87ee70c8-8d04-49db-ac4b-c40ef625961c
+Question: 说话人2提到了调酒女招待的什么？
+Choices: 她得到了晋升，她正在开自己的俱乐部，她要搬到另一个城市，她要辞职去教三年级
+Answer: 她要辞职去教三年级
+Difficulty: medium
+
+ID: b92bda7e-43ab-4a69-a600-fe2547479ed4
+Question: 说话人4建议说话人1和谁谈论要孩子的事情？
+Choices: 她的妈妈，她的姐姐，她的朋友，她的亲生母亲
+Answer: 她的妈妈
+Difficulty: medium
+
+ID: bdca6759-d612-47fe-821c-1d0f0e003842
+Question: Speaker 2正在从事什么活动？
+Choices: 游泳，做晚饭，打网球，读书
+Answer: 游泳
+Difficulty: medium
+
+ID: be86c21b-e761-49ef-864a-7b5bbd391db7
+Question: 说话人1对Smokey Joe说了什么？
+Choices: 他走到一半到城市时倒下了，他走到一半到高速公路时倒下了，他到达高速公路时倒下了，他到达城市时倒下了
+Answer: 他走到一半到高速公路时倒下了
+Difficulty: medium
+
+ID: 107510b7-f372-4cf7-abb4-0a042b7d7db8
+Question: First speaker和Second speaker之间的对话的主要主题是什么？
+Choices: 在三年半没有见到她之后邀请她的原因。, 他们计划在旅行中参观的地点。, 维持远距离友谊的困难。, 女孩在过去三年半的成就。
+Answer: 在三年半没有见到她之后邀请她的原因。
+Difficulty: medium
+
+
+==================================================
+TASK: MUSIC
+==================================================
+
+
+----------------------------------------
+Category: Temporal Reasoning
+Statistics: Total=56, Easy=8, Medium=36, Hard=12
+----------------------------------------
+
+ID: 5f3fc487-26a8-4bfa-8e50-2a0550a8d50d
+Question: 音频中演奏了一个显著的E小七和弦（Em7）。这个和弦大约出现在哪个时间段？
+Choices: 1.50到4.00，4.50到7.00，7.40到10.10，10.50到13.00
+Answer: 7.40到10.10
+Difficulty: medium
+
+ID: 7a0376a4-111a-4bb4-b7d9-a453dd582b5e
+Question: 音频中从2.89到4.34播放的是哪个和弦？
+Choices: 升F：7/1，B：大调/1，E：大调/1，升D：7/1
+Answer: B：大调/1
+Difficulty: medium
+
+ID: 80513d09-21a1-41e9-9265-142efbed6a4e
+Question: 音频中G#大三和弦出现在哪个时间段范围内？请从以下选项中选择正确答案：
+Choices: 0.00到8.42，8.42到12.63，16.84到18.95，G#大三和弦在列出的任何时间段内均未出现。
+Answer: G#大三和弦在列出的任何时间段内均未出现。
+Difficulty: medium
+
+ID: 3f1c1b54-9f4f-430e-ba44-79c412dfac82
+Question: 音频中你首先听到的乐器是什么？从以下选项中选择正确的选项：
+Choices: 钢琴，电吉他，打击乐，旋律吉他
+Answer: 旋律吉他
+Difficulty: easy
+
+ID: f0920d0d-791c-4c03-9f66-cffca5128aec
+Question: 音频中约0:04-0:05处的E小调和弦之后紧接着的和弦转换是什么？
+Choices: C大调，G大调，D大调，A小调
+Answer: C大调
+Difficulty: medium
+
+ID: a92d62aa-ba19-428e-9d76-441355db5b20
+Question: 你如何描述音频的初始阶段？
+Choices: 史诗般的和快乐的，放松的和旋律优美的，实验性嘻哈节拍，古典的和平静的
+Answer: 实验性嘻哈节拍
+Difficulty: easy
+
+ID: 2ac676ef-d536-4764-ab25-d856ed9cb035
+Question: 音频中鼓组什么时候开始演奏？
+Choices: 在介绍之后，在最开始，在副歌期间，当贝斯开始时
+Answer: 在介绍之后
+Difficulty: medium
+
+ID: 6e4953fb-1a8b-46ef-a7c8-fee3fe3b603e
+Question: 音频中主要重复的和弦序列内C大调和弦的近似时长是多少？
+Choices: 0.75秒，1.00秒，1.49秒，2.00秒
+Answer: 1.49秒
+Difficulty: hard
+
+ID: 6b80af3a-3078-4eff-89be-134dc54a7cb6
+Question: 从2.57到3.85的和弦的和弦细节是什么？
+Choices: A:大调(#11)/1，A:大调/5，A:小七和弦/1，A:七和弦/1
+Answer: A:大调(#11)/1
+Difficulty: medium
+
+ID: ddc7d4a4-054c-4fd2-9755-e96bc744a4ca
+Question: 音频中首先介绍的乐器是什么？
+Choices: 架子鼓，小提琴，钢琴，吉他
+Answer: 钢琴
+Difficulty: easy
+
+ID: 4e2e7c16-7ca3-43a5-9bf3-2ca133cfcb30
+Question: 音频中在F#:7/1和弦之后立即演奏的和弦是什么？从以下选项中选择正确的选项：
+Choices: B:maj7/1，A#:hdim7(11)/1，E:(1,5)/1，G#:min7(4,*5)/1
+Answer: B:maj7/1
+Difficulty: medium
+
+ID: b11438e7-7867-429e-9a45-b35c2642a75c
+Question: 音频中在10.14秒开始的根音和弦是什么？
+Choices: G、A#、D、E
+Answer: D
+Difficulty: easy
+
+ID: 2573bb7c-5319-4e62-aca6-f90a7e5e7cd5
+Question: 音频中最后一个和弦之前紧接的是哪个和弦？
+Choices: 升C：大七和弦/1，升F：大七和弦/1，升G：七和弦/1，升A：小七和弦/1
+Answer: 升F：大七和弦/1
+Difficulty: easy
+
+ID: 4ed2355d-8998-4064-8e5c-82b9ac9b1dda
+Question: G大调和弦从大约0:12.5秒开始，作为明显延音的和弦持续多久，直到出现显著的旋律运动或和声变化？
+Choices: 大约1.0秒，大约1.5秒，大约2.0秒，大约2.5秒
+Answer: 大约2.0秒
+Difficulty: medium
+
+ID: 7333dffb-368f-44cc-adb4-b4e9805164a3
+Question: 音频中0:02到0:03处的和弦有什么特征？
+Choices: A：小三度/纯五度，E：大三度/纯一度，D：大三度/大三度，G：大三度/纯一度
+Answer: A：小三度/纯五度
+Difficulty: hard
+
+ID: 7d445250-bd42-4c5f-ab92-0fb5f7515b87
+Question: 以下哪个和弦在音频片段中演奏的总时长最长？
+Choices: A小调，G大调，C大调，F大调
+Answer: C大调
+Difficulty: medium
+
+ID: 51283005-d039-4332-9619-3d3f4eef4734
+Question: 音频中从1.83到3.66演奏的是哪个和弦？
+Choices: E:小七和弦/1，A:七和弦/1，D:大七和弦(11)/4，G:大七和弦/1
+Answer: A:七和弦/1
+Difficulty: medium
+
+ID: 6557d2cd-7a11-471f-ae43-415d01f34397
+Question: 音频中以下哪个和弦是第一个演奏的？
+Choices: 升C大调/1，升F大调/1，升G大调/1，升C大六度/1
+Answer: 升C大调/1
+Difficulty: easy
+
+ID: dde553fd-93dd-4cb0-a55b-ee58185a83cc
+Question: 音频中哪个和弦演奏时间最长？请从以下选项中选择正确的选项：
+Choices: A#小七和弦/1，D#挂四和弦（b7）/1，C#大七和弦/5，F#大和弦/5
+Answer: C#大七和弦/5
+Difficulty: hard
+
+ID: 00b97c42-e000-4889-84aa-7f0074233471
+Question: 音频中8.89秒到11.11秒处听到的和弦是哪一个？请选择以下选项中的正确答案：
+Choices: G升：小七和弦(*1)/降7，F升：半减七和弦/1，A升：属七和弦/降7，D升：小七和弦/1
+Answer: F升：半减七和弦/1
+Difficulty: medium
+
+ID: 69078f1d-b8de-4e06-8a76-e704d1b7b70f
+Question: 音频中电子乐器的使用是如何随时间演变的？
+Choices: 以极简主义开始并变得复杂，始终保持不变，以高能量开始并逐渐放慢，多次节奏变化而波动。
+Answer: 以极简主义开始并变得复杂
+Difficulty: hard
+
+ID: 40dd3406-783a-4c2b-8fd5-ad8b57330138
+Question: 音频中第一个E小调（Em）和弦的持续时间大约是多少？
+Choices: 1.52秒，1.77秒，1.98秒，2.23秒
+Answer: 1.98秒
+Difficulty: medium
+
+ID: 354bfb9d-d466-4e60-a56f-5faf5dee37c0
+Question: D#:(1,5)/1和弦在音频中持续多长时间？
+Choices: 2.02秒，2.18秒，2.00秒，1.98秒
+Answer: 2.02秒
+Difficulty: medium
+
+ID: e5d42c45-ee15-451a-9334-e1521d1848e0
+Question: 音频中"E:sus4(6)/5"的持续时间是多少？
+Choices: 1.60秒，2.00秒，2.40秒，2.60秒
+Answer: 1.60秒
+Difficulty: medium
+
+ID: 96c8231b-8866-43b4-bfdf-260706b2fcab
+Question: 过渡之后哪种乐器主导了音频？
+Choices: 电子乐器、主要是原声乐器、重型打击乐、合成器
+Answer: 主要是原声乐器
+Difficulty: easy
+
+ID: b516315d-7101-4f0d-a165-7c49b43ba4bf
+Question: 音频中G:maj7(11)/4和弦是在哪个时间段演奏的？
+Choices: 14.40秒至16.00秒，16.00秒至17.60秒，12.80秒至14.40秒，11.20秒至12.80秒
+Answer: 14.40秒至16.00秒
+Difficulty: medium
+
+ID: 1fe74624-ee85-4a25-b2ae-de1a894c2aaf
+Question: 音频中紧接着A#:7/1和弦之后演奏的是哪个和弦？
+Choices: D#:小七和弦/1，G#:小六九和弦(9,*1)/6，F#:大七和弦/1，C#:挂二降七和弦(b7,*1)/b7
+Answer: D#:小七和弦/1
+Difficulty: medium
+
+ID: 8ee655ce-b0c7-4def-856c-68ec352ea175
+Question: 音频中第一个E大调和弦的持续时间大约是多少？
+Choices: 0.78 秒，1.18 秒，1.48 秒，0.98 秒
+Answer: 1.18 秒
+Difficulty: medium
+
+ID: cb61e361-10a8-4664-a7d6-cc1cb0e58581
+Question: 在音频中，从23.57到25.71播放的和弦'F:min7/1'的时长是多少？
+Choices: 2.14秒，2.00秒，1.14秒，2.14分钟
+Answer: 2.14秒
+Difficulty: medium
+
+ID: 4ae6c0d3-d1ca-4203-89dc-bf244f262739
+Question: 从6.76到8.45，音频中演奏的是哪个和弦？请从以下选项中选择正确选项：
+Choices: E:半减七和弦(11)/4，A:大三和弦/5，A:7/1，D:小三和弦/5
+Answer: D:小三和弦/5
+Difficulty: hard
+
+ID: 2842608e-84ef-45c6-8c0f-e4cd60ad9958
+Question: 音频中根音为'F#'的和弦总时长是多少？从以下选项中选择正确答案：
+Choices: 7.94，5.13，3.10，1.28
+Answer: 7.94
+Difficulty: hard
+
+ID: 16d39319-e973-441a-ba46-ce6e5474c032
+Question: 在哪个时间段可以听到和弦G#:7(13,7,*5)/1？从以下选项中选择正确的选项：
+Choices: 0.00－2.18，2.18－4.36，4.36－6.55，6.55－8.73
+Answer: 0.00－2.18
+Difficulty: medium
+
+ID: 3b495f9c-af77-4ecf-8dc1-82d919b0af2f
+Question: 这段音频中的布鲁斯进行主要以A大调为主。在以下哪个时间段中，属和弦（V和弦，在此调中为E大调）首次被突出演奏？
+Choices: 0:00—0:08，0:09—0:11，0:12—0:15，0:16—0:18
+Answer: 0:09—0:11
+Difficulty: medium
+
+ID: 1beb87ed-8d10-4c39-87b4-81365b947fb8
+Question: 在音频中哪个时间段可以清晰地听到C大七和弦？
+Choices: 0.00秒到1.00秒，1.00秒到2.00秒，2.00秒到3.00秒，3.00秒到4.00秒
+Answer: 1.00秒到2.00秒
+Difficulty: medium
+
+ID: f4d37012-8bf5-4124-adc2-7a7f25108bb1
+Question: 在22.56到24.62之间演奏的是哪个和弦？
+Choices: D:小调/1，A#:大六和弦/1，D#:大调/1，G:小调/1
+Answer: D:小调/1
+Difficulty: medium
+
+ID: adc2f2fd-9b3b-4e84-a745-ede485660b1b
+Question: 在音频中，哪个和弦紧接在开头演奏的F# Major和弦之后？
+Choices: B大调，C#大调，G#小调，D#小调
+Answer: B大调
+Difficulty: medium
+
+ID: 62726c15-ec0a-4026-b9da-62a36b92a5d2
+Question: 音频中F:maj(#11)/1和弦出现在哪个时间段？
+Choices: 4.80 - 6.40，6.40 - 8.00，8.00 - 9.60，9.60 - 11.20
+Answer: 6.40 - 8.00
+Difficulty: medium
+
+ID: 7833e607-415e-4883-9f91-9f7c9c13d8b1
+Question: 音频中和弦G#:7(11,*5)/1的总时长是多少？
+Choices: 10.74秒，12.63秒，16.84秒，8.42秒
+Answer: 10.74秒
+Difficulty: hard
+
+ID: 39e17c66-af1d-4c7a-9183-d68c555ed89d
+Question: 音频中A大调和弦第一次出现的时间是什么时候？请从以下选项中选择正确的答案：
+Choices: 0.00，2.18，4.36，6.55
+Answer: 2.18
+Difficulty: medium
+
+ID: de1f4cc4-3d6a-4055-861c-792c116aee6f
+Question: 这段音频录音中主要使用的乐器是什么？
+Choices: 钢琴，原声吉他，长笛，鼓
+Answer: 原声吉他
+Difficulty: medium
+
+ID: e2363fed-cfd8-4dc0-98f2-aa5cd2ac973e
+Question: 音频中从5.65到8.47播放的是什么和弦？请从以下选项中选择正确的选项：
+Choices: Amaj，D#:7/5，G#:maj/1，C#:maj(#9)/b3
+Answer: Amaj
+Difficulty: medium
+
+ID: e1e2bc5b-8835-4d12-ba4b-7e6852071894
+Question: 音频中从8.57到10.71时间段内演奏的和弦，其特征为'F#:maj7(*1)/5'，是哪一个？
+Choices: F#:maj7(*1)/5，C#:maj6/5，G#:7/1，A#:min/1
+Answer: F#:maj7(*1)/5
+Difficulty: hard
+
+ID: bf8202aa-b875-4ace-ad99-bcaa10fd0d65
+Question: 音频中大约0:02处首次出现的B:小七和弦之后紧接着演奏的是什么和弦？
+Choices: E7，A大七，F#7，G#减七半减
+Answer: E7
+Difficulty: medium
+
+ID: fa879c74-381d-453f-b53d-ad06362a56cf
+Question: 音频中描述为'D:maj6/1'的和弦在什么时间结束？
+Choices: 4.03，6.05，2.02，8.07
+Answer: 4.03
+Difficulty: medium
+
+ID: 91eaf152-362a-46f6-8f09-fb247feecd80
+Question: 在时间间隔14.69到17.14期间，哪个和弦被弹奏？
+Choices: D:maj(2)/2，E:9/1，A:maj/1，C#:min/1
+Answer: D:maj(2)/2
+Difficulty: medium
+
+ID: b79edaf7-c7f4-42f6-9535-69a68a425e8f
+Question: 请识别在40.00至42.86秒之间演奏的和弦。从以下选项中选择正确选项：
+Choices: G大调/1，A#大调/1，F大调/1，G小调/1
+Answer: G大调/1
+Difficulty: hard
+
+ID: bc2df3f8-66bd-4ea4-b18f-78aee696514d
+Question: 在音频中，D小调和弦是在哪个时间段演奏的？
+Choices: 2.05 - 4.10，4.10 - 6.15，6.15 - 8.21，8.21 - 10.26
+Answer: 6.15 - 8.21
+Difficulty: medium
+
+ID: 81adb273-7d0b-4f3f-ba44-691a3cb2b060
+Question: 音频中紧接着F#:(5,2,b7,4)/5和弦之后演奏的是哪个和弦？
+Choices: E:sus2(b7,*5)/1，B:7/1，E:(1,5,2,6,4)/6，F#:(5,2,b7,4)/5
+Answer: E:(1,5,2,6,4)/6
+Difficulty: medium
+
+ID: c678230c-6851-4232-827b-2dc545e975b5
+Question: 音频中哪个和弦的演奏时长最长？请从以下选项中选择正确答案：
+Choices: B:小七和弦/1，F#:七和弦/1，G:大七和弦/1，D:大七和弦（11）/4
+Answer: B:小七和弦/1
+Difficulty: medium
+
+ID: 392b9839-0a43-4f9a-824c-3249d1c5a818
+Question: 音频中和弦 'G:maj/1' 在哪个时间段被演奏？
+Choices: 0.00—1.62，1.62—3.24，3.24—4.86，4.86—6.49
+Answer: 1.62—3.24
+Difficulty: medium
+
+ID: 18c88334-f46d-4fba-b408-a927d45ba16e
+Question: 在提供的音频片段中，主唱何时首次变得清晰可听？
+Choices: 大约在0:05，一段器乐前奏之后。在最开始（0:00）。大约在0:10，一段鼓点填充之后。大约在0:02，一段简短的合成器前奏之后。
+Answer: 在最开始（0:00）。
+Difficulty: medium
+
+ID: d480aa85-3c8c-4e97-86fa-81c6f8eaa806
+Question: 音频中12.97秒到16.22秒的时间段内，哪个和弦进行是正确的？
+Choices: C:大调/1到G:大调/1到A:小调/5，F:大调/5到C:大调/1到G:大调/1，G:大调/1到A:小调/5到E:小调/1，C:大调/1到F:大调/5到G:大调/1
+Answer: C:大调/1到G:大调/1到A:小调/5
+Difficulty: hard
+
+ID: e277d88f-fc07-41a4-9c22-de21dfbc8ab3
+Question: C#9(*5)/1和弦在音频中持续了多长时间？
+Choices: 1.63秒，2.74秒，1.53秒，1.63秒
+Answer: 1.63秒
+Difficulty: hard
+
+ID: f9eba1a9-c245-41d4-a59b-f2be7efe0c79
+Question: 根音为'C'的和弦在音频中什么时候开始？请从以下选项中选择正确答案：
+Choices: 9.60秒，10.80秒，12.00秒，7.20秒
+Answer: 9.60秒
+Difficulty: easy
+
+ID: f386c957-c4f4-40c9-828f-d14ab58a25f0
+Question: 音频开头（大约0:00.0）播放的G大调和弦的近似时长是多少？
+Choices: 0.65秒，0.95秒，1.25秒，1.55秒
+Answer: 0.95秒
+Difficulty: hard
+
+ID: ae067d8a-46f3-4081-9556-1c94e0ab247b
+Question: 音频中E:9(*1)/3和弦出现在哪个时间段？
+Choices: 0.00 - 4.80，4.80 - 7.20，7.20 - 9.60，9.60 - 10.80
+Answer: 4.80 - 7.20
+Difficulty: medium
+
+
+----------------------------------------
+Category: Musical Genre Reasoning
+Statistics: Total=34, Easy=9, Medium=18, Hard=7
+----------------------------------------
+
+ID: a099eed3-6691-43f1-8a7a-16441a0bef35
+Question: 根据其乐器和人声风格，这段音频的主要流派是什么？
+Choices: 爵士，电子/芯片音乐，乡村，雷鬼
+Answer: 电子/芯片音乐
+Difficulty: medium
+
+ID: f0c64e08-966a-4be7-a959-ddcf2b6776aa
+Question: 音频的主要类型是什么？
+Choices: 古典，流行摇滚，嘻哈，爵士
+Answer: 流行摇滚
+Difficulty: easy
+
+ID: 72614f39-9aa4-4640-8c90-50dbb1aa1e2a
+Question: 这段音频最可能属于哪个流派？
+Choices: 氛围音乐，摇滚，爵士，古典
+Answer: 氛围音乐
+Difficulty: medium
+
+ID: 2bf65958-91d8-4eae-958c-d2bfc223c839
+Question: 考虑到音乐类型和风格，音频中哪种乐器最有可能突出？
+Choices: 电吉他、合成器、原声吉他、鼓机
+Answer: 原声吉他
+Difficulty: medium
+
+ID: b69323e3-c2a6-4a76-9fa4-5d1b6338739e
+Question: 加入儿童的声音如何影响音频的流派分类？
+Choices: 它使音频听起来像古典乐作品，它表明音频可能属于儿童音乐流派，它表明音频是一首摇滚歌曲，它将音频归类为爵士乐录音
+Answer: 它表明音频可能属于儿童音乐流派
+Difficulty: easy
+
+ID: c12dcf7e-311c-4aa4-b27a-0088e4599d51
+Question: 哪种流派不属于音频的风格？请从以下选项中选择正确的答案：
+Choices: 乡村音乐，法国新摇摆乐，爵士乐，蓝调
+Answer: 乡村音乐
+Difficulty: medium
+
+ID: 4a268f1d-2444-4537-b68e-3af388da1064
+Question: 哪种类型最能描述这段音频？
+Choices: 氛围音乐，古典，爵士，摇滚
+Answer: 氛围音乐
+Difficulty: easy
+
+ID: 382905b7-9d0c-4a6a-bf84-cc4635b65586
+Question: 这段音频主要代表什么类型？
+Choices: 环境音乐，古典，摇滚，爵士
+Answer: 环境音乐
+Difficulty: easy
+
+ID: e2e56521-15d9-4d7e-a046-5ccc6718003e
+Question: 音频中哪个元素最能体现其赛博朋克风格？
+Choices: 原声吉他，多样化合成器，古典钢琴，现场管弦乐队
+Answer: 多样化合成器
+Difficulty: medium
+
+ID: b9683831-2d70-414a-9fce-a9bd0491df20
+Question: 这段音频最可能属于什么类型？
+Choices: 古典交响乐，流行，重金属，爵士
+Answer: 流行
+Difficulty: easy
+
+ID: fb1611da-406e-4904-91d9-1ef4dfaf881e
+Question: 哪种流派最能描述该音频的乐器和风格？
+Choices: 部落、爵士、古典、电子
+Answer: 部落
+Difficulty: medium
+
+ID: 3452703b-ca3b-4f6c-bccc-0b24a053cf0a
+Question: 音频的主要音乐类型是什么？
+Choices: 交响乐，爵士乐，管弦乐，摇滚乐。
+Answer: 管弦乐
+Difficulty: easy
+
+ID: f486cf13-9168-4d65-9a86-7dec25d30962
+Question: 音频中，原声鼓与行走贝斯线和手风琴的组合最可能暗示哪种音乐类型？
+Choices: 爵士乐、波尔卡、雷鬼、古典乐
+Answer: 波尔卡
+Difficulty: medium
+
+ID: 423748c4-d9bc-42b2-b684-ff780618a1ce
+Question: 这段音频属于哪种音乐类型？
+Choices: 流行音乐，基督教敬拜音乐，爵士乐，重金属
+Answer: 基督教敬拜音乐
+Difficulty: easy
+
+ID: 891072c6-3e08-407f-8918-ae70d20a295d
+Question: 考虑到这首歌的快节奏和节奏元素，哪种流派可能影响了这种风格？
+Choices: 黑人福音，古典，雷鬼，蓝调
+Answer: 黑人福音
+Difficulty: hard
+
+ID: aa1f2828-9c0e-4174-a8da-3e1b52987444
+Question: 哪种音乐类型组合最能描述这段音频？
+Choices: 波斯民谣与流行，波斯民谣与歌剧，爵士与歌剧，古典与摇滚。
+Answer: 波斯民谣与歌剧
+Difficulty: hard
+
+ID: d8551390-2d2a-49be-ab67-d2cb79de4bb4
+Question: 考虑到作品的性质，这段音频最可能属于哪个流派？
+Choices: 交响乐，电子，冒险游戏配乐，爵士
+Answer: 冒险游戏配乐
+Difficulty: medium
+
+ID: 9531b28f-70fe-48c9-8962-9d2c27ec5a6d
+Question: 根据其节奏性的鼓点和充满活力的演唱风格，这段音频属于哪个流派？
+Choices: 古典，爵士，拉丁流行，嘻哈。
+Answer: 拉丁流行
+Difficulty: medium
+
+ID: de569f33-75e5-43e3-9777-8c653f4de3d0
+Question: 歌曲风格中的哪个元素是蓝调音乐的特征？
+Choices: 行进贝斯线，快节奏，管弦乐编排，合成器使用
+Answer: 行进贝斯线
+Difficulty: medium
+
+ID: 4f95132e-641a-495b-9469-f4c208165e26
+Question: 考虑到提到的乐器，哪种流派最不可能描述这段音频？
+Choices: 独立民谣、低保真、氛围音乐、朋克摇滚
+Answer: 朋克摇滚
+Difficulty: hard
+
+ID: e2a2d1d6-134a-44b3-b499-e9b145a79534
+Question: 基于其节奏元素和乐器配置，哪种音乐流派最可能影响音乐风格？
+Choices: 阿非罗贝斯，乡村音乐，古典音乐，重金属音乐
+Answer: 阿非罗贝斯
+Difficulty: hard
+
+ID: f228c287-fce7-44d8-bfbe-c2eb0d7ff024
+Question: 音频的哪个特性使其与现代摇滚子类型相符？从以下选项中选择正确的选项：
+Choices: 传统民乐乐器，充满活力且驱动的节奏部分，古典管弦乐编排，环境音景
+Answer: 充满活力且驱动的节奏部分
+Difficulty: hard
+
+ID: 1c1ba2ae-bf4d-4654-8018-0a04749206f8
+Question: 以下哪种元素在音频中最为突出？
+Choices: 重型低音骤降，交响弦乐，清晰的琶音电吉他，顺畅的萨克斯独奏
+Answer: 清晰的琶音电吉他
+Difficulty: medium
+
+ID: 8bce5a39-959a-4192-a26d-ba88d862f94b
+Question: 音频中使用爵士摇摆节奏暗示了哪种音乐风格的影响？
+Choices: 摇滚，蓝调，爵士，古典
+Answer: 爵士
+Difficulty: hard
+
+ID: d1f02d85-3c1b-4512-bc17-e8c9799a6251
+Question: 音频中的演唱风格属于哪种音乐类型？
+Choices: 印度古典、嘻哈、爵士、摇滚
+Answer: 嘻哈
+Difficulty: easy
+
+ID: 30bc8aca-be42-484e-bb87-d61ba2068096
+Question: 考虑到低音部分的特点，它最可能适合哪种音乐类型？
+Choices: 古典、爵士、放克、摇滚
+Answer: 放克
+Difficulty: medium
+
+ID: 26c42c5d-a658-4e9e-ac5e-7b78112af52c
+Question: 以下哪种音乐类型不符合音频的风格？
+Choices: 放克摇滚，古典音乐，电子摇滚，放克
+Answer: 古典音乐
+Difficulty: medium
+
+ID: b1015fa7-d54e-4235-ab4e-08f09ca60750
+Question: 哪种音乐类型最可能以音频中听到的充满活力且适合跳舞的节奏为特点？
+Choices: 摇滚，爵士，古典，蓝调
+Answer: 摇滚
+Difficulty: easy
+
+ID: 526bc555-71e8-4a9a-974b-c02f2421eeac
+Question: 对比并比较音频中的音乐与传统古典音乐。
+Choices: 实验音乐通常打破传统结构，而古典音乐则遵循严格的作曲规则，两种流派都更重视旋律和和声而非节奏，古典音乐总是器乐的，而实验音乐从不是，实验音乐的时长总是比古典音乐作品更长。
+Answer: 实验音乐通常打破传统结构，而古典音乐则遵循严格的作曲规则。
+Difficulty: hard
+
+ID: 20892025-f2cb-40d5-a237-4951eaa77d04
+Question: 以下哪项特征通常与音频的风格相关？
+Choices: 可预测的节奏，实验性声音景观，传统旋律，标准和弦进行
+Answer: 实验性声音景观
+Difficulty: medium
+
+ID: 9aff2273-71b1-42f8-837b-7aa2b8beb6dd
+Question: 这种音频类型通常如何影响听众的情绪？请从以下选项中选择正确的选项：
+Choices: 放松且专注，精力充沛且兴奋，悲伤且忧郁，愤怒且具有攻击性
+Answer: 精力充沛且兴奋
+Difficulty: medium
+
+ID: 1c0358cc-85c4-4d64-afa7-8f0684a8c40d
+Question: 以下哪种音乐类型最有可能与音频有相似之处？
+Choices: 氛围音乐，流行，雷鬼，电子
+Answer: 氛围音乐
+Difficulty: medium
+
+ID: 13a91547-3f4f-4fbe-be3e-c3abf00d7c56
+Question: 这种音乐类型通常如何影响听众的情绪？
+Choices: 振奋，平静，使他们悲伤，使他们困惑
+Answer: 平静
+Difficulty: medium
+
+ID: 0935573e-1dc7-4343-8f86-c6a5ec4731df
+Question: 以下哪种乐器最有可能在该流派中突出？请从以下选项中选择正确答案：
+Choices: 电吉他，小提琴，小号，合成器
+Answer: 电吉他
+Difficulty: medium
+
+
+----------------------------------------
+Category: Lyrical Reasoning
+Statistics: Total=10, Easy=2, Medium=5, Hard=3
+----------------------------------------
+
+ID: 0f7daed8-802a-499f-8336-8345b206fe2e
+Question: 在音频中，什么被描述为"在夜空中燃烧"？
+Choices: 一束光，一团火，一颗星星，一盏灯笼
+Answer: 一束光
+Difficulty: medium
+
+ID: b6fd8b14-ea4e-4b8f-a045-0a93b29752e8
+Question: 女歌手关于回到之前的情况或某人身边明确表态是什么？
+Choices: 她正在考虑，但需要更多时间。、她已经决定不会回来。、如果对方道歉她会回来。、她渴望尽快回来。
+Answer: 她已经决定不会回来。
+Difficulty: hard
+
+ID: becfd6b5-a04a-4566-a676-71b21fa7fba6
+Question: 在音频中，歌手正在寻求他们心灵的什么？
+Choices: 平静，兴奋，信息提取，冒险
+Answer: 平静
+Difficulty: medium
+
+ID: 96eeaa87-57e0-4d63-a9b6-c50b4bda9e55
+Question: 根据音频，建议对讨厌的人采取什么回应？
+Choices: 直接对抗他们，让他们去做，忽略并继续前进，寻求报复
+Answer: 让他们去做
+Difficulty: easy
+
+ID: 0be58acd-2201-4d00-8357-0b0c1ab3b335
+Question: 说话者对自己决定到场的感觉如何？
+Choices: 这是一个错误。这是一个最好的决定。他们漠不关心。他们很高兴。
+Answer: 这是一个错误。
+Difficulty: hard
+
+ID: f1134a7e-fe60-429c-a87c-b705852fe26e
+Question: 音频中歌手在质疑其他人的什么方面？
+Choices: 他们的梦想，他们的身份，他们的感受，他们的行为
+Answer: 他们的身份
+Difficulty: medium
+
+ID: 7c1f2fe5-1694-4e75-94c0-9081be8ef330
+Question: 根据音频，歌手如何应对面临的挑战？
+Choices: 歌手决心不停止，歌手考虑放弃，歌手感到不知所措，歌手寻求帮助
+Answer: 歌手决心不停止
+Difficulty: medium
+
+ID: 92633655-4416-4010-81b4-fc254a3cacb3
+Question: 音频中描述的整体情绪是什么？请从以下选项中选择正确的选项：
+Choices: 欢乐且庆祝的，悲伤且忧郁的，愤怒且具有攻击性的，平静且反思的
+Answer: 悲伤且忧郁的
+Difficulty: easy
+
+ID: eb1f6c4f-781e-415d-8ff4-ff4743256918
+Question: 根据音频，我们要搬到哪里？
+Choices: 到月球，太阳会一直照耀的地方，到一个黑暗的地方，星星明亮的地方
+Answer: 太阳会一直照耀的地方
+Difficulty: medium
+
+ID: e0592b4c-00fc-4172-84e6-14cec103b019
+Question: "根据音频，'心灵的平静'在哪里可以找到？"
+Choices: 在梦境中，在财富中，在人际关系中，它已经在那里但我们都找不到。
+Answer: 它已经在那里但我们都找不到。
+Difficulty: hard
+
+
+----------------------------------------
+Category: Socio-cultural Interpretation
+Statistics: Total=20, Easy=8, Medium=7, Hard=5
+----------------------------------------
+
+ID: edcfc8ec-34ee-413c-bab6-84ee88d1b6ff
+Question: 音频中的音乐最有可能在哪个文化背景中演奏？
+Choices: 西方古典音乐厅，印度古典音乐节，现代流行音乐会，爵士俱乐部
+Answer: 印度古典音乐节
+Difficulty: medium
+
+ID: db0ea7ab-5514-474e-a0d5-32a0e6c76a7c
+Question: 音频中使用打击乐元素可能具有什么文化意义？
+Choices: 它代表传统民间音乐，它用于创造舞蹈节奏，它表示仪式仪式，它增加了作品的复杂性
+Answer: 它用于创造舞蹈节奏
+Difficulty: hard
+
+ID: 2add33b9-993d-46f7-bd28-355999084f8d
+Question: 音频中的吟唱通常出现在哪些文化或宗教实践中？
+Choices: 佛教、约鲁巴、康多姆布雷和圣特里亚，基督教，犹太教
+Answer: 约鲁巴、康多姆布雷和圣特里亚
+Difficulty: easy
+
+ID: 0f76a1b5-9ecf-4936-a938-33c53ca8e55b
+Question: 哪座城市最可能与音频中的爵士乐曲相关联？
+Choices: 新奥尔良、芝加哥、纽约、洛杉矶
+Answer: 纽约
+Difficulty: easy
+
+ID: 5fd4a5a9-03f3-449a-87eb-0447ab32fa8b
+Question: 如音频中所听到的大乐队风格在哪个时期最为流行？
+Choices: 1920年代-1940年代，1950年代-1960年代，1970年代-1980年代，1990年代-2000年代
+Answer: 1920年代-1940年代
+Difficulty: hard
+
+ID: 3c112ca5-dfaa-4e2e-859e-86e7d8973941
+Question: 在音频中清晰可辨的哪种乐器最典型地与爵士乐相关联？
+Choices: 立式贝斯，沙锤，合成器铺底音色，节奏键盘
+Answer: 节奏键盘
+Difficulty: easy
+
+ID: e5f66a0c-8355-40bf-acf1-c8232e531a8f
+Question: 在什么类型的场合下，这段音频最有可能被播放？
+Choices: 古典音乐会，爵士酒吧，摇滚酒吧，婚礼接待
+Answer: 摇滚酒吧
+Difficulty: medium
+
+ID: e570351f-2f73-44b1-9709-0cec0722ad81
+Question: 哪种舞蹈形式与音频的风格相关？
+Choices: 探戈，萨尔萨，华尔兹，芭蕾
+Answer: 华尔兹
+Difficulty: easy
+
+ID: 77aa2bd3-905b-41c2-bd15-66fb69ce5a7c
+Question: 哪位艺术家的音频最可能被进行比较？
+Choices: 贝多芬，大卫·库塔，猫王，泰勒·斯威夫特
+Answer: 大卫·库塔
+Difficulty: medium
+
+ID: 0b7642ec-10ff-4a3e-80d2-0adfc257ab5e
+Question: 音频中哪个元素最能体现其2000年代初的风格？
+Choices: 带有军鼓、底鼓和踩镲的鼓循环，现场管弦乐队的出现，使用原声吉他，人声和声
+Answer: 带有军鼓、底鼓和踩镲的鼓循环
+Difficulty: medium
+
+ID: 75608263-e320-4823-8c62-1c650a0f37ca
+Question: 哪种音乐风格以音频的中等速度、有节奏感的低音线和加勒比打击乐为特点？
+Choices: 雷鬼、爵士、古典、摇滚
+Answer: 雷鬼
+Difficulty: easy
+
+ID: e086523d-bcbb-4a1e-9dc8-8ab88759af84
+Question: 音频中的大键琴和竖笛声音可能与哪个历史时期相关？
+Choices: 巴洛克，古典主义，浪漫主义，现代
+Answer: 巴洛克
+Difficulty: medium
+
+ID: 1ab6834e-b22a-413f-a1fb-e33db4d43e2c
+Question: 音频中哪种乐器可能贡献了印度古典音乐的声音？
+Choices: 西塔琴，电吉他，萨克斯，手风琴
+Answer: 西塔琴
+Difficulty: medium
+
+ID: c8fa244e-7774-4cc7-9e60-c7fec9acc97e
+Question: 音频中代表的是哪个地区的传统音乐？
+Choices: 中东、南亚、东亚、非洲
+Answer: 南亚
+Difficulty: easy
+
+ID: 0fd09e62-c696-4a02-bdbf-3c29b3b2df23
+Question: 音频中哪些音乐元素可能被用来营造后末日世界的氛围？
+Choices: 传统民乐，大量使用合成器和电子音效，原声吉他和钢琴，爵士萨克斯和铜管部分
+Answer: 大量使用合成器和电子音效
+Difficulty: medium
+
+ID: 1e048a1d-5344-441a-95d9-5018adeac462
+Question: 根据音频，这首歌最可能在什么情境下被听到？
+Choices: 西方民谣节、中东电影、爵士俱乐部、摇滚音乐会
+Answer: 中东电影
+Difficulty: easy
+
+ID: 030e7f42-24e7-4bc2-ae58-64b014ceeef2
+Question: 音频中男歌手的自由旋律具有什么文化意义？
+Choices: 中东和南亚音乐中常见的即兴演奏，西方古典音乐中典型的结构化旋律，流行音乐影响，电子音乐模式
+Answer: 中东和南亚音乐中常见的即兴演奏
+Difficulty: hard
+
+ID: a7ba89c0-2281-4b88-b7d4-a31ee7f86a7c
+Question: 音频的哪个特征反映了迈克尔·杰克逊的影响？
+Choices: 使用响亮的电子鼓，男歌手以非常夸张的方式演唱，电吉他采样，强烈的电子贝斯声
+Answer: 男歌手以非常夸张的方式演唱
+Difficulty: hard
+
+ID: 6b63f309-0e59-436f-9af6-7a0b631059f9
+Question: 根据描述，音频营造了什么样的氛围？
+Choices: 充满活力和热闹的，紧张和悬疑的，宁静和放松的，混乱和嘈杂的
+Answer: 宁静和放松的
+Difficulty: easy
+
+ID: d85c0fca-5bc8-4a4c-aa9c-8e45d9cc9aed
+Question: 以下哪位作曲家以推广音频中听到的音乐风格而闻名？
+Choices: 约翰·塞巴斯蒂安·巴赫，弗朗茨·李斯特，克劳德·德彪西，弗雷德里克·肖邦
+Answer: 弗雷德里克·肖邦
+Difficulty: hard
+
+
+----------------------------------------
+Category: Melodic Structure Interpretation
+Statistics: Total=33, Easy=28, Medium=5, Hard=0
+----------------------------------------
+
+ID: e52ff5d2-0f86-4634-b2f8-a182d1afab82
+Question: 哪个术语最能描述音频中的语音风格？
+Choices: 单调的，激情的，低语的，机械的
+Answer: 激情的
+Difficulty: easy
+
+ID: 01fb92c4-7c7a-4005-8c1a-91e8a76d6f51
+Question: 音频开头的主要人声风格是什么？请从以下选项中选择正确答案：
+Choices: 女声演唱，男声高音演唱，男声中音演唱，无伴唱
+Answer: 男声中音演唱
+Difficulty: easy
+
+ID: 728e41be-d392-40b7-ba74-6581610034ff
+Question: 音频中正在演奏的贝斯线类型是什么？
+Choices: 原声贝斯线，律动合成器贝斯线，无品贝斯线，倍低音贝斯线
+Answer: 律动合成器贝斯线
+Difficulty: medium
+
+ID: 4c6e9698-efc5-4a81-8041-886c415b2e26
+Question: 您如何描述该音频中主要乐器的音高？
+Choices: 主要为低音，主要为中音，主要为高音，在所有音域间不断变化
+Answer: 主要为高音
+Difficulty: medium
+
+ID: 04fef74e-4e4e-4917-aeef-3a04ce10495d
+Question: 音频中采用了哪种声乐风格？请从以下选项中选择正确的选项：
+Choices: 平淡的男声，歌剧式的女声，高音的男声，柔和的女声
+Answer: 柔和的女声
+Difficulty: easy
+
+ID: c65b8ad2-2c5e-46f1-9041-1df1595003de
+Question: 以下哪项最能描述音频中的声音表达？
+Choices: 平静且舒缓，朗朗上口且充满活力，单调且乏味，古典且歌剧式
+Answer: 朗朗上口且充满活力
+Difficulty: easy
+
+ID: a4ecd914-8393-40a9-baf7-c7b43f934426
+Question: 音频中主要听到哪种女性声音？
+Choices: 响亮且高音调，柔和且低音调，中等音量和音调，耳语般且气声
+Answer: 响亮且高音调
+Difficulty: easy
+
+ID: 22ba0124-19c5-4469-929c-0729a043f6fa
+Question: 音频中突出呈现的音效有哪些？
+Choices: 回响睡眠嗡鸣，雨声和雷声，鸟鸣声，城市交通声
+Answer: 回响睡眠嗡鸣
+Difficulty: easy
+
+ID: 64bf6371-ba11-45b4-aad5-27f53f7eaa17
+Question: 音频中主要包含哪种人声类型？
+Choices: 单调的女声，混响男声，合唱，无
+Answer: 单调的女声
+Difficulty: easy
+
+ID: c58a9515-694e-4bc5-b7b8-70ee2ac4e093
+Question: 这段音频片段中人声的显著特征是什么？
+Choices: 自然、低沉的男声，合成的、高音调人声，歌剧女高音，自然、儿童般的声音
+Answer: 合成的、高音调人声
+Difficulty: easy
+
+ID: 56d64069-6866-41b6-921f-419409f29a02
+Question: 音频中主要展现了哪种类型的声乐表演？
+Choices: 平淡的男声，高音调的女声，合唱，说唱声乐
+Answer: 平淡的男声
+Difficulty: easy
+
+ID: 253d1c7e-f65d-49eb-a105-b13b57fb99cb
+Question: 音频中的男歌手表现如何？
+Choices: 音准正确且音色柔和，音准错误且以喊叫般的风格，音准正确且音色如耳语般，音准错误且音色柔和
+Answer: 音准错误且以喊叫般的风格
+Difficulty: easy
+
+ID: b161a5f4-bd0d-4961-bfff-90c70e78ea86
+Question: 音频的第一部分中出现了哪种声音？从以下选项中选择正确的选项：
+Choices: 男声，女声，儿童的声音，机器人的声音
+Answer: 男声
+Difficulty: easy
+
+ID: ae25b579-7b19-478d-99b2-f7a0a0ddc873
+Question: 音频中的音乐主要传达了什么情感？
+Choices: 忧郁，欢乐与轻快，紧张，平静
+Answer: 欢乐与轻快
+Difficulty: easy
+
+ID: 08f50803-118f-4af6-a755-116ce5e37151
+Question: 音频中出现了哪种类型的歌手？
+Choices: 男歌手，女歌手，合唱团，纯乐器演奏
+Answer: 男歌手
+Difficulty: easy
+
+ID: ae2a70d2-c86f-4ad4-833e-535d22c54247
+Question: 音频中电吉他的声音如何描述？
+Choices: 宽广旋律，闷音和弦，柔和的琶音，干净的拨弦
+Answer: 宽广旋律
+Difficulty: medium
+
+ID: 8615e0b8-1e00-436b-a5ae-fb845879f84c
+Question: 音频中展示了哪种类型的声乐表演？
+Choices: 单调的男声、热情的女声、男声合唱、机械声
+Answer: 热情的女声
+Difficulty: easy
+
+ID: d225da40-65bc-4e2b-9ffe-786a1ace32b4
+Question: 音频中的主要旋律元素是什么？
+Choices: 一组女声，独唱男声，一架钢琴，一把小提琴
+Answer: 一组女声
+Difficulty: easy
+
+ID: 6ae5375e-4d0c-426c-a7fb-32b4c959dc5c
+Question: 音频中呈现了哪种声乐表现形式？
+Choices: 平直的男声，高音调的女声，和声合唱团声乐，歌剧男高音声乐
+Answer: 平直的男声
+Difficulty: easy
+
+ID: 70c271b0-0a05-4e68-929a-4d0c1c393044
+Question: 你如何描述音频中小提琴演奏的主题旋律？
+Choices: 平静且放松，激动人心且充满悬念，忧郁且悲伤，欢乐且鼓舞人心
+Answer: 激动人心且充满悬念
+Difficulty: medium
+
+ID: 05eb32f6-5ad4-4abc-9a9a-0a252329e4ba
+Question: 音频中的主要人声特征是什么？
+Choices: 儿童唱歌，老人唱歌，女人唱歌，合唱团唱歌
+Answer: 老人唱歌
+Difficulty: easy
+
+ID: 3c1fabe8-c232-4f12-a7b8-0dcab4f4c888
+Question: 音频中男歌手演唱的旋律的主要特征是什么？
+Choices: 热情的，单调的，沉闷的，激进的
+Answer: 热情的
+Difficulty: easy
+
+ID: 3580ca69-7d52-4b48-bb13-63e0fb898439
+Question: 音频中电吉他主要使用了什么技巧？请从以下选项中选择正确答案：
+Choices: 扫弦、指弹、拍击、击弦
+Answer: 扫弦
+Difficulty: easy
+
+ID: 75584eca-0f4a-4b71-80f7-12401847784a
+Question: 女声如何为音频中的旋律做出贡献？
+Choices: 它提供和声。, 它演唱旋律。, 它创造节奏模式。, 它在背景中演奏。
+Answer: 它演唱旋律。
+Difficulty: easy
+
+ID: 1910e3db-5030-4255-8b0d-053542050037
+Question: 音频中采用了哪种声乐风格？请从以下选项中选择正确的答案：
+Choices: 热情，单调，机械，柔和
+Answer: 柔和
+Difficulty: easy
+
+ID: 59a98d10-a56c-4ae3-9a8d-bd16b141a70c
+Question: 以下哪个选项最能描述音频中的男性声音？
+Choices: 柔和且有旋律的，咄咄逼人且说话的，高音且唱歌的，耳语的
+Answer: 咄咄逼人且说话的
+Difficulty: easy
+
+ID: 09228ed9-0007-4042-9f85-9802fd212cc6
+Question: 音频中包含哪种人声？
+Choices: 女声，男声，童声，纯乐器
+Answer: 男声
+Difficulty: easy
+
+ID: 3169f037-a4b1-4b96-b0a0-94b26af56af7
+Question: 你如何描述音频中的旋律？
+Choices: 复杂，简单，复调，无调
+Answer: 简单
+Difficulty: easy
+
+ID: 02c79929-d644-4999-b514-a9be9c005465
+Question: 音频中电子钢琴演奏的音乐风格是什么？
+Choices: 古典，布鲁斯，爵士，摇滚
+Answer: 布鲁斯
+Difficulty: easy
+
+ID: 031cdb50-fec3-4b16-8c26-e1d434aa5666
+Question: 以下旋律所传达的情绪，哪一个选项最能准确描述？请从以下选项中选择正确答案：
+Choices: 悲伤的，快乐的，激进的，忧郁的
+Answer: 忧郁的
+Difficulty: easy
+
+ID: 6719fe53-bb74-4b02-8593-4da90c1c44a2
+Question: 音频中吉他是如何演奏的？
+Choices: 轻柔地扫弦，指弹，激烈地扫弦，消音
+Answer: 激烈地扫弦
+Difficulty: easy
+
+ID: ed249acf-b924-4a91-b391-85711fb9f880
+Question: 音频中可以听到哪种类型的人声？请从以下选项中选择正确的选项：
+Choices: 男声旋律性演唱，女声说唱，男声喊叫，女声轻柔演唱
+Answer: 男声喊叫
+Difficulty: easy
+
+ID: 09c7e96d-956d-4faa-ac6b-3f73f98d628f
+Question: 以下哪项最能描述音频中女性演唱的旋律？从以下选项中选择正确选项：
+Choices: 一个长而拖长的旋律，一个复杂而快速的旋律，一个短而张口的旋律，一个有节奏的、断奏的旋律
+Answer: 一个长而拖长的旋律
+Difficulty: medium
+
+
+----------------------------------------
+Category: Harmony and Chord Progressions
+Statistics: Total=33, Easy=6, Medium=27, Hard=0
+----------------------------------------
+
+ID: 1c251104-e6e6-40c7-bbf4-3fec1eef5c29
+Question: 在音频中，和弦进行以小七和弦开始。以下哪项是小七和弦的特征？
+Choices: 它包含一个大三度和一个小七度，它包含一个小三度和一个小七度，它包含一个大三度和一个大七度，它包含一个纯五度和一个大七度。
+Answer: 它包含一个小三度和一个小七度。
+Difficulty: medium
+
+ID: 717fa1c9-5403-4e8d-8a46-afa615ed4ea2
+Question: 在音频中，Bb/C和弦在和声张力方面可能的功能是什么？
+Choices: 它通过作为属和弦来产生和声张力，它通过作为主和弦来解决和声张力，它通过作为下属和弦来维持和声稳定性，它通过作为经过和弦来增加色彩和复杂性
+Answer: 它通过作为属和弦来产生和声张力
+Difficulty: medium
+
+ID: 77175ed4-db9c-4ad3-b8cc-4b328e01d485
+Question: 在音频中，进行中的最后一个和弦是什么类型的和弦，它在和声中通常起到什么作用？
+Choices: 大三和弦，提供解决感，小三和弦，暗示紧张感，属七和弦，制造紧张感，大七和弦，提供完整感
+Answer: 大七和弦，提供完整感
+Difficulty: medium
+
+ID: ce4b5b5c-c96b-4cf4-a252-8e762a50730b
+Question: 在音频中，哪个和弦在给定的调号中充当主和弦？
+Choices: 升C，升F，降E小调，升G
+Answer: 升F
+Difficulty: medium
+
+ID: 18f9e6ae-1952-4b34-adab-8c9b8de2d6c6
+Question: 什么最能描述音频中主要的发声活动？
+Choices: 一个人演唱西方古典咏叹调，一群人进行随意的对话，一个声音进行有节奏的吟唱或发声，拍卖师喊价
+Answer: 一个声音进行有节奏的吟唱或发声
+Difficulty: medium
+
+ID: 6976d332-711d-45ca-aba5-c5c5109220c9
+Question: 音频中的哪个和弦是减七和弦？
+Choices: C，Gm，Cm7b5，Eb/G
+Answer: Cm7b5
+Difficulty: medium
+
+ID: 37422f25-c839-42ca-925b-2ec508640b7a
+Question: 音频中的哪个和弦是属七和弦？
+Choices: 降A属七和弦，E大七和弦，降E小和弦，D增和弦
+Answer: 降A属七和弦
+Difficulty: easy
+
+ID: 3eae1726-c9b4-4a08-9c93-9d432311f3a2
+Question: 在音频中，哪个和弦进行包含一个以大三和弦为低音的属七和弦？
+Choices: 降E属七和弦/G，F小七和弦，C属七和弦，A小七和弦
+Answer: 降E属七和弦/G
+Difficulty: medium
+
+ID: d42b35c7-d926-45a1-9ee6-581e8715c560
+Question: 在音频中，哪个音乐元素主要负责建立和声？
+Choices: 键盘，鼓点，贝斯线，小号
+Answer: 键盘
+Difficulty: easy
+
+ID: 4db2f99c-9362-4bcb-8204-cd10e044630e
+Question: 在音频中，以下哪个和弦序列会产生一种紧张感，并由F大调和弦解决？请从以下选项中选择正确答案：
+Choices: C小调到E小调，E小调到F大调，F大调到C小调，C小调到F大调
+Answer: E小调到F大调
+Difficulty: medium
+
+ID: aedf36cf-1c82-42eb-9cbd-66f0dd654459
+Question: 使用明亮且模糊的合成器对音频中Eb和弦会产生什么效果？
+Choices: 它为和声提供了旋律元素。,它将和弦从大调变为小调。,它将和弦进行的速度加倍。,它引入了新的拍号。
+Answer: 它为和声提供了旋律元素。
+Difficulty: medium
+
+ID: f70735c6-959b-4fda-bb18-e92f89443bd9
+Question: 该音频片段中主要的 vocal 表达风格是什么？
+Choices: 唱歌（旋律性的）、说唱（有节奏的说话）、口语表达（无节奏的）、拟声吟唱（即兴的声音表达）
+Answer: 说唱（有节奏的说话）
+Difficulty: medium
+
+ID: de47337d-2e03-4b96-aa16-58ad51323336
+Question: 在音频中，C大调和弦之后演奏的是哪个和弦？
+Choices: G大调，A小七和弦，F大调，D小调
+Answer: A小七和弦
+Difficulty: easy
+
+ID: 34307e92-3c1c-4e75-981b-892e8880796c
+Question: 在音频中，哪个和弦被反复使用以在D大调中建立主音？
+Choices: C，D，G，A
+Answer: D
+Difficulty: easy
+
+ID: d7268dc8-ebdf-4736-b7a8-51726e6f989b
+Question: 以下哪一项最能描述此音频片段中可听到的主要乐器？
+Choices: 钢琴和长笛，失真电吉他和鼓，无伴奏合唱团，合成器和电子鼓机
+Answer: 失真电吉他和鼓
+Difficulty: medium
+
+ID: bfabf761-fb41-4efd-b25b-31fbdaded37f
+Question: 音频中的哪个和弦包含大七度音程？
+Choices: E，D大七和弦，C#属七和弦，A/G
+Answer: D大七和弦
+Difficulty: easy
+
+ID: 8e190f87-b468-4a6e-b9cc-3cf6b2a82176
+Question: 在音频中，哪个和弦最有可能被感知为提供紧张感或不和谐感？
+Choices: E6、Bm、Cmaj7、A7
+Answer: A7
+Difficulty: medium
+
+ID: 2cad45af-62ca-4aae-86e1-bb2bad261889
+Question: 在音频中，低音音符在和弦进行中起到什么作用？
+Choices: 它们在第一拍和第三拍上提供节奏基础。它们在整个曲目中持续演奏。它们只在副歌部分演奏。它们在拍子之间随机交替。
+Answer: 它们在第一拍和第三拍上提供节奏基础。
+Difficulty: medium
+
+ID: 02c55853-97af-4a0c-bcce-59712b9931c0
+Question: 音频中听到的最突出的打击乐技巧或声音是什么？
+Choices: 电子鼓机节奏，DJ搓盘，拍手，铙钹撞击
+Answer: DJ搓盘
+Difficulty: medium
+
+ID: fb444a47-feba-4daf-b8ef-e158c9000798
+Question: 音频中降B和弦在C小调中的和声功能是什么？从以下选项中选择正确的选项：
+Choices: 主功能，下属功能，属功能，下中音
+Answer: 下中音
+Difficulty: medium
+
+ID: 706aaa29-75a1-4ddd-b69b-edbd6f517776
+Question: 音频中提到的"拍号是3"通常与哪种拍号相关？
+Choices: 2/4、3/4、4/4、6/8
+Answer: 3/4
+Difficulty: medium
+
+ID: 21b826c3-b7d0-4c2e-aa20-2e01a2e2a9a1
+Question: 在音频中，哪个和弦通常作为Eb大调的属和弦？
+Choices: 升C，降E，降A，降B
+Answer: 降B
+Difficulty: medium
+
+ID: 33219dcc-7455-460a-9b2c-aa03aecd2bf0
+Question: F#m和弦在音频中F#m、Bm、E和弦序列中的和声功能是什么？
+Choices: 主和弦、下属和弦、属和弦、导音
+Answer: 主和弦
+Difficulty: medium
+
+ID: 67dd6d04-154d-4e04-9886-26572781f386
+Question: 在音频中，哪个和弦被用作经过和弦来连接主和弦和下属和弦？
+Choices: F#m7，Bm，C#m，E
+Answer: Bm
+Difficulty: medium
+
+ID: 56c7b462-6f24-4572-ba96-21731f1c3d67
+Question: 音频中哪个和弦在E小调中作为主和弦？
+Choices: G，D，E，C
+Answer: E
+Difficulty: medium
+
+ID: 1d6537e2-0fed-4a91-89ce-70ca82a50ed2
+Question: 在音频中，钢琴是如何贡献和声结构的？请从以下选项中选择正确答案：
+Choices: 通过演奏断奏和弦为人声旋律提供和声支持，通过演奏连奏琶音衬托人声，通过持续和弦提供低音线条，通过演奏切分节奏与人声形成对比
+Answer: 通过演奏断奏和弦为人声旋律提供和声支持
+Difficulty: medium
+
+ID: d31affa7-10fa-4c28-81e3-185e2cae9c51
+Question: 音频中的以下哪个和弦是小调和弦？
+Choices: Bm，F#m，G6，D
+Answer: Bm
+Difficulty: easy
+
+ID: 2cf092cc-252b-4de8-9e51-cc17f5cae742
+Question: 这段音频摘录中，最突出且持续的乐器声音是什么？它提供了印度古典音乐特有的和声基础？
+Choices: 西塔琴旋律，塔布拉鼓节奏，坦普拉持续音，笛子即兴演奏
+Answer: 坦普拉持续音
+Difficulty: medium
+
+ID: 5eb9b1ea-ca3f-479f-b7d9-f331e7ee921b
+Question: 提供的音频片段中显著展现了F小调中的和声进行。以下哪个和弦在此调中作为属和弦（V），通常在片段中解决到F小调主和弦？请选择正确选项：
+Choices: 降B小调，C大调，降E大调，E小调
+Answer: C大调
+Difficulty: medium
+
+ID: 8a7f592a-862b-4127-aa64-8a372a5371dd
+Question: 在音频中，以下哪项最能描述Abmaj7和弦的作用？请从以下选项中选择正确答案：
+Choices: 主和弦提供稳定的基调，属和弦创造张力，下属和弦引导解决，经过和弦无显著作用
+Answer: 下属和弦引导解决
+Difficulty: medium
+
+ID: 730e4230-2038-477e-930c-3027cb0fcdcd
+Question: 在音频中，以下哪个和弦在主重复进行中可明显听到是大和弦？
+Choices: G，F#m，Em，C
+Answer: G
+Difficulty: medium
+
+ID: 6c615a7a-a8e5-4e88-96b6-c3e80012014d
+Question: 在音频中，独奏乐器在弯曲音符时使用了哪种和声技巧？
+Choices: 颤音，滑音，半音弯曲，震音
+Answer: 半音弯曲
+Difficulty: medium
+
+ID: 8cf41b0c-3e1f-41e1-ac79-94fe99fd7fda
+Question: 音频中切分音合成器和弦产生了什么和声特征？
+Choices: 与底鼓的不和谐音，和声张力与释放，持续的嗡鸣，旋律对位
+Answer: 和声张力与释放
+Difficulty: medium
+
+
+----------------------------------------
+Category: Rhythm and Tempo Understanding
+Statistics: Total=46, Easy=5, Medium=37, Hard=4
+----------------------------------------
+
+ID: b251cf93-7c93-4045-a11f-06cfced0311c
+Question: 音频中的歌曲的节奏标记是什么？
+Choices: 急板，行板，快板，广板
+Answer: 行板
+Difficulty: medium
+
+ID: 5308aac0-d2df-439d-8a3b-93e6304df954
+Question: 音频中的歌曲节奏是多少？
+Choices: 60.0 拍每分钟，79.0 拍每分钟，100.0 拍每分钟，120.0 拍每分钟
+Answer: 79.0 拍每分钟
+Difficulty: medium
+
+ID: 660c8ed0-db0f-4d6f-9ccc-f1bad54683a1
+Question: 音频中的歌曲的节奏（bpm）是多少？从以下选项中选择正确的选项：
+Choices: A、B、C、D
+Answer: D
+Difficulty: hard
+
+ID: 93f0e39c-e2e4-416b-8c89-87a7e40109a1
+Question: 音频中播放的歌曲的速度标记是什么？从以下选项中选择正确答案：
+Choices: 广板，急板，中板，快板
+Answer: 快板
+Difficulty: medium
+
+ID: 10aa3be4-8a6f-42af-bff0-850a4c1fee43
+Question: 音频的节拍（以bpm为单位）是多少？从以下选项中选择正确的选项：
+Choices: 158.0，120.0，90.0，58.0
+Answer: 58.0
+Difficulty: medium
+
+ID: 6e75e372-a69f-4403-8397-d4815e669b45
+Question: 音频的速度标记是什么？从以下选项中选择正确的选项：
+Choices: 广板，慢板，行板，急板
+Answer: 行板
+Difficulty: hard
+
+ID: c6fb4e28-4581-4dff-9bfb-46d70ca7a8b1
+Question: 音频中的歌曲节奏是多少？
+Choices: 94.0 每分钟节拍数，120.0 每分钟节拍数，60.0 每分钟节拍数，76.0 每分钟节拍数
+Answer: 94.0 每分钟节拍数
+Difficulty: medium
+
+ID: 735b691d-7bb1-4368-965f-9429b39f0369
+Question: 音频的速度标记是什么？
+Choices: 广板，行板，中板，急板
+Answer: 急板
+Difficulty: medium
+
+ID: 22d51c92-4df3-4f2b-8bd6-24fbe63f4548
+Question: 这段录音中主要包含哪种类型的音频内容？
+Choices: 器乐音乐，声乐音乐（歌唱），朗诵/吟唱，音效
+Answer: 朗诵/吟唱
+Difficulty: hard
+
+ID: 100bcc54-c059-427a-8d70-643fe9ee99e6
+Question: 音频中的歌曲节奏是多少？
+Choices: 90.0 每分钟节拍数，100.0 每分钟节拍数，121.0 每分钟节拍数，140.0 每分钟节拍数
+Answer: 121.0 每分钟节拍数
+Difficulty: hard
+
+ID: f44b47e1-727a-4c49-b044-fc17e5ced0c3
+Question: 音频中嘻哈歌曲的节奏是多少？
+Choices: 120.0 每分钟节拍数，90.0 每分钟节拍数，57.0 每分钟节拍数，75.0 每分钟节拍数
+Answer: 57.0 每分钟节拍数
+Difficulty: medium
+
+ID: 8201160f-5c17-4181-9bab-1acb2dd2508c
+Question: 在音频中，哪种乐器最有可能提供主要的节奏基础？
+Choices: 手风琴，男声，原声节奏吉他，叮咚铃声
+Answer: 原声节奏吉他
+Difficulty: easy
+
+ID: d352ad17-e924-4665-a5ff-174a2da97d00
+Question: 音频中主要承载旋律的乐器是什么？
+Choices: 手风琴、小提琴、长笛、钢琴
+Answer: 长笛
+Difficulty: easy
+
+ID: b0fac972-5f72-4b10-a783-c6c2cde98523
+Question: 在音频中，长笛旋律短语之间吸气声的出现可能会强调什么节奏特征？
+Choices: 切分音，呼吸控制，多节奏，断奏
+Answer: 呼吸控制
+Difficulty: medium
+
+ID: 26e2a0d7-f0c1-472c-b289-3e788154fbca
+Question: 在音频中，回声效果如何影响节奏的感知？
+Choices: 它们创造了一个稳定的脉冲。, 它们掩盖了节奏，使其难以辨识。, 它们强调了快节奏。, 它们增加了一种切分感。
+Answer: 它们掩盖了节奏，使其难以辨识。
+Difficulty: medium
+
+ID: 1cb8faf5-affc-4d6c-92d2-e43ddb912b35
+Question: 在音频中，钢琴曲以中速演奏。这部作品最可能使用以下哪种拍号？请从以下选项中选择正确答案：
+Choices: 2/4，3/4，4/4，6/8
+Answer: 3/4
+Difficulty: medium
+
+ID: 133fa99a-4ea4-48a7-bb62-97c5421617a0
+Question: 在音频中，沙锤击打与踩镲的出现最可能强调哪种节奏元素？
+Choices: 切分音，反拍，复节奏，非重拍
+Answer: 切分音
+Difficulty: medium
+
+ID: 9d268229-9f12-4f1d-ace5-d5096e29f6b5
+Question: 在音频中，清脆的边缘打击声的存在如何影响整首作品的节奏感？
+Choices: 它创造了一个切分节奏。,它为节奏添加了一个稳定的反拍。,它强调了强拍。,它以不规则的时值破坏了律动。
+Answer: 它为节奏添加了一个稳定的反拍。
+Difficulty: medium
+
+ID: 77f26a22-0722-43f4-9fb9-25a7434814af
+Question: 在音频片段中可以清晰听到多少个不同的持续音乐事件（例如，单独演奏的和弦或长音）？
+Choices: 1、2、3、4
+Answer: 3
+Difficulty: medium
+
+ID: d002858f-1eb7-40f1-aa04-eb98af6616f4
+Question: 音频中的节拍数是多少？
+Choices: 3、4、5、6
+Answer: 3
+Difficulty: medium
+
+ID: 04dcb6a3-26cf-4c18-891a-98b7e4f934b8
+Question: 这个音频片段中的主要可听成分是什么？
+Choices: 仅有人类语音，仅有器乐音乐，人类语音和器乐音乐两者都有，仅有环境音效
+Answer: 人类语音和器乐音乐两者都有
+Difficulty: easy
+
+ID: 40acec85-b206-4c9f-9adc-744cd7ee5413
+Question: 音频中主要包含哪种声音？从以下选项中选择正确答案：
+Choices: 尖锐的打击声，由长笛演奏的复杂旋律线，持续的环境合成器音垫，有节奏的鼓循环
+Answer: 持续的环境合成器音垫
+Difficulty: medium
+
+ID: e9ff64e5-d578-43d4-9e2e-49bc21fb234f
+Question: 考虑歌曲的描述，音频中富有节奏感的鼓点节奏的主要作用可能是什么？
+Choices: 营造平静舒缓的氛围，增强活力感并保持稳定的节奏，引入随机的打击乐元素，放慢节奏
+Answer: 增强活力感并保持稳定的节奏
+Difficulty: medium
+
+ID: 87946358-ad0d-4254-90cc-22b703b52932
+Question: 在音频中，哪种拍号最常与电钢琴演奏的蓝调音乐相关联？
+Choices: 3/4，4/4，5/4，6/8
+Answer: 4/4
+Difficulty: medium
+
+ID: f9fe7cb3-2d95-4a50-b8b1-d9539ac99cec
+Question: 音频中使用哪种打击乐技巧来创造节奏变化？
+Choices: 滚奏，踩镲轻敲，军鼓击打，底鼓踢击
+Answer: 滚奏
+Difficulty: medium
+
+ID: 775b8305-aef5-447b-8140-ea2822fde37f
+Question: 在音频中，哪个组件通过引入卡顿效果来增加节奏的复杂性？
+Choices: 合成旋律，嗡嗡贝斯，电吉他，鼓点
+Answer: 合成旋律
+Difficulty: medium
+
+ID: cf9af588-ec47-4295-ad22-70213d122dce
+Question: 这段音频中，主要负责奠定节奏基础的是哪种乐器？
+Choices: A, B, C, D
+Answer: A
+Difficulty: easy
+
+ID: 6e99370d-fc36-48a9-ab36-dc43157d39be
+Question: 在音频中，打击乐在节奏上如何与旋律相辅相成？请从以下选项中选择正确答案：
+Choices: 打击乐提供了与旋律形成对比的复杂复节奏，打击乐以简单的节奏型与主旋律同步，打击乐引入了打断旋律的切分节奏，打击乐在整个音频中保持沉默。
+Answer: 打击乐以简单的节奏型与主旋律同步。
+Difficulty: medium
+
+ID: 98ec54c4-53b7-4ade-b8e2-5e7d57e104ea
+Question: 在音频中，哪个乐器元素可能提供了与有力的底鼓和拍手声相辅相成的稳定节奏基础？
+Choices: 尖锐的铃铛旋律，合成弦乐旋律，闪烁的帽音，尖锐的高音合成主旋律
+Answer: 闪烁的帽音
+Difficulty: medium
+
+ID: 7349601f-e58c-46bd-baa0-4df389283c44
+Question: 音频的拍号是什么？
+Choices: 3/4，4/4，6/8，2/4
+Answer: 4/4
+Difficulty: easy
+
+ID: 239ec016-c087-4a7b-a64e-b99e4dece85e
+Question: 在音频中，口琴旋律的节奏如何与低音提琴互动？
+Choices: 口琴与低音提琴同步演奏，营造出稳定的节奏。,口琴独立演奏，与低音提琴形成多节奏效果。,口琴旋律严格跟随低音提琴的节奏而无偏离。,口琴旋律在低音提琴基础上形成切分节奏效果。
+Answer: 口琴独立演奏，与低音提琴形成多节奏效果。
+Difficulty: medium
+
+ID: f002617e-0f19-4e75-a930-db74f41bc0db
+Question: 当音频中男声停止说话时，管弦乐的节奏会发生怎样的变化？
+Choices: 节奏变快，节奏变慢，节奏保持不变，节奏变得不规则
+Answer: 节奏变快
+Difficulty: medium
+
+ID: 43e9a8e8-877e-45cd-9c2f-39c2b4b89aa1
+Question: 在音频中，存在哪种节奏特征使其具有节日氛围，并且常见于圣诞歌曲？请从以下选项中选择正确答案：
+Choices: 摇摆节奏，直板节奏，切分节奏，复节奏
+Answer: 直板节奏
+Difficulty: medium
+
+ID: 5bd7a143-240e-4c72-ba7e-e3fba5821cef
+Question: 在音频中，DJ的刮擦如何影响舒缓的嘻哈歌曲的节奏？
+Choices: 它为节拍增添了复杂的多节奏层次，它完全破坏了节奏，营造出混乱的感觉，它通过添加节奏质感来补充舒缓的鼓点，它显著加快了节奏。
+Answer: 它通过添加节奏质感来补充舒缓的鼓点。
+Difficulty: medium
+
+ID: 5e801057-97b3-4c4a-b962-8f964ce77bd2
+Question: 在音频中，主要使用了哪种节奏元素来与管弦乐作品形成对比？
+Choices: 切分音，稳定的节拍，数字点击声，复节奏
+Answer: 数字点击声
+Difficulty: medium
+
+ID: dfa46c20-8a36-43d1-8ee6-7301990fe60b
+Question: 在音频中，吉他的扫弦模式如何影响整体节奏？
+Choices: 它创造了一个稳定、一致的节奏，它引入了一个切分节奏，它在整个过程中不可预测地变化，它遵循一个快速、重复的节奏。
+Answer: 它创造了一个稳定、一致的节奏。
+Difficulty: medium
+
+ID: cf8eb591-6e73-4640-aa89-8b93da9d39c0
+Question: 在音频中，琶音原声吉他旋律如何贡献于整体节奏结构？
+Choices: 它建立了一个稳定、一致的节奏，有清晰的节拍。它创造了一个切分节奏，不可预测地转换。它为声乐线条提供了对比的复合节奏。它添加了一个自由形式的节奏，没有明显的模式。
+Answer: 它建立了一个稳定、一致的节奏，有清晰的节拍。
+Difficulty: medium
+
+ID: 666a31d8-465e-4003-bb51-69e567a7693e
+Question: 在考虑环境噪音和细微的背景音乐时，音频中哪个音乐元素可能更难以分辨？
+Choices: 旋律，节奏，和声，力度
+Answer: 旋律
+Difficulty: medium
+
+ID: a8d68615-81ca-4a05-af15-2c3c7bd5a56a
+Question: 在音频中，爵士风格的风琴键盘旋律的节奏如何有助于通常与爵士音乐相关的摇摆感？
+Choices: 节奏是切分的，赋予它摇摆感。, 节奏严格踩拍，使其僵硬。, 节奏缓慢且缺乏变化，导致平滑感。, 节奏快速且混乱，创造出紧迫感。
+Answer: 节奏是切分的，赋予它摇摆感。
+Difficulty: medium
+
+ID: ee99c8eb-9b00-45e7-98a5-ebcda4956a5b
+Question: 在音频中，哪个乐器始终与电吉他一起保持快速节奏？
+Choices: 钢琴，贝斯吉他，小提琴，长笛
+Answer: 贝斯吉他
+Difficulty: medium
+
+ID: 4aceabc5-9605-4b35-be07-4936379f0d6a
+Question: 长笛的断奏音符在建立音频的节奏结构中起到什么作用？
+Choices: 它们有助于形成流畅且连贯的节奏，它们为电子鼓点提供了对比的节奏，它们与打击乐共同创造出切分节奏，它们引入了动态且不规则的节奏。
+Answer: 它们为电子鼓点提供了对比的节奏。
+Difficulty: medium
+
+ID: 11257527-ac2b-4088-8a5d-83e5b4857f0b
+Question: 在音频中，考虑到描述的有力且充满活力的风格，哪个乐器最有可能负责保持稳定的节奏？
+Choices: 电吉他，贝斯吉他，踩镲，吊镲
+Answer: 贝斯吉他
+Difficulty: medium
+
+ID: c2937344-ea26-4a6e-b505-e90da4102fe0
+Question: 在音频中，哪种拍号最有可能用于实现快速且有节奏的鼓点模式？
+Choices: 3/4、4/4、6/8、2/4
+Answer: 4/4
+Difficulty: medium
+
+ID: 4cb67be7-9227-4ba4-b63e-cff1b06ca1f4
+Question: 在音频中，塔布拉鼓的节奏对旋律的整体感觉有何贡献？
+Choices: 它添加了一个快节奏的节奏，它维持了一个平静而稳定的节奏，它引入了一个切分节奏，它提供了一个复杂的复合节奏
+Answer: 它维持了一个平静而稳定的节奏
+Difficulty: medium
+
+ID: f4327b02-a5bc-413b-b758-32d8c977371d
+Question: 在音频中，打击乐器演奏了一个简单的节奏。这个节奏如何为歌曲的整体节奏做出贡献？
+Choices: 它建立了一个复杂的复合节奏。,它为旋律提供了一个稳定的节奏。,它与旋律产生了切分音效果。,它通过随机变化破坏了流畅性。
+Answer: 它为旋律提供了一个稳定的节奏。
+Difficulty: medium
+
+ID: a8631a4b-c88c-4ae9-abb9-c2fe6b5e3f59
+Question: 考虑到音频的现场录制，什么节奏特征有助于小提琴主题的紧张和刺激感？
+Choices: 稳定的且可预测的节奏，不规则且切分的节奏，缓慢且舒缓的节奏，快速且一致的节奏
+Answer: 不规则且切分的节奏
+Difficulty: medium
+
+
+----------------------------------------
+Category: Musical Texture Interpretation
+Statistics: Total=34, Easy=16, Medium=15, Hard=3
+----------------------------------------
+
+ID: aa81404a-9653-4b73-8349-156c82c6a1fb
+Question: 音频中可以听到哪些合成声音？
+Choices: 金属声、威胁性的低吼、咆哮、回声、共鸣和钟声，风铃、鸟鸣、水流声和风声，柔和的弦乐拨奏、钢琴键声和轻柔的鼓点，电吉他旋律、贝斯下降音和踩镲连击
+Answer: 金属声、威胁性的低吼、咆哮、回声、共鸣和钟声
+Difficulty: medium
+
+ID: aac54520-9762-4553-9799-02b832876790
+Question: 录音的整体音频质量如何？
+Choices: 高质量，中等质量，低质量，录音室质量
+Answer: 低质量
+Difficulty: easy
+
+ID: 13a1d562-8f37-4991-9459-d30f6c12009f
+Question: 音频中存在哪种声音纹理类型？请从以下选项中选择正确的选项：
+Choices: 单音的，同音的，多音的，异音的
+Answer: 同音的
+Difficulty: medium
+
+ID: 5c5cfd93-7982-4378-b200-ebe52d758fef
+Question: 你如何描述音频的音质？
+Choices: 清晰且清脆，模糊且混乱，平滑且舒缓，空洞且回响
+Answer: 模糊且混乱
+Difficulty: medium
+
+ID: 4e482706-6fb5-4aa1-9186-a68d6bed8a06
+Question: 音频传达了什么情感？
+Choices: 兴奋、悲伤、闲散、愤怒
+Answer: 闲散
+Difficulty: easy
+
+ID: 08dfeb6c-fc3a-4826-b847-1f5098daef70
+Question: 音频中男性的声音主要特征是什么？
+Choices: 柔和且低沉，响亮且富有感情，高音且快速，单调且缓慢。
+Answer: 响亮且富有感情
+Difficulty: easy
+
+ID: 68091c51-7aa9-4284-8106-32c4a5f0484f
+Question: 音频的哪个特征表明它是低质量的录音？
+Choices: 清晰的乐器分离、高清晰度的人声、整体噪音大、平衡的音量水平
+Answer: 整体噪音大
+Difficulty: medium
+
+ID: 36aad8e9-b351-4865-ab51-02f7400da0ff
+Question: 根据音频特征，这种录音最接近哪种类型？
+Choices: 专业录音棚录音，有观众的现场音乐会录音，家庭或业余录音，环境声音的实地录音
+Answer: 家庭或业余录音
+Difficulty: easy
+
+ID: dbed711d-7c34-41e1-8a45-9c512202dab8
+Question: 以下哪项最能描述音频的整体声音质感？
+Choices: 稀疏且极简，丰富且充满活力，醇厚且舒缓，阴暗且压抑
+Answer: 丰富且充满活力
+Difficulty: medium
+
+ID: c6b63855-21d1-4ac6-9c9e-84a7e8065806
+Question: 在这段音频中听到的最突出的乐器是什么？
+Choices: 鼓，电吉他，钢琴，人声
+Answer: 电吉他
+Difficulty: easy
+
+ID: c412a68d-231c-4a40-ab5f-388255381d0e
+Question: 在音频背景中可以听到哪种音效，这种音效几乎听起来像雨声？
+Choices: 雷声，鸟鸣，白噪音，风声
+Answer: 白噪音
+Difficulty: easy
+
+ID: 7877b018-a396-4f57-832b-b1d0fbe84abc
+Question: 音频主要传达了什么情绪？
+Choices: 平静的，充满活力的，悲伤的，愤怒的。
+Answer: 平静的
+Difficulty: easy
+
+ID: 65c68dc7-faf7-4a45-815f-77a385d8e61d
+Question: 哪种乐器在背景中演奏断奏音符，并且在小节末尾让音符持续？
+Choices: 低音部，打击乐，弦乐，合成器
+Answer: 弦乐
+Difficulty: medium
+
+ID: 263be5ec-f5e7-4ad2-9f51-f35dffc049da
+Question: 描述音频的质感。
+Choices: 密集且复杂，稀薄且稀疏，丰富且层次分明，简单且真挚
+Answer: 简单且真挚
+Difficulty: medium
+
+ID: b38ee2c1-1acc-4ff1-96d3-2a7ad2b6a4d0
+Question: 音频的质感如何描述？
+Choices: 稀疏且极简，密集且层次丰富，单薄且空灵，单音的
+Answer: 密集且层次丰富
+Difficulty: hard
+
+ID: 18263668-a24e-4842-bf11-bf34f20553ea
+Question: 音频主要以哪种乐器演奏旋律？
+Choices: 铜管乐器，弦乐器，木管乐器，打击乐器。
+Answer: 木管乐器。
+Difficulty: medium
+
+ID: fb84184b-05f2-4f16-be40-26699050d6e9
+Question: 音频中电吉他的特点是？
+Choices: 调音准确，略微走调，失真，消音
+Answer: 略微走调
+Difficulty: easy
+
+ID: cc47a347-b314-4d66-aca2-eefd930469ad
+Question: 音频中显著的声音质感类型是什么？
+Choices: 清晰且平滑，噼啪声，回声，减弱的
+Answer: 噼啪声
+Difficulty: medium
+
+ID: 673c08cf-b06d-45cc-ba8e-f52b5a51b857
+Question: 你如何描述音频的声音质感？从以下选项中选择正确的选项：
+Choices: 清晰且清脆，整体高增益，柔和且轻柔，失真且混乱
+Answer: 失真且混乱
+Difficulty: medium
+
+ID: c5cab053-ac0e-40a8-94d1-16c8f38e1550
+Question: 您如何描述音频的整体声音质感？
+Choices: 充满活力、具有攻击性和狂躁的，平静和舒缓的，忧郁和缓慢的，明亮和欢快的
+Answer: 充满活力、具有攻击性和狂躁的
+Difficulty: easy
+
+ID: 0de9f80e-8070-4ede-845b-b41bfc9bdbf7
+Question: 音频中可以听到的额外声音是什么？
+Choices: 鼓掌，踢踏舞者的鞋子，欢呼，鸟鸣
+Answer: 踢踏舞者的鞋子
+Difficulty: easy
+
+ID: 4ba94795-e794-4d96-a2e0-bb19f7290f95
+Question: 音频的整体声音质感是什么？
+Choices: 单音音乐，同音音乐，复音音乐，异音音乐
+Answer: 复音音乐
+Difficulty: hard
+
+ID: 103a6aa6-4378-42a9-98f2-1da4a9e27b6e
+Question: 音频中的说话者指示某人做什么？
+Choices: 演奏一个大调音阶，演奏一个“1-5 thing”，调整录音电平，描述音频质量
+Answer: 演奏一个“1-5 thing”
+Difficulty: easy
+
+ID: a5dfb846-f86e-4b4b-8311-5e783b9f4634
+Question: 你如何描述音频中声音的质感？
+Choices: 密集且复杂，稀薄且稀疏，闪烁且清凉，黑暗且沉重
+Answer: 闪烁且清凉
+Difficulty: hard
+
+ID: b3eacb32-2c6c-4945-ac65-faff2f46a59c
+Question: 你如何描述音频的整体声音质感？
+Choices: 密集且繁忙，刺耳且具有攻击性，环境音效和混响效果，尖锐且具有打击感
+Answer: 环境音效和混响效果
+Difficulty: easy
+
+ID: 69443e6a-0f87-491f-bc09-0e41210d0696
+Question: 这首歌的音频质量如何？
+Choices: 优秀，良好，一般，差
+Answer: 差
+Difficulty: easy
+
+ID: 3c648574-dfde-447f-9bbd-ee122e2be9b6
+Question: 以下哪项最能描述录音的质量？
+Choices: 高质量立体声，低质量单声道，高质量单声道，低质量立体声
+Answer: 低质量单声道
+Difficulty: easy
+
+ID: 867e733f-78a8-424a-9f0a-9fc0eda9fb15
+Question: 您如何描述这首歌的音频质量？
+Choices: 高、中等、差、优秀
+Answer: 差
+Difficulty: easy
+
+ID: f901e7a3-3ec5-442f-94e1-3a099aedc248
+Question: 以下哪个选项最能描述drop之后音频的质感？
+Choices: 稀疏且极简，丰富且层次分明，低沉、轰鸣且未来感，明亮且欢快
+Answer: 低沉、轰鸣且未来感
+Difficulty: medium
+
+ID: 8ec14515-edfd-4db9-8c07-b58de5d13454
+Question: 音频的整体声音质感如何描述？
+Choices: 充满活力且戏剧性的，平静且舒缓的，柔和且圆润的，黑暗且神秘的
+Answer: 充满活力且戏剧性的
+Difficulty: medium
+
+ID: 70680c3b-460e-43d3-81a7-40c0bc5d7c51
+Question: 你如何描述音频的开头部分？
+Choices: 欢乐的，紧张的，平静的，悲伤的
+Answer: 紧张的
+Difficulty: medium
+
+ID: 43095364-25f3-43a2-9fea-c5c4f2ade3fd
+Question: 哪一个类别最能描述音频中口琴音符弯曲的音色？
+Choices: 单音的，复调的，同音的，异音的。
+Answer: 单音的
+Difficulty: medium
+
+ID: f13fab4f-5939-41bf-be26-d26605ee063c
+Question: 您如何描述音频的整体声音质感？
+Choices: 刺耳的，柔和的，响亮的，紧张的
+Answer: 柔和的
+Difficulty: easy
+
+ID: a86b1420-2826-4804-91a0-96416abfc884
+Question: 以下哪项最能描述音频的声音质感？
+Choices: 稀疏且极简，浓厚且层次丰富，原声且有机，单音的
+Answer: 浓厚且层次丰富
+Difficulty: medium
+
+
+----------------------------------------
+Category: Instrumentation
+Statistics: Total=35, Easy=27, Medium=8, Hard=0
+----------------------------------------
+
+ID: 2a2f9c14-e693-4efc-843e-20fa67d84340
+Question: 音频开头存在哪种类型的人类发声？
+Choices: 男声说话，女声说话，男声唱歌，女声唱歌
+Answer: 男声说话
+Difficulty: easy
+
+ID: 82c84931-2431-41ab-b217-f6844e72bc45
+Question: 音频中男声伴奏的音乐类型是什么？
+Choices: 爵士，摇滚，管弦乐，电子
+Answer: 管弦乐
+Difficulty: medium
+
+ID: f0545a74-9d98-4efe-9bed-e293b0c6d215
+Question: 音频中突出使用了哪些乐器？
+Choices: 钢琴和鼓，宽广的合成器和弦、持续的合成器低音和柔和的钟声，吉他和小提琴，长笛和单簧管
+Answer: 宽广的合成器和弦、持续的合成器低音和柔和的钟声
+Difficulty: easy
+
+ID: 2d849164-8a14-4986-b207-2fb0aa664d57
+Question: 音频中在打击乐滚奏后演奏两个音符的乐器是什么？
+Choices: 合成器，小军鼓，贝斯，打击乐
+Answer: 贝斯
+Difficulty: easy
+
+ID: 8d19063c-5251-4f16-9361-de98fdc8c43c
+Question: 音频中与军鼓滚奏节奏一起主要使用的是哪种鼓？
+Choices: 低音鼓、汤姆鼓、铙钹、踩镲
+Answer: 低音鼓
+Difficulty: easy
+
+ID: 812990fa-67bf-4fb1-8470-6c5843e57c42
+Question: 音频中主要使用了哪些乐器？
+Choices: 钢琴、鼓、吉他、清脆的铃铛、合成弦乐、闪烁的踩镲、长笛、小提琴、贝斯、小号、萨克斯、拍手声
+Answer: 清脆的铃铛、合成弦乐、闪烁的踩镲
+Difficulty: medium
+
+ID: baf7a771-2679-423a-8e4f-5f4acf9e44c1
+Question: 音频中大约在0：05的时间点开始播放哪种音乐类型？
+Choices: 摇滚，古典，嘻哈，爵士
+Answer: 嘻哈
+Difficulty: easy
+
+ID: aa3651c5-9b3f-4e74-a285-3e652d421d93
+Question: 以下哪种乐器未在音频的乐器编制中提到？
+Choices: 小提琴、大提琴、钢琴、管风琴
+Answer: 钢琴
+Difficulty: easy
+
+ID: 57bdaed5-09cd-4e75-87e2-4c6c303833bd
+Question: 音频中主要演奏的乐器是什么？
+Choices: 钢琴，吉他，传统动物角号，小提琴
+Answer: 传统动物角号
+Difficulty: easy
+
+ID: 85574b42-8b9c-4038-8d7e-2cbe9446564a
+Question: 音频中作为独奏的乐器是什么？
+Choices: 小提琴、钢琴、大提琴、长笛
+Answer: 大提琴
+Difficulty: easy
+
+ID: ce3ee541-5ccd-43d5-b9b5-d2e8b2d77dfd
+Question: 音频中与鲸鱼歌声一起开始演奏的乐器是什么？
+Choices: 吉他，小提琴，钢琴，长笛
+Answer: 钢琴
+Difficulty: easy
+
+ID: 71460309-0334-4324-bca0-14af01b0bf67
+Question: 音频中主要听到的乐器类型是什么？
+Choices: 弦乐，铜管，打击乐，木管
+Answer: 打击乐
+Difficulty: easy
+
+ID: d68c3ec2-58dc-49cc-aa92-2cb2a37fd5f6
+Question: 音频中主要包含哪种类型的声音？
+Choices: 乐器，动物叫声，机械和撞击声，人声
+Answer: 机械和撞击声
+Difficulty: easy
+
+ID: efa747fe-8f8a-4a7b-a988-9ecc50421872
+Question: 哪些乐器最有可能被用来创造阴森的低音？
+Choices: 合成器和音效，吉他和鼓，钢琴和小提琴，长笛和小号
+Answer: 合成器和音效
+Difficulty: medium
+
+ID: 837396db-6926-419c-9fff-9f6bd43bf9e1
+Question: 音频中哪些乐器产生了刺耳的声音？
+Choices: 电吉他和贝斯吉他，钢琴和小提琴，萨克斯和小号，原声吉他和口琴。
+Answer: 电吉他和贝斯吉他
+Difficulty: medium
+
+ID: 75c7d493-b07a-4ed1-9b9a-6a15bd51a00f
+Question: 音频中未提及以下哪种元素作为配器的一部分？
+Choices: 电吉他和弦，闪烁的踩镲，律动的贝斯，钢琴
+Answer: 钢琴
+Difficulty: easy
+
+ID: 737cbdd3-0f9e-4b80-923d-aa919cdaaf26
+Question: 音频中哪些乐器提供了节奏背景？
+Choices: 钢琴、长笛、鼓、吉他
+Answer: 吉他
+Difficulty: easy
+
+ID: e820cbc9-5d8c-4d92-ba3c-5b379212b025
+Question: 音频中使用的是什么类型的吉他？
+Choices: 电吉他，贝斯吉他，原声节奏吉他，古典吉他
+Answer: 原声节奏吉他
+Difficulty: easy
+
+ID: 1150a86d-90e3-4c9c-b073-d42a5ea0d5cd
+Question: 音频中提供旋律背景的乐器是什么？
+Choices: 钢琴和小提琴，电吉他和贝斯吉他，合成器和鼓，长笛和单簧管
+Answer: 电吉他和贝斯吉他
+Difficulty: easy
+
+ID: 26273334-9d2d-4ae0-8d7a-a5a2d1314a83
+Question: 音频中哪种乐器同时担任低音部分？
+Choices: 钢琴，电吉他，合成器，鼓
+Answer: 电吉他
+Difficulty: medium
+
+ID: 9d66046d-9ad7-4fc4-a2a0-5f5a58ee0282
+Question: 音频中演奏轻快旋律的乐器是什么？
+Choices: 钢琴，小提琴，古典吉他，长笛
+Answer: 古典吉他
+Difficulty: easy
+
+ID: 13324cc9-25e3-40d2-b8bf-4be56945156a
+Question: 音频中正在演奏什么乐器？
+Choices: 吉他，钢琴，班卓琴，小提琴
+Answer: 班卓琴
+Difficulty: easy
+
+ID: 9833a9e6-f46e-423c-bf93-ad5a6f94b7bc
+Question: 音频中突出呈现的乐器有哪些？
+Choices: 钢琴和小提琴，小号、长号和大号，吉他和鼓，长笛和单簧管
+Answer: 小号、长号和大号
+Difficulty: easy
+
+ID: 5c444d20-7095-4e30-9776-d60c5a5cbd96
+Question: 在音频开头可以听到哪种乐器演奏了一段短旋律？
+Choices: 钢琴、手风琴、小提琴、长笛
+Answer: 手风琴
+Difficulty: easy
+
+ID: f18fa592-6f36-45d8-a328-1cc30a819771
+Question: 音频中女声的伴奏乐器是什么？
+Choices: 钢琴和鼓，吉他和贝斯，长笛和弦乐，小号和萨克斯
+Answer: 长笛和弦乐
+Difficulty: easy
+
+ID: 11ec294d-ca0d-4e6b-9c67-8250c87057c4
+Question: 音频中可以听到哪些乐器？
+Choices: 钢琴和小提琴、电吉他和原声鼓、合成器和贝斯、长笛和小号
+Answer: 电吉他和原声鼓
+Difficulty: easy
+
+ID: f2c9905c-0e83-4e24-a16a-08d811fa992a
+Question: 以下哪种拨弦乐器是东亚音乐的特色，并且在这段音频中主要听到的是？
+Choices: 西塔琴，箜篌，乌德琴，巴拉莱卡琴
+Answer: 箜篌
+Difficulty: easy
+
+ID: 172aa1da-a2ec-447b-a782-7c15a485068c
+Question: 音频中叠加在一起的乐器有哪些？从以下选项中选择正确的选项：
+Choices: 贝斯和鼓，军鼓和拍手声，吉他和铜管乐器，人声和贝斯
+Answer: 人声和贝斯
+Difficulty: easy
+
+ID: 8a704dfc-30b3-4d48-880e-5573f72527f0
+Question: 音频背景中可以听到哪些声音？
+Choices: 钟声，水滴声，合唱团演唱，鼓声，吉他声，贝斯声，钢琴声，小提琴声，长笛声，交通噪音，鸟鸣声，风声
+Answer: 钟声，水滴声，合唱团演唱
+Difficulty: medium
+
+ID: 2ceedc13-9b8a-414f-b3d0-4ac554dfae63
+Question: 音频中哪个乐器提供了节奏？
+Choices: 鼓， 吉他， 小提琴， 长笛
+Answer: 鼓
+Difficulty: easy
+
+ID: 93eae2f2-4862-49ab-aac4-a0126fe6e4bd
+Question: 音频中使用了哪些乐器？
+Choices: 合成器铺底音色，贝斯，钢琴，底鼓，军鼓，踩镲，吉他，鼓，小提琴，长笛，小号，萨克斯，贝斯，鼓，大提琴，单簧管，打击乐，钢琴。
+Answer: 合成器铺底音色，贝斯，钢琴，底鼓，军鼓，踩镲。
+Difficulty: medium
+
+ID: b72a68a9-8721-4722-9bb5-ce5e512642b9
+Question: 音频中演奏主旋律的乐器是什么？
+Choices: 钢琴、长笛、吉他、小提琴
+Answer: 长笛
+Difficulty: easy
+
+ID: 7585ea53-954d-4653-b081-e7c9e97d370f
+Question: 音频中出现了哪种类型的歌手？
+Choices: 女歌手、男歌手、合唱团、器乐
+Answer: 男歌手
+Difficulty: easy
+
+ID: a5a89c0c-5c74-46b4-b947-3dfe66667310
+Question: 音频中突出呈现了哪些乐器？
+Choices: 电吉他、贝斯吉他、鼓、钢琴、小提琴、鼓、萨克斯、小号、钢琴、原声吉他、口琴、鼓
+Answer: 电吉他、贝斯吉他、鼓
+Difficulty: easy
+
+ID: 849941ed-f750-4f63-8836-22b198ec93b6
+Question: 音频中主要使用了哪些乐器？
+Choices: 小提琴和大提琴，吉他和鼓，长笛和竖琴，小号和萨克斯
+Answer: 小提琴和大提琴
+Difficulty: medium
+
+
+----------------------------------------
+Category: Emotional Tone Interpretation
+Statistics: Total=33, Easy=13, Medium=10, Hard=10
+----------------------------------------
+
+ID: 404456b5-a841-4f9c-a005-31596fd3cc4f
+Question: 音频中提供和声的主要乐器是什么？
+Choices: 吉他，键盘，小提琴，鼓
+Answer: 键盘
+Difficulty: easy
+
+ID: 23a53e73-8295-4fea-8fea-b9cda342fcc0
+Question: 音频中可能存在的文化影响是什么？
+Choices: 地中海，爵士，古典，雷鬼
+Answer: 地中海
+Difficulty: hard
+
+ID: 4cf3b174-76fe-49e5-a4a7-07100bcff1e0
+Question: 音频中哪个元素最有可能使其听起来令人愉悦？
+Choices: 有力的底鼓和军鼓、阴暗的环境音效、哀伤的大提琴、稀疏的打击乐
+Answer: 有力的底鼓和军鼓
+Difficulty: medium
+
+ID: 51d4f4e3-2a87-4208-a5d3-f8cf31c6e744
+Question: 音频中乐器组合营造出的整体情感氛围是什么？
+Choices: 普通且乏味，独特且感人，混乱且令人困惑，充满活力且节奏快速
+Answer: 独特且感人
+Difficulty: hard
+
+ID: d0ddcf30-77dd-4055-8512-19d7908976ef
+Question: 鼓的重击对音频有什么影响？
+Choices: 它们使氛围变得柔和，它们增加了歌曲的能量，它们营造出平静的氛围，它们使歌曲听起来更原声
+Answer: 它们增加了歌曲的能量
+Difficulty: easy
+
+ID: de749bd1-2070-49df-8df7-5b68d1f4c9e0
+Question: 音频中的歌曲传达的整体情绪是什么？
+Choices: 忧郁的，娱乐的，激进的，平静的
+Answer: 娱乐的
+Difficulty: easy
+
+ID: fc224a87-54f8-4bed-9c3b-fd2190ec7bd2
+Question: 以下哪项最能体现音频的整体情绪？
+Choices: 忧郁和悲伤，快乐且充满活力，沉闷且无生气，神秘且诡异
+Answer: 快乐且充满活力
+Difficulty: easy
+
+ID: fba27367-0756-4968-ae74-34702131108a
+Question: 您如何描述音频的整体情感基调？
+Choices: 欢乐且庆祝的，反思且深思的，平静且环境的，焦虑且紧张的
+Answer: 平静且环境的
+Difficulty: easy
+
+ID: c857126b-88e7-4e38-b752-060cdd473958
+Question: 已知这首歌曲是一首无打击乐的器乐曲，哪个词最能描述其节奏？
+Choices: 不规则的，中速，快速的，不均匀的
+Answer: 中速
+Difficulty: easy
+
+ID: 88cee184-1f5e-4bcd-a740-80463626ae36
+Question: 音频中的音乐最可能让听众感觉如何？
+Choices: 振奋、抑郁、焦虑、无聊
+Answer: 振奋
+Difficulty: easy
+
+ID: 91c3ed5d-6103-4e38-aada-3d75600cda67
+Question: 音频中出现了哪种类型的贝斯线？
+Choices: 醇厚的、有力的、微妙的、模糊的
+Answer: 有力的
+Difficulty: medium
+
+ID: adcc613e-3c79-4478-8f08-d408984265a6
+Question: 这段音频最可能适合哪种场景？
+Choices: 安静的学习时间，浪漫的晚餐，拉丁酒吧的舞会，冥想时间
+Answer: 拉丁酒吧的舞会
+Difficulty: easy
+
+ID: 0e8076e8-d641-4a66-b127-567be42b118f
+Question: 这段音频片段中的器乐音乐主要传达了哪种情绪或感觉？
+Choices: 充满活力且有驱动力的，平静且富有反思性的，紧张且充满悬念的，宏伟且庄严的
+Answer: 平静且富有反思性的
+Difficulty: medium
+
+ID: 104ee35f-12fe-4a06-a18d-87fb7384788c
+Question: 音频中哪个元素最能营造出英雄气概？
+Choices: 轻柔的钢琴旋律，男声合唱样本以和弦旋律演唱，柔和的原声吉他，轻柔的打击乐
+Answer: 男声合唱样本以和弦旋律演唱
+Difficulty: medium
+
+ID: b30e9bad-13bf-45e2-8140-fbe817355195
+Question: 音频中电影电子配乐引发的主要情绪是什么？
+Choices: 兴奋、悲伤、困惑、满足
+Answer: 悲伤
+Difficulty: easy
+
+ID: 5e42765d-a502-4e01-95ac-3e5a39dc1e91
+Question: 以下哪项可能是对音频的潜在情绪反应？
+Choices: 感到沮丧和疲惫，感到振奋和有动力，感到焦虑和紧张，感到困倦和放松
+Answer: 感到振奋和有动力
+Difficulty: hard
+
+ID: af35b50a-fa1e-452f-9629-977810a29886
+Question: 重复的节奏对听众有什么情感影响？
+Choices: 它引发焦虑，它营造怀旧感，它增强歌曲的青春活力和执着感，它让听众感到放松
+Answer: 它增强歌曲的青春活力和执着感
+Difficulty: hard
+
+ID: 81cbf155-c0c1-4ccc-a8cd-8dae50462021
+Question: 低音吉他在这段音频中起什么作用？
+Choices: 演奏独奏旋律，在背景中保持根音，演奏复杂的独奏，提供失真音效
+Answer: 在背景中保持根音
+Difficulty: medium
+
+ID: 8f01714c-f555-4262-9558-0b07c59a5336
+Question: 音频最有可能唤起什么样的情绪？
+Choices: 快乐且活泼的，感伤且沉思的，愤怒且叛逆的，兴奋且充满冒险精神的
+Answer: 感伤且沉思的
+Difficulty: hard
+
+ID: 1bbb71ec-5eeb-4bc5-b04c-c84a0a6598ab
+Question: 听这种音乐的合适场景可能是什么？
+Choices: 在热闹的派对上，坐在公交车上陷入沉思时，剧烈运动时，正式的商务会议上
+Answer: 坐在公交车上陷入沉思时
+Difficulty: easy
+
+ID: a14db5d0-0a58-4f06-8214-380b2f0ad472
+Question: 音频中哪个元素最有助于其充满活力的基调？
+Choices: 合成器发音，慢速节奏，原声吉他，柔和的钢琴和弦
+Answer: 合成器发音
+Difficulty: medium
+
+ID: 577fecee-9f3a-498d-a4d9-7609c8d66998
+Question: 以下哪项最能描述音频的氛围？
+Choices: 忧郁的，活泼的，宁静的，紧张的
+Answer: 活泼的
+Difficulty: medium
+
+ID: 74283a94-a653-47c6-9202-9133dcb1c324
+Question: 这段音频最类似于哪个时期的音乐风格？
+Choices: 古典巴洛克，曼彻斯特布吉时代，50年代摇滚乐，现代流行
+Answer: 曼彻斯特布吉时代
+Difficulty: easy
+
+ID: 2e5ad974-bee5-4882-8888-8df76653bcc8
+Question: 您如何描述音频的整体节奏？
+Choices: 缓慢且放松的，适中且稳定的，快速且狂热的，多变且不可预测的
+Answer: 快速且狂热的
+Difficulty: medium
+
+ID: 4dd2c2fa-af8a-416d-905d-1933d9682549
+Question: 以下哪一项最能描述音频所营造的氛围？
+Choices: 振奋且无忧无虑的，黑暗且未来感的，平静且冥想的，明亮且阳光的
+Answer: 黑暗且未来感的
+Difficulty: hard
+
+ID: be84d9cf-af7d-4325-9e2c-2e9cc9f6f6d5
+Question: 哪一个词最能描述音频中乐器组合所营造的情绪？
+Choices: 忧郁的，浪漫的，激进的，紧张的
+Answer: 浪漫的
+Difficulty: medium
+
+ID: bb6df14f-6859-4863-897e-5ff6125ba70b
+Question: 引入金属按键如何影响音频的氛围？
+Choices: 它使氛围更阴暗，它增加了一层欢快明亮的元素，它引入了一种神秘感，它使音频听起来更缓慢
+Answer: 它增加了一层欢快明亮的元素
+Difficulty: medium
+
+ID: 1cdbd5d3-6b1a-4e71-8ee0-2c5ffdb3dedc
+Question: 这段音频可能会引发什么情感反应？
+Choices: 兴奋，反思，攻击性，漠不关心
+Answer: 反思
+Difficulty: hard
+
+ID: 3e039d59-cdf5-47c0-a3e4-15ab593542c7
+Question: 音频中整体情绪变化的最佳描述是什么？请从以下选项中选择正确的选项：
+Choices: 从紧张到幽默，从中性到兴奋，从严肃到恐怖，从活泼到忧郁
+Answer: 从紧张到幽默
+Difficulty: hard
+
+ID: 50caba8c-f454-44cb-91e7-8b10391888ad
+Question: 音频主要传达的情绪是什么？
+Choices: 兴奋，冥想，悲伤，喜悦
+Answer: 冥想
+Difficulty: easy
+
+ID: 68db66bc-ba09-4ac5-bd8a-0451d252e60b
+Question: 柔和的低音声在增强音频的氛围中起到什么作用？
+Choices: 它增加了一层紧张感，它完善了录音并增加了温暖感，它强调了高频部分，它营造了紧迫感
+Answer: 它完善了录音并增加了温暖感
+Difficulty: hard
+
+ID: 6f3fcd14-fc82-4942-8e0e-60a7db6963b5
+Question: 音频中哪种乐器有助于营造节奏感和活跃的氛围？
+Choices: 电贝斯，原声鼓，麦克风，铃鼓
+Answer: 铃鼓
+Difficulty: easy
+
+ID: 6719a260-2400-4976-8c91-98beb79a9e17
+Question: 你如何描述音频的情感基调？
+Choices: 悲伤且缓慢，充满活力且混乱，安静且平和，积极且振奋人心
+Answer: 积极且振奋人心
+Difficulty: hard
+

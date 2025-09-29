@@ -1,0 +1,4 @@
+/nfs/project/225/test_set/16k_mona_poi_2000/wav/008534_00093.wav tensor(-2.3537, device='cuda:0')
+/nfs/project/225/test_set/16k_mona_poi_2000/wav/006843_00101.wav tensor(-1.0936, device='cuda:0')
+/nfs/project/225/test_set/16k_mona_poi_2000/wav/004159_00158.wav tensor(-1.3214, device='cuda:0')
+

@@ -1,0 +1,33 @@
+bash /mnt/common/jianshu/ofs/release/current/script/ofs_mount_base.sh speechssd /ofs/speechssd b46e06b5108e4fdd911a610d0faa5380 hbbpussd
+current user: root
+use volume-name speechssd
+use mount-point /ofs/speechssd
+use region hbbpussd
+use token b46e06b5108e4fdd911a610d0faa5380
+use prefetch-enable true
+use subpath /
+use readOnly false
+use debug false
+/usr/bin/fusermount
+no fuse dev, create it
+mknod: /dev/fuse: File exists
+device allow path is /sys/fs/cgroup/devices//kubepods/burstable/pod5f683388-59ed-4d14-ac08-e1c56f12e62c/1417304c2cf68160ddd383520fc4b410e78af7ce263319833f7ecf38ccaf8a1d/user.slice/devices.allow
+Device: 600083h/6291587d	Inode: 3222900756  Links: 2
+====== MOUNT_POINT[/ofs/speechssd]: not exist ======
+umount: /ofs/speechssd: not mounted.
+Device: 700016h/7340054d	Inode: 1           Links: 3
+====== MOUNT_POINT[/ofs/speechssd]: exist ======
+===== Volume[speechssd] mounted to Path[/ofs/speechssd] success =====
+orangefs:speech-datasets on /ofs/speech-datasets type fuse.ofs (rw,relatime,user_id=0,group_id=0,default_permissions,allow_other)
+orangefs:speechssd on /ofs/speechssd type fuse.ofs (rw,relatime,user_id=0,group_id=0,default_permissions,allow_other)
+[TensorRT-LLM] TensorRT-LLM version: 0.9.0.dev2024040900
+prediction:  I would never enter a restaurant again. I would carry bread and cheese in my pocket or eat chocolate out of automatic machines.
+RTF: 0.2196
+total_duration: 7.750 seconds
+(0.00 hours)
+processing time: 1.702 seconds (0.00 hours)
+batch size: 4
+num_beams: 1
+
+参考答案：
+I WOULD NEVER ENTER A RESTAURANT AGAIN I WOULD CARRY BREAD AND CHEESE IN MY POCKET OR EAT CHOCOLATE OUT OF AUTOMATIC MACHINES
