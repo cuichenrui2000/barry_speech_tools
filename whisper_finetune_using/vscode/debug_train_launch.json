@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Whisper Evaluation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/nfs/volume-225-14/laizhihao_i/Whisper/Whisper-Finetune/finetune_multimachine.py",
+            "args": [
+                "--base_model=/nfs/volume-225-14/laizhihao_i/Whisper/pretrain_model/model_medium", 
+                "--per_device_train_batch_size=1", 
+                "--per_device_eval_batch_size=1", 
+                "--gradient_accumulation_steps=2", 
+                "--num_workers=1", 
+                "--output_dir=/nfs/volume-225-14/cuichenrui/whisper/whisper_train_debug", 
+                "--train_data=/nfs/volume-225-14/cuichenrui/dataset/debug.jsonl", 
+                "--test_data=/nfs/volume-225-14/cuichenrui/dataset/debug.jsonl", 
+            ],
+            "cwd": "/nfs/volume-225-14/laizhihao_i/Whisper/Whisper-Finetune",
+            "python": "/nfs/volume-225-14/cuichenrui/anaconda3/envs/whisperA6000/bin/python",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        }
+    ]
+}
+

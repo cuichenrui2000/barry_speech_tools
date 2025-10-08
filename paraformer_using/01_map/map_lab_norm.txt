@@ -1,0 +1,3 @@
+/nfs/project/225/test_set/16k_mona_poi_2000/wav/008534_00093.wav	赶紧给我导到出口成衣地址去
+/nfs/project/225/test_set/16k_mona_poi_2000/wav/006843_00101.wav	请导航到中国农业银行大厦
+/nfs/project/225/test_set/16k_mona_poi_2000/wav/004159_00158.wav	地图旋转模式为图随车转

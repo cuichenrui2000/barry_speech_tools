@@ -1,0 +1,30 @@
+// 在低版本python中："type": "python",
+// 可以改这个设置来让代码从当前文件debug："program": "${file}",
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Whisper Evaluation",
+            "type": "debugpy",
+            "request": "launch",
+            "justMyCode": false,
+            "purpose": ["debug-in-terminal"], 
+            "console": "integratedTerminal",
+            "cwd": "/nfs/volume-225-14/cuichenrui/whisper/script",
+            "python": "/nfs/volume-225-14/cuichenrui/anaconda3/envs/fasterwhisper/bin/python",
+            "program": "/nfs/volume-225-14/cuichenrui/whisper/script/evaluate_cuichenrui_debug.py",
+            "args": [
+                "--hyp_path=/nfs/volume-225-14/cuichenrui/whisper/experiment_decode/decode_logs/debug_hyp.txt",
+                "--lab_path=/nfs/volume-225-14/cuichenrui/whisper/experiment_decode/decode_logs/debug_lab.txt",
+                "--test_data=/nfs/volume-225-14/cuichenrui/dataset/debug_longwav.jsonl",
+                "--model_path=/nfs/volume-225-14/cuichenrui/whisper/faster_whisper_models/whisper_medium/checkpoint-85000",
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7,8",
+                "LD_LIBRARY_PATH": "$LD_LIBRARY_PATH:/nfs/volume-225-14/laizhihao_i/env/anaconda3/envs/blsp/lib/python3.8/site-packages/nvidia/cudnn/lib", 
+            },
+        }
+    ]
+}
+

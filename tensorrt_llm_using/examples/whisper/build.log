@@ -1,0 +1,441 @@
+[TensorRT-LLM] TensorRT-LLM version: 0.9.0.dev2024040900
+[04/23/2024-16:37:24] [TRT-LLM] [I] plugin_arg is None, setting it as float16 automatically.
+[04/23/2024-16:37:24] [TRT-LLM] [I] plugin_arg is None, setting it as float16 automatically.
+[04/23/2024-16:37:24] [TRT-LLM] [I] plugin_arg is None, setting it as float16 automatically.
+[04/23/2024-16:37:33] [TRT] [I] [MemUsageChange] Init CUDA: CPU +13, GPU +0, now: CPU 1589, GPU 18 (MiB)
+[04/23/2024-16:37:54] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +978, GPU +0, now: CPU 2703, GPU 18 (MiB)
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter dtype is None, using default dtype: DataType.FLOAT, it is recommended to always specify dtype explicitly
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter dtype is None, using default dtype: DataType.FLOAT, it is recommended to always specify dtype explicitly
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter dtype is None, using default dtype: DataType.FLOAT, it is recommended to always specify dtype explicitly
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter dtype is None, using default dtype: DataType.FLOAT, it is recommended to always specify dtype explicitly
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter dtype is None, using default dtype: DataType.FLOAT, it is recommended to always specify dtype explicitly
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter dtype is None, using default dtype: DataType.FLOAT, it is recommended to always specify dtype explicitly
+[04/23/2024-16:37:54] [TRT-LLM] [I] Loading encoder weights from PT...
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter was initialized as DataType.HALF but set to DataType.FLOAT
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter was initialized as DataType.FLOAT but set to DataType.HALF
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter was initialized as DataType.FLOAT but set to DataType.HALF
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter was initialized as DataType.FLOAT but set to DataType.HALF
+[04/23/2024-16:37:54] [TRT-LLM] [W] Parameter was initialized as DataType.FLOAT but set to DataType.HALF
+[04/23/2024-16:37:58] [TRT-LLM] [W] Parameter was initialized as DataType.FLOAT but set to DataType.HALF
+[04/23/2024-16:37:58] [TRT-LLM] [W] Parameter was initialized as DataType.FLOAT but set to DataType.HALF
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set bert_attention_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set gpt_attention_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set gemm_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set smooth_quant_gemm_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set identity_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set layernorm_quantization_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set rmsnorm_quantization_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set nccl_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set lookup_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set lora_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set weight_only_groupwise_quant_matmul_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set weight_only_quant_matmul_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set quantize_per_token_plugin to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set quantize_tensor_plugin to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set moe_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set mamba_conv1d_plugin to None.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set context_fmha to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set context_fmha_fp32_acc to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set paged_kv_cache to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set remove_input_padding to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set use_custom_all_reduce to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set multi_block_mode to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set enable_xqa to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set attention_qk_half_accumulation to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set use_paged_context_fmha to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set use_fp8_context_fmha to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set use_context_fmha_for_generation to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set multiple_profiles to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set paged_state to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set streamingllm to False.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set gemm_plugin to float16.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set bert_attention_plugin to float16.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set context_fmha to True.
+[04/23/2024-16:37:58] [TRT-LLM] [I] Set context_fmha_fp32_acc to False.
+[04/23/2024-16:37:58] [TRT] [W] IElementWiseLayer with inputs WhisperEncoder/SHUFFLE_0_output_0 and WhisperEncoder/conv1/SHUFFLE_1_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:37:58] [TRT] [W] IElementWiseLayer with inputs WhisperEncoder/conv1/SHUFFLE_1_output_0 and WhisperEncoder/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:37:58] [TRT] [W] IElementWiseLayer with inputs WhisperEncoder/SHUFFLE_2_output_0 and WhisperEncoder/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:37:58] [TRT] [W] IElementWiseLayer with inputs WhisperEncoder/conv1/SHUFFLE_1_output_0 and WhisperEncoder/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:37:58] [TRT] [W] IElementWiseLayer with inputs WhisperEncoder/SHUFFLE_3_output_0 and WhisperEncoder/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_{75}.
+[04/23/2024-16:37:59] [TRT-LLM] [I] Build TensorRT engine Unnamed Network 0
+[04/23/2024-16:37:59] [TRT] [I] BuilderFlag::kTF32 is set but hardware does not support TF32. Disabling TF32.
+[04/23/2024-16:37:59] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 3305, GPU 34 (MiB)
+[04/23/2024-16:37:59] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +2, GPU +8, now: CPU 3307, GPU 42 (MiB)
+[04/23/2024-16:37:59] [TRT] [W] TensorRT was linked against cuDNN 8.9.6 but loaded cuDNN 8.9.2
+[04/23/2024-16:37:59] [TRT] [I] BuilderFlag::kTF32 is set but hardware does not support TF32. Disabling TF32.
+[04/23/2024-16:37:59] [TRT] [I] Global timing cache in use. Profiling results in this builder pass will be stored.
+[04/23/2024-16:40:28] [TRT] [I] [GraphReduction] The approximate region cut reduction algorithm is called.
+[04/23/2024-16:40:28] [TRT] [I] Detected 2 inputs and 1 output network tensors.
+[04/23/2024-16:40:31] [TRT] [I] Total Host Persistent Memory: 52800
+[04/23/2024-16:40:31] [TRT] [I] Total Device Persistent Memory: 0
+[04/23/2024-16:40:31] [TRT] [I] Total Scratch Memory: 1895906560
+[04/23/2024-16:40:31] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 487 steps to complete.
+[04/23/2024-16:40:31] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 26.8521ms to assign 7 blocks to 487 nodes requiring 2117091328 bytes.
+[04/23/2024-16:40:31] [TRT] [I] Total Activation Memory: 2117090816
+[04/23/2024-16:40:31] [TRT] [I] Total Weights Memory: 614486016
+[04/23/2024-16:40:31] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 3451, GPU 50 (MiB)
+[04/23/2024-16:40:31] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +8, now: CPU 3452, GPU 58 (MiB)
+[04/23/2024-16:40:31] [TRT] [W] TensorRT was linked against cuDNN 8.9.6 but loaded cuDNN 8.9.2
+[04/23/2024-16:40:31] [TRT] [I] Engine generation completed in 152.212 seconds.
+[04/23/2024-16:40:31] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 8 MiB, GPU 1501 MiB
+[04/23/2024-16:40:31] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +587, now: CPU 0, GPU 587 (MiB)
+[04/23/2024-16:40:32] [TRT] [I] [MemUsageStats] Peak memory usage during Engine building and serialization: CPU: 5362 MiB
+[04/23/2024-16:40:32] [TRT-LLM] [I] Total time of building Unnamed Network 0: 00:02:33
+[04/23/2024-16:40:32] [TRT-LLM] [I] Config saved to whisper_outputs/encoder_config.json.
+[04/23/2024-16:40:32] [TRT-LLM] [I] Serializing engine to whisper_outputs/whisper_encoder_float16_tp1_rank0.engine...
+[04/23/2024-16:40:39] [TRT-LLM] [I] Engine serialized. Total time: 00:00:06
+[04/23/2024-16:40:39] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 3444, GPU 26 (MiB)
+[04/23/2024-16:40:39] [TRT-LLM] [W] Invalid timing cache, using freshly created one
+[04/23/2024-16:40:39] [TRT-LLM] [I] Loading decoder weights from PT...
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set bert_attention_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set gpt_attention_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set gemm_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set smooth_quant_gemm_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set identity_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set layernorm_quantization_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set rmsnorm_quantization_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set nccl_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set lookup_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set lora_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set weight_only_groupwise_quant_matmul_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set weight_only_quant_matmul_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set quantize_per_token_plugin to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set quantize_tensor_plugin to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set moe_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set mamba_conv1d_plugin to None.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set context_fmha to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set context_fmha_fp32_acc to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set paged_kv_cache to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set remove_input_padding to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set use_custom_all_reduce to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set multi_block_mode to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set enable_xqa to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set attention_qk_half_accumulation to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set use_paged_context_fmha to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set use_fp8_context_fmha to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set use_context_fmha_for_generation to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set multiple_profiles to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set paged_state to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set streamingllm to False.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set gemm_plugin to float16.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set gpt_attention_plugin to float16.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set context_fmha to True.
+[04/23/2024-16:40:45] [TRT-LLM] [I] Set context_fmha_fp32_acc to False.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/embedding/vocab_embedding/GATHER_0_output_0 and DecoderModel/embedding/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/embedding/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/0/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/0/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/0/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/0/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/0/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/0/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/0/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/0/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/0/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/0/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/0/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/0/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/0/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/0/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/0/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/0/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/0/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/0/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/1/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/1/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/1/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/1/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/1/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/1/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/1/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/1/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/1/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/1/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/1/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/1/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/1/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/1/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/1/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/1/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/1/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/1/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/2/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/2/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/2/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/2/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/2/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/2/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/2/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/2/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/2/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/2/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/2/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/2/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/2/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/2/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/2/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/2/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/2/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/2/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/3/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/3/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/3/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/3/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/3/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/3/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/3/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/3/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/3/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/3/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/3/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/3/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/3/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/3/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/3/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/3/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/3/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/3/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/4/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/4/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/4/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/4/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/4/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/4/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/4/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/4/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/4/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/4/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/4/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/4/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/4/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/4/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/4/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/4/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/4/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/4/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/5/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/5/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/5/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/5/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/5/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/5/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/5/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/5/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/5/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/5/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/5/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/5/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/5/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/5/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/5/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/5/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/5/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/5/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/6/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/6/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/6/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/6/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/6/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/6/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/6/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:45] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/6/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/6/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/6/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/6/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/6/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/6/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/6/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/6/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/6/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/6/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/6/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/7/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/7/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/7/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/7/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/7/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/7/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/7/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/7/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/7/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/7/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/7/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/7/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/7/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/7/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/7/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/7/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/7/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/7/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/8/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/8/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/8/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/8/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/8/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/8/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/8/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/8/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/8/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/8/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/8/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/8/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/8/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/8/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/8/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/8/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/8/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/8/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/9/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/9/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/9/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/9/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/9/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/9/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/9/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/9/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/9/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/9/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/9/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/9/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/9/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/9/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/9/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/9/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/9/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/9/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/10/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/10/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/10/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/10/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/10/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/10/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/10/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/10/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/10/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/10/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/10/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/10/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/10/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/10/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/10/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/10/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/10/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/10/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/11/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/11/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/11/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/11/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/11/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/11/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/11/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/11/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/11/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/11/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/11/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/11/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/11/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/11/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/11/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/11/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/11/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/11/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/12/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/12/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/12/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/12/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/12/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/12/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/12/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/12/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/12/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/12/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/12/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/12/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/12/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/12/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/12/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/12/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/12/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/12/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/13/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/13/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/13/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/13/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/13/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/13/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/13/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/13/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/13/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/13/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/13/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/13/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/13/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/13/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/13/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/13/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/13/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/13/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/14/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/14/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/14/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/14/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/14/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/14/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/14/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/14/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/14/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/14/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/14/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/14/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/14/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/14/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/14/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/14/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/14/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/14/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/15/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/15/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/15/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/15/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/15/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/15/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/15/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/15/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/15/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/15/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/15/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/15/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/15/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/15/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/15/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/15/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/15/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/15/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/16/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/16/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/16/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/16/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/16/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/16/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/16/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/16/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/16/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/16/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/16/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/16/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/16/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/16/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/16/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/16/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/16/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/16/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/17/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/17/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/17/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/17/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/17/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/17/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/17/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/17/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/17/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/17/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/17/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/17/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/17/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/17/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/17/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/17/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/17/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/17/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/18/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/18/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/18/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/18/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/18/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/18/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/18/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/18/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/18/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/18/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/18/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/18/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/18/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/18/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/18/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/18/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/18/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/18/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/19/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/19/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/19/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/19/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/19/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/19/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/19/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/19/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/19/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/19/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/19/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/19/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/19/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/19/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/19/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/19/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/19/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/19/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/20/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/20/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/20/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/20/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/20/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/20/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/20/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/20/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/20/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/20/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/20/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/20/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/20/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/20/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/20/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/20/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/20/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/20/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/21/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/21/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/21/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/21/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/21/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/21/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/21/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/21/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/21/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/21/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/21/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/21/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/21/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/21/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/21/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/21/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/21/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/21/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/22/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/22/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/22/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/22/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/22/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/22/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/22/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/22/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/22/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/22/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/22/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/22/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/22/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/22/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/22/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/22/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/22/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/22/ELEMENTWISE_SUM_2_output_0 and DecoderModel/decoder_layers/23/SHUFFLE_0_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/23/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/23/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[TensorRT-LLM][WARNING] Fall back to unfused MHA because of unsupported head size 64 in sm_75.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/23/ELEMENTWISE_SUM_1_output_0 and DecoderModel/decoder_layers/23/SHUFFLE_2_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/23/mlp/SHUFFLE_0_output_0 and DecoderModel/decoder_layers/23/mlp/fc/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/23/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/23/mlp/SHUFFLE_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/23/mlp/SHUFFLE_2_output_0 and DecoderModel/decoder_layers/23/mlp/ELEMENTWISE_POW_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/23/mlp/fc/ELEMENTWISE_SUM_0_output_0 and DecoderModel/decoder_layers/23/mlp/ELEMENTWISE_PROD_1_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/23/mlp/SHUFFLE_3_output_0 and DecoderModel/decoder_layers/23/mlp/ELEMENTWISE_SUM_0_output_0: first input has type Float but second input has type Half.
+[04/23/2024-16:40:46] [TRT] [W] IElementWiseLayer with inputs DecoderModel/decoder_layers/23/ELEMENTWISE_PROD_2_output_0 and DecoderModel/decoder_layers/23/mlp/proj/ELEMENTWISE_SUM_0_output_0: first input has type Half but second input has type Float.
+[04/23/2024-16:40:46] [TRT-LLM] [I] Build TensorRT engine Unnamed Network 0
+[04/23/2024-16:40:46] [TRT] [I] BuilderFlag::kTF32 is set but hardware does not support TF32. Disabling TF32.
+[04/23/2024-16:40:46] [TRT] [W] Unused Input: cross_kv_cache_gen
+[04/23/2024-16:40:47] [TRT] [W] [RemoveDeadLayers] Input Tensor cross_kv_cache_gen is unused or used only at compile-time, but is not being removed.
+[04/23/2024-16:40:47] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 3639, GPU 34 (MiB)
+[04/23/2024-16:40:47] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 3639, GPU 42 (MiB)
+[04/23/2024-16:40:47] [TRT] [W] TensorRT was linked against cuDNN 8.9.6 but loaded cuDNN 8.9.2
+[04/23/2024-16:40:47] [TRT] [I] BuilderFlag::kTF32 is set but hardware does not support TF32. Disabling TF32.
+[04/23/2024-16:40:47] [TRT] [I] Global timing cache in use. Profiling results in this builder pass will be stored.
+[04/23/2024-16:41:04] [TRT] [I] [GraphReduction] The approximate region cut reduction algorithm is called.
+[04/23/2024-16:41:04] [TRT] [I] Detected 62 inputs and 49 output network tensors.
+[04/23/2024-16:41:06] [TRT] [I] Total Host Persistent Memory: 102736
+[04/23/2024-16:41:06] [TRT] [I] Total Device Persistent Memory: 0
+[04/23/2024-16:41:06] [TRT] [I] Total Scratch Memory: 297855744
+[04/23/2024-16:41:06] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 686 steps to complete.
+[04/23/2024-16:41:06] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 93.8917ms to assign 16 blocks to 686 nodes requiring 601030656 bytes.
+[04/23/2024-16:41:06] [TRT] [I] Total Activation Memory: 601029120
+[04/23/2024-16:41:06] [TRT] [I] Total Weights Memory: 1019609088
+[04/23/2024-16:41:06] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 3678, GPU 50 (MiB)
+[04/23/2024-16:41:06] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +8, now: CPU 3679, GPU 58 (MiB)
+[04/23/2024-16:41:06] [TRT] [W] TensorRT was linked against cuDNN 8.9.6 but loaded cuDNN 8.9.2
+[04/23/2024-16:41:06] [TRT] [I] Engine generation completed in 19.4055 seconds.
+[04/23/2024-16:41:06] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 204 MiB, GPU 1501 MiB
+[04/23/2024-16:41:06] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +973, now: CPU 0, GPU 973 (MiB)
+[04/23/2024-16:41:07] [TRT] [I] [MemUsageStats] Peak memory usage during Engine building and serialization: CPU: 6006 MiB
+[04/23/2024-16:41:07] [TRT-LLM] [I] Total time of building Unnamed Network 0: 00:00:20
+[04/23/2024-16:41:07] [TRT-LLM] [I] Config saved to whisper_outputs/decoder_config.json.
+[04/23/2024-16:41:07] [TRT-LLM] [I] Serializing engine to whisper_outputs/whisper_decoder_float16_tp1_rank0.engine...
+[04/23/2024-16:41:15] [TRT-LLM] [I] Engine serialized. Total time: 00:00:08

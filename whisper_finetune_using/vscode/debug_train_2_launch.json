@@ -1,0 +1,59 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Whisper Evaluation",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/nfs/volume-225-14/laizhihao_i/Whisper/Whisper-Finetune/finetune_multimachine.py",
+            "args": [
+                "--base_model=/nfs/volume-225-14/laizhihao_i/Whisper/pretrain_model/model_medium", 
+                "--per_device_train_batch_size=1", 
+                "--per_device_eval_batch_size=1", 
+                "--gradient_accumulation_steps=2", 
+                "--num_workers=1", 
+                "--output_dir=/nfs/volume-225-14/cuichenrui/whisper/whisper_train_debug", 
+                "--train_data=/nfs/volume-225-14/cuichenrui/dataset/debug_train.jsonl", 
+                "--test_data=/nfs/volume-225-14/cuichenrui/dataset/debug_train.jsonl", 
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7,8",
+                "LD_LIBRARY_PATH": "$LD_LIBRARY_PATH:/nfs/volume-225-14/laizhihao_i/env/anaconda3/envs/blsp/lib/python3.8/site-packages/nvidia/cudnn/lib", 
+            },
+            "cwd": "/nfs/volume-225-14/laizhihao_i/Whisper/Whisper-Finetune",
+            "python": "/nfs/volume-225-14/cuichenrui/anaconda3/envs/whisperA6000/bin/python",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        }
+    ]
+}
+
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Whisper Evaluation",
+//             "type": "debugpy",
+//             "request": "launch",
+//             "program": "/nfs/volume-225-14/laizhihao_i/Whisper/Whisper-Finetune/finetune_multimachine.py",
+//             "args": [
+//                 "--base_model=/nfs/volume-225-14/laizhihao_i/Whisper/pretrain_model/model_medium", 
+//                 "--per_device_train_batch_size=1", 
+//                 "--per_device_eval_batch_size=1", 
+//                 "--gradient_accumulation_steps=2", 
+//                 "--num_workers=1", 
+//                 "--output_dir=/nfs/volume-225-14/cuichenrui/whisper/whisper_train_debug", 
+//                 "--train_data=/nfs/volume-225-14/cuichenrui/whisper/whisper_medium_full_finetune_2.0/train_all_new_checked_without_8k.jsonl", 
+//                 "--test_data=/nfs/volume-225-14/cuichenrui/dataset/debug_train.jsonl", 
+//             ],
+//             "env": {
+//                 "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7,8",
+//                 "LD_LIBRARY_PATH": "$LD_LIBRARY_PATH:/nfs/volume-225-14/laizhihao_i/env/anaconda3/envs/blsp/lib/python3.8/site-packages/nvidia/cudnn/lib", 
+//             },
+//             "cwd": "/nfs/volume-225-14/laizhihao_i/Whisper/Whisper-Finetune",
+//             "python": "/nfs/volume-225-14/cuichenrui/anaconda3/envs/whisperA6000/bin/python",
+//             "console": "integratedTerminal",
+//             "justMyCode": false,
+//         }
+//     ]
+// }

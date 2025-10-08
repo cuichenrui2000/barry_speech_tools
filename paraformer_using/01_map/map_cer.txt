@@ -1,0 +1,17 @@
+
+utt: /nfs/project/225/test_set/16k_mona_poi_2000/wav/008534_00093.wav
+WER: 7.69 % N=13 C=12 S=1 D=0 I=0
+lab: 赶 紧 给 我 导 到 出 口 成 衣 地 址 去 
+rec: 赶 紧 给 我 导 到 出 口 成 一 地 址 去 
+
+
+utt: /nfs/project/225/test_set/16k_mona_poi_2000/wav/006843_00101.wav
+WER: 0.00 % N=12 C=12 S=0 D=0 I=0
+lab: 请 导 航 到 中 国 农 业 银 行 大 厦 
+rec: 请 导 航 到 中 国 农 业 银 行 大 厦 
+
+
+utt: /nfs/project/225/test_set/16k_mona_poi_2000/wav/004159_00158.wav
+WER: 0.00 % N=11 C=11 S=0 D=0 I=0
+lab: 地 图 旋 转 模 式 为 图 随 车 转 
+rec: 地 图 旋 转 模 式 为 图 随 车 转 

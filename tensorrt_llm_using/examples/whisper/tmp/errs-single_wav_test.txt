@@ -1,0 +1,58 @@
+%WER = 2300.00
+Errors: 22 insertions, 0 deletions, 1 substitutions, over 1 reference words (0 correct)
+Search below for sections starting with PER-UTT DETAILS:, SUBSTITUTIONS:, DELETIONS:, INSERTIONS:, PER-WORD STATS:
+
+PER-UTT DETAILS: corr or (ref->hyp)  
+0:	(->I would never enter a restaurant again. I would carry bread and cheese in my pocket or eat chocolate out of automatic machines.)
+
+SUBSTITUTIONS: count ref -> hyp
+1    -> I
+
+DELETIONS: count ref
+
+INSERTIONS: count hyp
+2   would
+1   restaurant
+1   pocket
+1   out
+1   or
+1   of
+1   never
+1   my
+1   machines.
+1   in
+1   enter
+1   eat
+1   chocolate
+1   cheese
+1   carry
+1   bread
+1   automatic
+1   and
+1   again.
+1   a
+1   I
+
+PER-WORD STATS: word  corr tot_errs count_in_ref count_in_hyp
+would   0 2 0 2
+I   0 2 0 2
+restaurant   0 1 0 1
+pocket   0 1 0 1
+out   0 1 0 1
+or   0 1 0 1
+of   0 1 0 1
+never   0 1 0 1
+my   0 1 0 1
+machines.   0 1 0 1
+in   0 1 0 1
+enter   0 1 0 1
+eat   0 1 0 1
+chocolate   0 1 0 1
+cheese   0 1 0 1
+carry   0 1 0 1
+bread   0 1 0 1
+automatic   0 1 0 1
+and   0 1 0 1
+again.   0 1 0 1
+a   0 1 0 1
+   0 1 1 0
